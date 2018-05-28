@@ -34,6 +34,25 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #fff
 
 }
+
+/* Search box */
+#wb-srch input, .srchbox input {
+    background-color: #f1f1f1;
+    border-color: #e0e0e0;
+    border-right: 0;
+    border-style: solid;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #555;
+    margin-right: -4px;
+    min-width: 246px;
+    position: relative
+}
+#wb-srch button, .srchbox button {
+    background-color: #6b0e15;
+
+}
+
 /* Breadcrumbs */
 
 #wb-bc li:before {
