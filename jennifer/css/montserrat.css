@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:100,200,300,400,700,400italic,700italic&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,400italic,700italic&subset=latin,latin-ext');
 
 h1 {
 
-	font-size: 36px !important;
+	font-size: 30px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif; !important;
 	margin-bottom: 20px;
@@ -17,7 +17,7 @@ h1 {
 
 h2 {
 
-	font-size: 33px !important;
+	font-size: 30px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif; !important;
 	padding-top: 20px !important;
@@ -26,7 +26,7 @@ h2 {
 
 h3 {
 
-	font-size: 26px !important;
+	font-size: 25px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 10px !important;
@@ -36,7 +36,7 @@ h3 {
 
 h4 {
 
-	font-size: 23px !important;
+	font-size: 21px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif;
 }
@@ -45,7 +45,7 @@ h4 {
 
 h5 {
 
-	font-size: 20px !important;
+	font-size: 19px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif;
 }
@@ -135,9 +135,9 @@ ul.menu li {
 p, ul, li, body {
 
 
-	font-size: 19px !important;
-	font-family: 'Lora', serif !important;
-	line-height: 33px !important;
+	font-size: 18px !important;
+	font-family: 'Montserrat', serif !important;
+	line-height: 30px !important;
 
 
 
@@ -154,14 +154,14 @@ strong {
 td {
 
 	font-size: 14px !important;
-	font-family: 'Noto serif', sans-serif !important;
+	font-family: 'Raleway', sans-serif !important;
 
 }
 
 caption, th {
 
 	font-size: 17px !important;
-	font-family: 'Noto serif', sans-serif; !important;
+	font-family: 'Raleway', sans-serif; !important;
 
 }
 
