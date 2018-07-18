@@ -6,7 +6,7 @@
 
 h1 {
 
-	font-size: 36px !important;
+	font-size: 32px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif; !important;
 	margin-bottom: 20px;
@@ -16,7 +16,7 @@ h1 {
 
 h2 {
 
-	font-size: 33px !important;
+	font-size: 29px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif; !important;
 	padding-top: 20px !important;
@@ -25,7 +25,7 @@ h2 {
 
 h3 {
 
-	font-size: 26px !important;
+	font-size: 25px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 10px !important;
@@ -35,7 +35,7 @@ h3 {
 
 h4 {
 
-	font-size: 23px !important;
+	font-size: 21px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif;
 }
@@ -44,7 +44,7 @@ h4 {
 
 h5 {
 
-	font-size: 20px !important;
+	font-size: 19px !important;
 	font-weight: 700 !important;
 	font-family: 'Lato', sans-serif;
 }
