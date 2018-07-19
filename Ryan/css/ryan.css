@@ -1,4 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-.profile {background: #444;}
+.profile {background: #eee;}
+.container .nvbar {background: #ccc;}
+#wb-sm {background: #eee;}
