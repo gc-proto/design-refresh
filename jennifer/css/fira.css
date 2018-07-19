@@ -1,7 +1,7 @@
 
 h1 {
 
-	font-size: 36px !important;
+	font-size: 37px !important;
 	font-weight: 500 !important;
 	font-family: 'Fira Sans', sans-serif; !important;
 	margin-bottom: 20px;
@@ -11,29 +11,31 @@ h1 {
 
 h2 {
 
-	font-size: 35px !important;
+	font-size: 37px !important;
 	font-weight: 500 !important;
 	font-family: 'Fira Sans', sans-serif; !important;
-	padding-top: 20px !important;
+	padding-top: 25px !important;
+	padding-bottom: 10px !important;
 }
 
 
 h3 {
 
-	font-size: 25px !important;
+	font-size: 28px !important;
 	font-weight: 500 !important;
 	font-family: 'Fira Sans', sans-serif;
-	padding-bottom: 10px !important;
-	margin-top: 30px !important;
+	padding-bottom: 5px !important;
+	padding-top: 15px !important;
 
 }
 
 
 h4 {
 
-	font-size: 23px !important;
+	font-size: 24px !important;
 	font-weight: 500 !important;
 	font-family: 'Fira Sans', sans-serif;
+	padding-top: 10px !important;
 }
 
 
@@ -43,6 +45,7 @@ h5 {
 	font-size: 20px !important;
 	font-weight: 500 !important;
 	font-family: 'Fira Sans', sans-serif;
+		padding-top: 8px !important;
 }
 
 
@@ -57,14 +60,6 @@ body, header, nav#wb-bc {
 
 
 
-@media screen and (max-width: 991px) {
-
-h1 {
-		font-size: 30px !important;
-
-	}
-
-}
 
 
 /* MM stuff */
@@ -108,8 +103,7 @@ border-bottom: 2px solid RGB(255, 255, 255); }
 /* On this page, reducing size as an h2*/
 .smh3 {
 
-	font-size: 24px !important;
-	font-weight: 700 !important;
+	font-size: 28px !important;
 	margin-bottom: 0px !important;
 	margin-top: 20px !important;
 
@@ -135,7 +129,7 @@ p, ul, li {
 	font-size: 20px !important;
 	font-family: 'Fira Sans', sans-serif; !important;
   font-weight: 400 !important;
-	line-height: 30px !important;
+	line-height: 29px !important;
 
 
 }
