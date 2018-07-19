@@ -53,7 +53,7 @@ body, header, nav#wb-bc {
 
 
 	background-color: white !important;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif !important;
 
 	}
 
@@ -163,7 +163,7 @@ td {
 caption, th {
 
 	font-size: 17px !important;
-	font-family: 'Noto Sans', sans-serif; !important;
+	font-family: 'Noto Sans', sans-serif !important;
 
 }
 
