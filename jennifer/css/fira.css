@@ -4,7 +4,7 @@ h1 {
 	font-size: 37px !important;
 	font-weight: 500 !important;
 	font-family: 'Fira Sans', sans-serif; !important;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 
 }
 
@@ -59,7 +59,12 @@ body, header, nav#wb-bc {
 
 
 
+p
 
+{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
 
 
 /* MM stuff */
@@ -129,7 +134,7 @@ p, ul, li {
 	font-size: 21px !important;
 	font-family: 'Fira Sans', sans-serif; !important;
   font-weight: 400 !important;
-	line-height: 29px !important;
+	line-height: 32px !important;
 
 
 }
