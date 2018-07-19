@@ -14,7 +14,7 @@ h2 {
 	font-size: 34px !important;
 	font-weight: 600 !important;
 	font-family: 'Open Sans', sans-serif; !important;
-	padding-top: 25px !important;
+	padding-top: 10px !important;
 }
 
 
@@ -23,7 +23,7 @@ h3 {
 	font-size: 27px !important;
 	font-weight: 600 !important;
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 15px !important;
+	padding-top: 5px !important;
 
 }
 
@@ -33,6 +33,7 @@ h4 {
 	font-size: 23px !important;
 	font-weight: 600 !important;
 font-family: 'Open Sans', sans-serif;
+	padding-top: 3px !important;
 }
 
 
@@ -42,6 +43,7 @@ h5 {
 	font-size: 19px !important;
 	font-weight: 700 !important;
 font-family: 'Open Sans', sans-serif;
+	padding-top: 2px !important;
 }
 
 
