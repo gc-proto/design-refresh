@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700');
 h1 {
 
-	font-size: 34px !important;
-	font-weight: 700 !important;
+	font-size: 36px !important;
+	font-weight: 600 !important;
 	font-family: 'Open Sans', sans-serif; !important;
 	margin-bottom: 20px;
 
@@ -11,27 +11,27 @@ h1 {
 
 h2 {
 
-	font-size: 30px !important;
-	font-weight: 700 !important;
+	font-size: 34px !important;
+	font-weight: 600 !important;
 	font-family: 'Open Sans', sans-serif; !important;
-	padding-bottom: 25px !important;
+	padding-top: 25px !important;
 }
 
 
 h3 {
 
-	font-size: 24px !important;
-	font-weight: 700 !important;
+	font-size: 27px !important;
+	font-weight: 600 !important;
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 15px !important;
+	padding-top: 15px !important;
 
 }
 
 
 h4 {
 
-	font-size: 20px !important;
-	font-weight: 700 !important;
+	font-size: 23px !important;
+	font-weight: 600 !important;
 font-family: 'Open Sans', sans-serif;
 }
 
@@ -39,7 +39,7 @@ font-family: 'Open Sans', sans-serif;
 
 h5 {
 
-	font-size: 18px !important;
+	font-size: 19px !important;
 	font-weight: 700 !important;
 font-family: 'Open Sans', sans-serif;
 }
