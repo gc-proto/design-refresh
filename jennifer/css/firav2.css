@@ -1,13 +1,14 @@
 
 @import url('http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,latin-ext');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext');
 
 
 h1 {
 
-	font-size: 36px !important;
-	font-weight: 400 !important;
-	font-family: 'Fira Sans', sans-serif; !important;
+	font-size: 37px !important;
+	font-weight: 600 !important;
+	font-family: 'Lato', sans-serif; !important;
 	margin-bottom: 20px;
 
 }
@@ -15,18 +16,18 @@ h1 {
 
 h2 {
 
-	font-size: 33px !important;
-	font-weight: 400 !important;
-	font-family: 'Fira Sans', sans-serif; !important;
+	font-size: 34px !important;
+	font-weight: 600 !important;
+	font-family: 'Lato', sans-serif; !important;
 	padding-top: 20px !important;
 }
 
 
 h3 {
 
-	font-size: 27px !important;
-	font-weight: 400 !important;
-	font-family: 'Fira Sans', sans-serif;
+	font-size: 28px !important;
+	font-weight: 600 !important;
+	font-family: 'Lato', sans-serif;
 	padding-top: 10px !important;
 
 }
@@ -34,18 +35,18 @@ h3 {
 
 h4 {
 
-	font-size: 23px !important;
-	font-weight: 400 !important;
-	font-family: 'Fira Sans', sans-serif;
+	font-size: 24px !important;
+	font-weight: 600 !important;
+	font-family: 'Lato', sans-serif;
 }
 
 
 
 h5 {
 
-	font-size: 20px !important;
-	font-weight: 400 !important;
-	font-family: 'Fira Sans', sans-serif;
+	font-size: 21px !important;
+	font-weight: 600 !important;
+	font-family: 'Lato', sans-serif;
 }
 
 
@@ -123,6 +124,11 @@ border-bottom: 2px solid RGB(255, 255, 255); }
 
 }
 
+p {
+
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
 
 ul.menu li {
 
@@ -133,9 +139,9 @@ ul.menu li {
 p, ul, li {
 
 
-	font-size: 19px !important;
+	font-size: 20px !important;
 	font-family: 'Noto sans', sans-serif !important;
-	line-height: 29px !important;
+	line-height: 34px !important;
 	font-weight: 100 !important;
 
 
