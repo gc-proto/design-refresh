@@ -4,3 +4,15 @@
 .profile {background: #eee;}
 .container .nvbar {background: #ccc;}
 #wb-sm {background: #eee;}
+.followus {background-color: transparent;
+    
+    margin-bottom: 4px;
+    
+    border-top: 2px solid #ccc;
+    margin-top: 10px;}
+.followus ul li a {
+	border: solid 2px transparent;}
+.followus {
+    background-color: transparent;
+   
+    
