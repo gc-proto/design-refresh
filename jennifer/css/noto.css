@@ -1,6 +1,5 @@
 
-@import url('http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext');
 
 
@@ -53,7 +52,6 @@ body, header, nav#wb-bc {
 
 
 	background-color: white !important;
-	font-family: 'Lato', sans-serif;
 
 	}
 
@@ -139,7 +137,7 @@ p, ul, li, body {
 
 
 	font-size: 18px !important;
-	font-family: 'Noto Sans', sans-serif !important;
+	font-family: 'Noto Sans', serif !important;
 	line-height: 30px !important;
 
 
@@ -156,14 +154,14 @@ strong {
 td {
 
 	font-size: 14px !important;
-	font-family: 'Noto Sans', sans-serif !important;
+	font-family: 'Noto sans', sans-serif !important;
 
 }
 
 caption, th {
 
 	font-size: 17px !important;
-	font-family: 'Noto Sans', sans-serif; !important;
+	font-family: 'Noto sans', sans-serif !important;
 
 }
 
