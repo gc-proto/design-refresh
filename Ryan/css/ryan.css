@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .profile {background: #eee;}
-.container .nvbar {background: #ccc;}
+.container .nvbar {background: #ddd;}
 #wb-sm {background: #eee;}
 .followus {background-color: transparent;
     
@@ -13,6 +13,29 @@
 .followus ul li a {
 	border: solid 2px transparent;}
 .followus {
-    background-color: transparent;
-   
-    
+	background-color: transparent;}
+	#wb-sm .menu {background: #ddd;}
+ 
+#wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover {
+/*  background: #243850!important;*/
+	background: #757575!important;
+    text-shadow: none;
+}
+#wb-sm .menu>li a {
+-webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out;
+}
+
+.most-requested li a {display: block; background: transparent; padding: 3px 6px; text-decoration: none; line-height: 1.2em;}
+
+.most-requested li a:hover,.most-requested li a:focus  { background: #eee; text-decoration: underline; color: #333;}
+
+header .brand {
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+
