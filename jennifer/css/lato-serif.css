@@ -7,9 +7,9 @@
 
 h1 {
 
-	font-size: 36px !important;
+	font-size: 35px !important;
 	font-weight: 700 !important;
-	font-family: 'Lato', sans-serif; !important;
+	font-family: 'Lora', serif; !important;
 	margin-bottom: 20px;
 
 }
@@ -17,18 +17,18 @@ h1 {
 
 h2 {
 
-	font-size: 35px !important;
+	font-size: 34px !important;
 	font-weight: 700 !important;
-	font-family: 'Lato', sans-serif; !important;
+	font-family: 'Lora', serif; !important;
 	padding-top: 12px !important;
 }
 
 
 h3 {
 
-	font-size: 27px !important;
+	font-size: 26px !important;
 	font-weight: 700 !important;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lora', serif;
 	padding-top: 10px !important;
 
 }
@@ -36,9 +36,9 @@ h3 {
 
 h4 {
 
-	font-size: 22px !important;
+	font-size: 21px !important;
 	font-weight: 700 !important;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lora', serif;
 		padding-top: 8px !important;
 }
 
@@ -46,9 +46,9 @@ h4 {
 
 h5 {
 
-	font-size: 20px !important;
+	font-size: 19px !important;
 	font-weight: 700 !important;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lora', serif;
 		padding-top: 6px !important;
 }
 
@@ -137,9 +137,9 @@ ul.menu li {
 p, ul, li, body {
 
 
-	font-size: 20px !important;
-	font-family: 'Lora', serif !important;
-	line-height: 34px !important;
+	font-size: 19px !important;
+	font-family: 'Lato', sans-serif !important;
+	line-height: 33px !important;
 
 
 
@@ -156,14 +156,14 @@ strong {
 td {
 
 	font-size: 14px !important;
-	font-family: 'Noto serif', sans-serif !important;
+	font-family: 'Lato', sans-serif !important;
 
 }
 
 caption, th {
 
 	font-size: 17px !important;
-	font-family: 'Noto serif', sans-serif; !important;
+	font-family: 'Lato', sans-serif; !important;
 
 }
 
