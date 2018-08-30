@@ -18,26 +18,99 @@
   <script type="text/javascript">
     document.write(wet.builder.refTop({}));
   </script>
-  <!-- Analytics -->
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-105628416-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-
+  <link rel="stylesheet" href="../../css/custom.css">
+</head>
   <body vocab="http://schema.org/" typeof="WebPage">
+
+    <style>
+      button#wb-srch-sub a:visited {
+        color: white !important;
+      }
+
+      button#wb-srch-sub a {
+        color: white !important;
+      }
+      .theme-menu {
+        display:none;
+      }
+    </style>
+    <style>
+
+      div#theme-menu {
+        background-color: #ddd;
+        padding: 20px 100px 20px 20px;
+        text-align: right;
+      }
+
+      div#panel {
+        width: 0;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transition: 0.25s;
+      }
+
+        nav {
+          width: 400px;
+          padding: 20px;
+          background-color: #eee;
+        }
+
+          nav p {
+            text-align: right;
+          }
+
+          nav ul {
+            list-style-type: none;
+            margin: 0 0 0 0;
+            padding: 0;
+            clear: both;
+          }
+
+            nav ul li {
+              border-bottom: 1px solid #fff;
+              list-style-type: none;
+            }
+
+              nav ul li a {
+                color: #000;
+                display: block;
+                padding: 10px 10px 10px 15px;
+                background-color: #ddd;
+                text-decoration: none !important;
+              }
+              nav ul li a:hover {
+                color: #000;
+                background-color: #ccc;
+                text-decoration: none !important;
+              }
+              nav ul li a:visited {
+                color: #000;
+                text-decoration: none !important;
+              }
+
+            nav ul ul {
+              border-top: 1px solid #fff;
+              border-top: 0;
+              display: none;
+              overflow: hidden;
+            }
+
+              nav ul ul li:last-child {
+                border-bottom: 0;
+              }
+
+              nav ul ul a {
+                background-color: #e9e9e9;
+                padding-left: 25px;
+              }
+
+    </style>
+
     <!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
     <noscript><iframe title="Google Tag Manager" src="//www.googletagmanager.com/ns.html?id=GTM-TLGQ9K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script>
@@ -64,9 +137,14 @@
         <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
       </li>
     </ul>
+
+
+    <!-- Build the header -->
     <header role="banner">
       <div id="wb-bnr" class="container">
-        <section id="wb-lng" class="visible-md visible-lg text-right">
+
+      <!-- Lang link -->
+        <!-- <section id="wb-lng" class="visible-md visible-lg text-right">
           <h2 class="wb-inv">Language selection</h2>
           <div class="row">
             <div class="col-md-12">
@@ -75,48 +153,56 @@
               </ul>
             </div>
           </div>
-        </section>
+        </section> -->
+
+        <!-- GC Signature -->
         <div class="row">
-          <div class="brand col-xs-8 col-sm-9 col-md-6">
-            <object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
+          <div class="brand col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"></object>
+            <span class="wb-inv"> Government of Canada</span></a>
           </div>
-          <section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
+          <div id="theme-menu" style="margin-top:1em; padding-top:1em; font-size:1.4em"> | <b>Business v</b></divx>
+          <div class="container" id="panel">
+            <nav id="themenav">
+            <div class="row">
+              <ul class="list-inline menu">
+                <li><a href="/en/services/business/start.html" role="menuitem">Starting a business</a></li>
+                <li><a href="/en/services/business/grants.html" role="menuitem">Business grants and financing</a></li>
+                <li><a href="/en/services/business/taxes.html" role="menuitem">Business taxes</a></li>
+                <li><a href="/en/services/business/federal-corporations.html" role="menuitem">Federal corporations</a></li>
+                <li><a href="/en/services/business/hire.html" role="menuitem">Hiring and managing employees</a></li>
+                <li><a href="/en/services/business/trade.html" role="menuitem">International trade and investment</a></li>
+                <li><a href="/en/services/business/permits.html" role="menuitem">Permits, licences and regulations</a></li>
+                <li><a href="/en/services/business/doing-business.html" role="menuitem">Doing business with government</a></li>
+                <li><a href="/en/services/science/innovation.html" role="menuitem">R&amp;D and innovation</a></li>
+                <li><a href="/en/services/business/research.html" role="menuitem">Research and business intelligence</a></li>
+                <li><a href="/en/services/business/ip.html" role="menuitem">Intellectual property and copyright</a></li>
+                <li><a href="/en/services/business/maintaingrowimprovebusiness.html" role="menuitem">Maintaining your business</a></li>
+                <li><a href="/en/services/business/protecting.html" role="menuitem">Protecting your business</a></li>
+                <li><a href="/en/services/business/bankruptcy.html" role="menuitem">Insolvency for business</a></li>
+                <li class="slflnk"><a href="/en/services/business.html" role="menuitem">Business – More</a></li>
+              </ul>
+            </div>
+          </nav>
+          </div>
+
+          <!-- Mobile UI part -->
+          <section class="wb-mb-links visible-sm visible-xs visible-md visible-lg" id="wb-glb-mn">
             <h2>Search and menus</h2>
-            <ul class="list-inline text-right chvrn">
-              <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+            <ul class="list-inline text-right">
+              <li style="color:000"><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button">Q All Canada.ca v</a></li>
             </ul>
             <div id="mb-pnl"></div>
           </section>
-          <section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+
+          <section id="wb-srch" class="col-xs-6 text-right visible-lg">
             <h2>Search</h2>
             <form action="../../search-results.html" method="get" name="cse-search-box" role="search" class="form-inline">
-
-              <style>
-                button#wb-srch-sub a:visited {
-
-                  color: white !important;
-
-
-                }
-
-
-                button#wb-srch-sub a {
-
-                  color: white !important;
-
-
-                }
-              </style>
-
-              <link rel="stylesheet" href="../../css/custom.css">
 
               <div class="form-group">
                 <label for="wb-srch-q" class="wb-inv">Search website</label>
                 <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
-                <datalist id="wb-srch-q-ac">
-<!--[if lte IE 9]><select><![endif]-->
-<!--[if lte IE 9]></select><![endif]-->
-</datalist>
+                <datalist id="wb-srch-q-ac"></datalist>
               </div>
               <div class="form-group submit">
                 <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
@@ -125,7 +211,7 @@
           </section>
         </div>
       </div>
-      <nav role="navigation" id="wb-sm" data-ajax-replace="../../ajax/sitemenu2-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+      <nav role="navigation" id="wb-sm" data-ajax-replace="../../ajax/sitemenu2-en.html" data-trgt="mb-pnl" class="wb-menu visible-lg" typeof="SiteNavigationElement">
         <div class="container nvbar">
           <h2>Topics menu</h2>
           <div class="row">
@@ -148,11 +234,10 @@
       <h2 class="wb-inv">You are here:</h2>
       <div class="container">
         <div class="row">
-          <ol class="breadcrumb">
-            <li class="cust-breadcrumb"><a href='../../home-en.html'>Home</a></li>
-            <li class="cust-breadcrumb">&hellip;</a>
+          <ol class="">
+            <li class=""><a href='../../home-en.html'>Home</a></li>
             </li>
-            <li class="cust-breadcrumb"><a href='trade.html'>International trade and investment</a></li>
+            <li class=""><a href='trade.html'>International trade and investment</a></li>
           </ol>
         </div>
       </div>
@@ -164,10 +249,10 @@
     <main role="main" property="mainContentOfPage" class="container">
       <div class="mwstext section">
         <div class="row profile">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h1 property="name" id="wb-cont">Export</h1>
             <p>Legal requirements and how to effectively sell your products and services abroad.</p>
-            <section class="followus">
+            <!-- <section class="followus">
               <h2 class="ch5">Follow:</h2>
               <ul>
                 <li><a href="https://www.facebook.com/CanadaTrade" class="facebook" rel="external"><span class="wb-inv">Facebook</span></a></li>
@@ -176,12 +261,9 @@
                 <li><a href="https://www.flickr.com/photos/dfait-investincanada/sets/" class="flickr" rel="external"><span class="wb-inv">Flickr</span></a></li>
                 <li><a href="https://www.linkedin.com/company/the-canadian-trade-commissioner-service" class="linkedin" rel="external"><span class="wb-inv">LinkedIn</span></a></li>
               </ul>
-            </section>
+            </section> -->
           </div>
-          <div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs">
-            <img src="https://www.canada.ca/content/dam/themes/business/images/20170105-31.jpg" alt="" class="pull-right img-responsive thumbnail">
-          </div>
-        </div>
+
         <div class="row">
           <div class="col-md-4 mrgn-tp-lg pull-right">
             <section class="">
@@ -403,7 +485,38 @@
 <script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
 <![endif]-->
 
+<script>
 
+  $(document).ready(function() {
+
+    $("div#theme-menu").click(function(){
+      $("div#panel").css( "width", "400px" );
+    });
+
+    $("div#panel button").click(function(){
+      $("div#panel").css( "width", "0" );
+    });
+
+    function openSubmenu() {
+      // turn on this line below if we want to auto-close all other submenus when opening a new one
+      // $("nav ul ul").css( "display", "none" );
+      $(this).parent().find('ul').css( "border-top", "1px solid #fff" );
+      $(this).parent().find('ul').css( "display", "block" );
+      $(this).unbind("click");
+      $(this).click(closeSubmenu);
+    }
+    function closeSubmenu() {
+      $(this).parent().find('ul').css( "border-top", "0" );
+      $(this).parent().find('ul').css( "display", "none" );
+      $(this).unbind("click");
+      $(this).click(openSubmenu);
+    }
+
+    $("nav ul a").click(openSubmenu);
+
+  });
+
+</script>
 
   </body>
 
