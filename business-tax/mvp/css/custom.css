@@ -193,3 +193,90 @@ abbr {
 	border-bottom-style: none !important;
 	text-decoration: none;
 }
+
+header {
+	position: relative
+}
+header .brand {
+	margin-bottom: 0px;
+	padding-top:0px;
+	padding-bottom:0px; 
+}
+
+#topbar { border-bottom:solid #335075 1px;}
+
+button#wb-srch-sub a:visited {
+
+  color: white !important;
+
+
+  }
+
+
+  button#wb-srch-sub a {
+
+  color: white !important;
+
+
+  }
+
+.form-inline .form-group {
+    /* display: flex; */
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 0;
+}
+
+#wb-srch .submit {
+    /* float: right; */
+    right: 0;
+}
+
+header .brand object {
+
+    max-width: 70%;
+}
+
+#wb-glb-mn ul.chvrn:before {
+    /*border-bottom: 1.375em solid transparent;
+    border-left: .6875em solid #f8f8f8;
+    border-top: 1.375em solid transparent;*/
+	border-bottom: 1.0em solid transparent;
+    border-left: .6875em solid #fff;
+    border-top: 1.0em solid transparent;
+    content: " ";
+    display: block;
+    float: left;
+    height: 0;
+    position: relative;
+    width: 0;
+}
+
+#wb-glb-mn {
+    margin-top: 5px;
+	padding-right: 0px;
+}
+
+#wb-glb-mn .glyphicon {
+    top: auto;
+    vertical-align: middle;
+	font-size: 0.8em;
+}
+
+#wb-glb-mn ul {
+    /*min-width: 150px;*/
+	min-width: 80px;
+}
+
+#wb-glb-mn ul.chvrn {
+   
+    height: 2.0em;
+}
+
+#wb-glb-mn ul.chvrn li a {
+    
+    font-size: 1.9em;
+    padding: 3px 15px;
+}
+
+#language li a {font-size:16px;}
