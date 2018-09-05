@@ -232,9 +232,14 @@ button#wb-srch-sub a:visited {
     right: 0;
 }
 
-header .brand object {
+/*header .brand object {
 
     max-width: 70%;
+}*/
+
+header .brand object {
+    height: auto;
+    max-height: 37px;
 }
 
 #wb-glb-mn ul.chvrn:before {
