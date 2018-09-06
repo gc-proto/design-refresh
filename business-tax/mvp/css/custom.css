@@ -285,3 +285,14 @@ header .brand object {
 }
 
 #language li a {font-size:16px;}
+
+
+.modal-body .srch-pnl, .modal-body .lng-ofr {display: none;}
+
+#mb-pnl .sm-pnl {
+    background: #666;
+    padding-left: 0px;
+}
+
+#mb-pnl .modal-body {
+    background: #666;
