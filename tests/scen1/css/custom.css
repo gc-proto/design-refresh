@@ -399,7 +399,13 @@ background-image: url("../images/canada-bkg.jpg");
 	background: #26374a !important;
 }
 
-.footer-text {
+footer nav ul.colcount-sm-2 li a {
+
+	color: white !important;
+
+}
+
+.footer-text, footer ul {
 
 	color: white !important;
 
