@@ -58,7 +58,6 @@ div.global-header {
 
 	div#mainmenu nav ul li {
 		border-bottom: 1px solid #fff;
-		list-style-type: none;
 	}
 
 	div#mainmenu nav ul li a {
@@ -164,11 +163,59 @@ div.global-header {
 
 				}
 
-/* theme menu */
+		/* theme menu */
 
-div.thememenu {
-	
-}
+		div.thememenu {
+			display: none;
+			position: absolute;
+			width: 100%;
+			padding: 20px 0 30px 4px;
+			z-index: 100;
+			background-color: #f9f9f9;
+			xborder-top: 1px solid #ccc;
+			border: 1px solid #ccc;
+			font-size: 15px;
+		}
+
+			div.thememenu h2 {
+				margin: 10px 1em 1em 15px;
+			}
+
+			div.thememenu p {
+				position: absolute;
+				top: 0;
+				right: 25px;
+			}
+
+			div.thememenu ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			div.thememenu ul li {
+				width: 33.2%;
+				zzzborder-bottom: 1px solid #fff;
+				float: left;
+				margin-right: 1px;
+			}
+
+			div.thememenu ul li a {
+				color: #000;
+				display: block;
+				padding: 7px 17px 7px 17px;
+				zzzbackground-color: #eee;
+				text-decoration: none !important;
+			}
+			div.thememenu ul li a:hover {
+				color: #000;
+				background-color: #ddd;
+				text-decoration: none !important;
+			}
+			div.thememenu ul li a:visited {
+				color: #000;
+				text-decoration: none !important;
+			}
 
 /* main content area */
 
