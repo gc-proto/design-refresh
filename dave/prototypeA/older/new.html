@@ -95,58 +95,13 @@
 
 	<div id="mainmenu">
 
-		<p>
-		<button id="hideMainmenu" class="btn btn-default">Close</button>
-		</p>
-
 		<nav>
 
-			<div class="searchform">
+			<h2 class="wb-inv">Canada.ca main menu</h2>
 
-				<h2>Search Canada.ca</h2>
-
-				<form action="https://www.canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
-
-					<input name="cdn" value="canada" type="hidden" />
-					<input name="st" value="s" type="hidden" />
-					<input name="num" value="10" type="hidden" />
-					<input name="langs" value="en" type="hidden" />
-					<input name="st1rt" value="1" type="hidden" />
-					<input name="s5bm3ts21rch" value="x" type="hidden" />
-					<input type="hidden" name="_charset_" value="UTF-8" />
-
-					<div class="input-group">
-
-						<input type="text" class="form-control" id="btngrp-search2" placeholder="Enter keywords" list="wb-srch-q-ac" size="45" maxlength="150" />
-
-						<select class="form-control" type="number">
-						<option>All of Canada.ca</option>
-						<option>Jobs and the workplace</option>
-						<option>Immigration and citizenship</option>
-						<option>Travel and tourism</option>
-						<option selected="selected">Business and industry</option>
-						<option>Benefits</option>
-						<option>Health</option>
-						<option>Taxes</option>
-						<option>Environment and natural resources</option>
-						<option>National security and defence</option>
-						<option>Culture, history and sport</option>
-						<option>Policing, justice and emergencies</option>
-						<option>Transport and infrastructure</option>
-						<option>Canada and the world</option>
-						<option>Money and finances</option>
-						<option>Science and innovation</option>
-						</select>
-
-						<button class="btn btn-default" type="button">Search</button>
-
-					</div>
-
-				</form>
-
-			</div><!-- searchform -->
-
-			<h2>Canada.ca main menu</h2>
+			<p>
+			<button id="hideMainmenu" class="btn btn-default">Close menu</button>
+			</p>
 
 			<ul>
 			<li><a href="#">Jobs</a>
@@ -310,6 +265,47 @@
 				</div><!-- breadcrumb -->
 
 				<div class="menus-search col-md-6 text-right">
+
+					<div class="searchform text-right">
+
+						<h2 class="wb-inv">Search Canada.ca</h2>
+
+						<form action="https://www.canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
+
+							<input name="cdn" value="canada" type="hidden" />
+							<input name="st" value="s" type="hidden" />
+							<input name="num" value="10" type="hidden" />
+							<input name="langs" value="en" type="hidden" />
+							<input name="st1rt" value="1" type="hidden" />
+							<input name="s5bm3ts21rch" value="x" type="hidden" />
+							<input type="hidden" name="_charset_" value="UTF-8" />
+
+							<div class="input-group">
+								<span class="input-group-btn"><select class="form-control" type="number">
+								<option>All of Canada.ca</option>
+								<option>Jobs and the workplace</option>
+								<option>Immigration and citizenship</option>
+								<option>Travel and tourism</option>
+								<option selected="selected">Business and industry</option>
+								<option>Benefits</option>
+								<option>Health</option>
+								<option>Taxes</option>
+								<option>Environment and natural resources</option>
+								<option>National security and defence</option>
+								<option>Culture, history and sport</option>
+								<option>Policing, justice and emergencies</option>
+								<option>Transport and infrastructure</option>
+								<option>Canada and the world</option>
+								<option>Money and finances</option>
+								<option>Science and innovation</option>
+								</select></span>
+								<input type="text" class="form-control" id="btngrp-search2" placeholder=" " list="wb-srch-q-ac" size="45" maxlength="150" />
+								<span class="input-group-btn"><button class="btn btn-default" type="button">Search</button></span>
+							</div>
+
+						</form>
+
+					</div><!-- searchform -->
 
 					<button class="btn btn-default" id="showThememenu">Business and industry <span class="fa fa-caret-down"></span></button>
 

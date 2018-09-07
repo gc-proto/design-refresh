@@ -17,6 +17,10 @@
 					$(this).click(showSearchform);
 				}
 
+			/* bind showSearchform function to the search button */
+
+				$("button#toggleSearch").click(showSearchform);
+
 		/* ===================================================================== */
 		// Main menu
 
@@ -26,21 +30,16 @@
 					$("div#mainmenu").css( "width", "400px" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(hideMainmenu);
-					$("button#toggleSearch").unbind("click");
-					$("button#toggleSearch").click(hideMainmenu);
 				}
 				function hideMainmenu() {
 					$("div#mainmenu").css( "width", "0" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(showMainmenu);
-					$("button#toggleSearch").unbind("click");
-					$("button#toggleSearch").click(showMainmenu);
 				}
 
 			/* bind showMainmenu function to the main menu button */
 
 				$("button#showMainmenu").click(showMainmenu);
-				$("button#toggleSearch").click(showMainmenu);
 
 			/* bind closeMainmenu function to the close button inside the menu panel */
 

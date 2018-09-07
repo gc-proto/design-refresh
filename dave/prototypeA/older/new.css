@@ -26,54 +26,27 @@ div.global-header {
 
 	div#mainmenu {
 		width: 0;
-		xxheight: 100%;
+		height: 100%;
 		position: absolute;
-		overflow: hidden;
 		z-index: 1000;
 		top: 0;
 		right: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
 		transition: 0.25s;
 		background-color: #eee;
 		background-color: #fff;
 		border-left: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
 		font-size: 16px;
 	}
-
-	div#mainmenu p {
-		text-align: right;
-		margin: 10px 10px 10px 10px;
-	}
-
-	h2 {
-		font-size: 20px;
-	}
-
-	div.searchform {
-		xx	display: none;
-	}
-
-		div.searchform h2 {
-			font-size: 20px;
-			margin-top: 0em;
-		}
-
-		div.searchform input {
-			padding-left: 8px;
-			}
-
-		div.searchform .form-control {
-			font-size: 14px !important;
-			margin-bottom: 5px;
-			}
-
-		div.searchform select {
-
-			}
 
 	div#mainmenu nav {
 		width: 400px;
 		padding: 20px;
+	}
+
+	div#mainmenu nav p {
+		text-align: right;
 	}
 
 	div#mainmenu nav ul {
@@ -171,6 +144,24 @@ div.global-header {
 			a.langlink:visited {
 				color: #000;
 			}
+
+		/* Search form */
+
+		div.searchform {
+			display: none;
+			position: absolute;
+			bottom: 0;
+			right: 15px;
+			background-color: #f9f9f9;
+		}
+
+			div.searchform .form-control {
+				font-size: 14px !important;
+				}
+
+			div.searchform select {
+
+				}
 
 		/* theme menu */
 
