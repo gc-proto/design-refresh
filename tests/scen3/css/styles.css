@@ -6727,7 +6727,7 @@ body {
 
 .home-image {
   height: 220px;
-  background-image: url("/images/mountains@2x.jpg");
+  background-image: url("./images/mountains@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
