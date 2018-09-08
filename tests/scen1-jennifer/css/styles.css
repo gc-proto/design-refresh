@@ -109,6 +109,7 @@ hgroup,
 section {
   display: block; }
 
+/*
 body,
 button,
 input,
@@ -116,12 +117,14 @@ select,
 textarea {
   font-family: "Fira Sans", "Helvetica Neue", "Helvetica" sans-serif; }
 
+*/
 code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
   font-family: monospace; }
 
+/*
 body {
   color: #363636;
   font-size: 1rem;
@@ -136,7 +139,7 @@ a {
     color: currentColor; }
   a:hover {
     color: #363636; }
-
+*/
 code {
   background-color: whitesmoke;
   color: #ff3860;
@@ -6717,10 +6720,12 @@ label.panel-block {
 html {
   background-color: #ededed; }
 
+/*
 body {
   font-family: 'Fira Sans';
   padding: 0 20px;
   background-color: #ededed; }
+  */
 
 .goc {
   max-width: 320px; }

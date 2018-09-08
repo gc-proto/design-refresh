@@ -221,6 +221,7 @@ textarea {
   }
 }
 
+/*
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -234,6 +235,8 @@ a {
   color: #0088cc;
   text-decoration: none;
 }
+
+*/
 
 a:hover,
 a:focus {
@@ -647,9 +650,12 @@ a:focus {
   clear: both;
 }
 
+/*
 p {
   margin: 0 0 10px;
 }
+
+*/
 
 .lead {
   margin-bottom: 20px;
@@ -2913,8 +2919,8 @@ table th[class*="span"],
   margin: 0;
   list-style: none;
   background-color: #444;
-  border: none; 
-  
+  border: none;
+
 }
 
 .dropdown-menu.pull-right {
@@ -5357,7 +5363,7 @@ input[type="submit"].btn.btn-mini {
   z-index: 1010;
   display: none;
   min-width: 600px;
- 
+
   padding: 30px;
   text-align: left;
   white-space: normal;
