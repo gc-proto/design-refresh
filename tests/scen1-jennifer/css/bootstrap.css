@@ -8,6 +8,7 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+/*
 .clearfix {
   *zoom: 1;
 }
@@ -236,7 +237,7 @@ a {
   text-decoration: none;
 }
 
-*/
+
 
 a:hover,
 a:focus {
@@ -287,6 +288,7 @@ a:focus {
   margin-left: 20px;
 }
 
+*/
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
