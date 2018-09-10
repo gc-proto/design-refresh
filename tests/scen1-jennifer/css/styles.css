@@ -6562,7 +6562,7 @@ label.panel-block {
     background: #5C5C5C;
     display: inline-block;
     font-size: 22px;
-    padding: 0.7em 2.5em;
+    padding: 0.7em 2em;
     color: rgba(255, 255, 255, 0.8);
     border-right: 1px solid rgba(255, 255, 255, 0.1); }
   .topmenu ul.nav > li > a:hover {
