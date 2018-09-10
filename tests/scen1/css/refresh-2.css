@@ -6,13 +6,20 @@
 h1 {
 
 	font-size: 38px !important;
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
-	border-bottom: 2px solid #af3c43
+	border-bottom: 1px solid #af3c43
 
 
 }
 
+.homeborder {
+
+	font-weight: 500 !important;
+	font-family: 'Lato', sans-serif;
+	border-bottom: 3px solid #af3c43
+
+}
 
 h2 {
 
@@ -111,23 +118,7 @@ h1 {
 	display: inline-block!important;
 }
 }
-#wb-sm-new .menu {
-display: table;
-margin-bottom: 0;
-width: 100%; }
-#wb-sm-new .menu .active,
-#wb-sm-new .menu .selected,
-#wb-sm-new .menu > li {
-	display: table-cell;
-	float: none; }
-#wb-sm-new .sm.open li {
-background: #e0e0e0;
-border-bottom: 2px solid RGB(255, 255, 255); }
-}
-#wb-sm .sm.open li a,
-#wb-sm .sm.open li summary {
-	padding: 2px 5px;
-	text-shadow: none; }
+
 
 
 /* On this page, reducing size as an h2*/
@@ -152,6 +143,13 @@ border-bottom: 2px solid RGB(255, 255, 255); }
 
 	font-size: 17px !important;
 
+
+}
+
+.mr-menu {
+
+	margin-top: 15px !important;
+	font-size: 22px !important;
 
 }
 
@@ -379,6 +377,13 @@ background-color: #F8F8F8;
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.canadamenu {
+	background-color: #5C5C5C;
+	display: inline-block;
+	width: 100%;
+
 }
 
 .img-banner {
