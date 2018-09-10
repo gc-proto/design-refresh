@@ -22,12 +22,12 @@
                                   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
                                   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-
-
+                                  ga('create', 'UA-105628416-1', 'auto');
+                                  ga('send', 'pageview');
 
                                 </script>
 
-<link rel="stylesheet" type="text/css" href="./css/refresh-2.css" >
+<link rel="stylesheet" type="text/css" href="./css/custom.css" >
 
 <body vocab="http://schema.org/" typeof="WebPage">
 <!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
@@ -46,32 +46,31 @@
 
 <header role="banner">
 <div id="wb-bnr" class="container">
-<section id="wb-lng" class="text-right" style="padding-top: 0px !important;">
+<section id="wb-lng" class="visible-md visible-lg text-right">
 <h2 class="wb-inv">Language selection</h2>
 <div class="row">
 <div class="col-md-12">
 <ul class="list-inline margin-bottom-none">
-<li><a lang="fr" href="index-fr.html" style="font-size: 12px;">Français</a></li>
+<li><a lang="fr" href="index-fr.html">Français</a></li>
 </ul>
 </div>
 </div>
 </section>
 <div class="row">
-<div class="brand col-xs-7 col-sm-8 col-md-4">
-<a href="en.html"><object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
+<div class="brand col-xs-8 col-sm-9 col-md-6">
+<a href="home-en.html"><object type="image/svg+xml" tabindex="-1" data="../assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
 </div>
-<section class="wb-mb-links col-xs-4 col-sm-3 hidden-xs hidden-sm hidden-md hidden-lg" id="wb-glb-mn">
+<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
 <h2>Search and menus</h2>
 <ul class="list-inline text-right chvrn">
 <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
 </ul>
 <div id="mb-pnl"></div>
 </section>
-
-<section id="wb-srch" class="col-xs-12 col-md-8 text-right">
+<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
 <h2>Search</h2>
 
-<form action="./search-results-refresh.html" method="get" name="cse-search-box" role="search" class="form-inline">
+<form action="./search-results.html" method="get" name="cse-search-box" role="search" class="form-inline">
 
   <style>
 
@@ -90,12 +89,11 @@
 
   }
 
-
   </style>
 
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
-<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca">
+<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
 
 
 <datalist id="wb-srch-q-ac">
@@ -106,7 +104,7 @@
 <div class="form-group submit">
 
 
-<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub" style="background-color: #26374a !important;"><a href="./search-results.html"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button></a>
+<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><a href="./search-results.html"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button></a>
 
 
 </div>
@@ -114,7 +112,7 @@
 </section>
 </div>
 </div>
-<nav class="hidden-sm hidden-xs hidden-lg hidden-md" role="navigation" id="wb-sm" data-ajax-replace="./ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/sitemenu2-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
 <div class="container nvbar">
 <h2>Topics menu</h2>
 <div class="row">
@@ -122,10 +120,10 @@
 <li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
 <li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
 <li><a href="https://travel.gc.ca/">Travel</a></li>
-<li><a href="./services/business.html">Business</a></li>
+<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
 <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
 <li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
-<li><a href="./taxes/index-en.html">Taxes</a></li>
+<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
 <li><a href="./services.html">More services</a></li>
 </ul>
 </div>
@@ -134,383 +132,226 @@
 </header>
 
 
-
-
-<div class="img-banner">
-  <main role="main" property="mainContentOfPage" class="container">
-
-<div class="text-background-1 row col-lg-6 col-md-6 col-sm-8">
-   <div class="row col-lg-6 col-md-7 col-sm-6 col-xs-7">
-
-<h1 class="text-banner" style="margin-top: 10px !important; margin-left: 10px;">Canada.ca</h1>
-
-</div>
-</div>
-<div class="clearfix"></div>
-<div class="text-background-2 row col-lg-6 col-md-6  col-sm-8">
-   <p class="text-banner" style="margin-left: 10px;">The official website of the Government of Canada</p>
-
-
-</div>
-
- </div>
-</main>
-</div>
-
-
-<div class="edge-color">
-  <main role="main" property="mainContentOfPage" class="container">
- <div class="wb-eqht row">
-
-<h5 class="col-lg-3" style="margin-top: 0px;">Most requested</h5>
-<div class="clearfix"></div>
-
-     <section class="col-lg-3">
-      <h3 class="mr-home" style="margin-top: 0px;"><a href="https://www.canada.ca/en/government/sign-in-online-account.html">Sign in to an online account</a></h3>
-     </section>
-
-     <section class="col-lg-3">
-   <h3 class="mr-home" style="margin-top: 0px;"><a href="https://weather.gc.ca/?&wb48617274=F4EE897A">Weather</a></h3>
-    </section>
-   <section class="col-lg-3">
-   <h3 class="mr-home" style="margin-top: 0px;"><a href="./services/jobs/opportunities.html">Find a job</a></h3>
-  </section>
-
-  <section class="col-lg-3">
-   <h3 class="mr-home" style="margin-top: 0px;"><a href="https://www.canada.ca/en/services/benefits/ei.html">Employment Insurance and leave</a></h3>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="mr-home" style="margin-top: 0px;"><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp.html">Canada Pension Plan</a></h3>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="mr-home" style="margin-top: 0px;"><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html">Old Age Security pension</a></h3>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="mr-home" style="margin-top: 0px;"><a href="https://www.canada.ca/en/services/benefits/disability.html">Disability benefits</a></h3>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="mr-home" style="margin-top: 0px;"><a href="http://www.cic.gc.ca/english/residents/passport.asp">Get a passport</a></h3>
-  </section>
-
-
-
- </div>
-</main>
-</div>
-
-</section>
-
 <main role="main" property="mainContentOfPage" class="container">
- <div class="wb-eqht row">
-
-   <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="./services/jobs.html">Jobs and the workplace</a></h3>
+           <div class="mwstext section"><h1 property="name" id="wb-cont" style="margin-top: 10px;" >Canada.ca</h1>
+     <p>Services and information from the Government of Canada.</p></main>
 
 
-   <p>Find a job, training, hiring programs, work permits, Social Insurance number (SIN)</p>
+     <div class="mwspromotion section row hidden-sm hidden-xs" style="background: #eee; border-bottom: 1px solid #ddd;">
+     <!-- in theory this would change among the different ones on each load, in practice it doesn't matter -->
+        <aside class="prm-flpr">
+             <div class="container chooseone"><div class="row">
+                 <h3 class="wb-inv">Promotions</h3>
+           <div class="col-xs-12">
+             <a href="">
+               <img class="img-responsive" src="priorities-img/20180213-1-1170x347.jpg" alt="">
+             </a>
+           </div>
+                 <div class="col-sm-8 col-xs-12">
+             <a href="sdf" class="learnmore">
+               <h5>2018 ENERGY STAR Canada awards</h5>
+             </a>
+           </div>
 
-
-    </section>
-   <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></h3>
-   <p>Visit, work, study, immigrate, refugees, permenant residents, apply, check status</p>
-  </section>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://travel.gc.ca">Travel and tourism
-</a></h3>
-   <p>Safe travel in Canada or abroad, advice, advisories, visit Canada, events, attractions</p>
-  </section>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="./services/business.html">Business and industry</a></h3>
-   <p>Starting a business, taxes, grants, permits, hire employees, copyright</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/benefits.html">Benefits and leave</a></h3>
-   <p>Pensions, benefits for housing, education, training, family, people with disabilities</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/health.html">Health</a></h3>
-   <p>Food, nutrition, diseases, vaccines, drugs, product safety and recalls, health cards</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="./taxes/index-en.html">Taxes</a></h3>
-   <p>File taxes for individual and business, GST/HST, charities, savings, tax benefits</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></h3>
-   <p>Weather, agriculture, wildlife, energy, natural resources, pollution, fishing/hunting</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></h3>
-   <p>National security, military, border and cybersecurity, military benefits and service</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></h3>
-   <p>Canada's arts, cultures and heritage, Aboriginal Peoples, official languages</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/policing.html">Police, justice and emergencies</a></h3>
-   <p>Safety, justice system, prepare for emergencies, services for victims of crime</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></h3>
-   <p>Safe transport, infrastructure projects, vehicle recalls, child car seat safety</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="http://international.gc.ca/world-monde/index.aspx">Canada and the world</a></h3>
-   <p>Canada's foreign policy, trade agreements, development work, global issues</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/defence.html">Money and finances</a></h3>
-   <p>Money management, credit reports, file taxes, protect from fraud, bank and tax rates</p>
-  </section>
-  <section class="col-lg-4 col-md-6" style="margin-bottom: 40px;">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/defence.html">Science and innovation</a></h3>
-   <p>Scientific research on health, environment, space, business innovation, research funding</p>
-  </section>
-
-
-
-
- </div>
-
-
-</section>
-
-<div class="clearfix"></div>
-
-</main>
-
-<div class="edge-color your-gov hidden-xs hidden-sm hidden-md">
-  <main role="main" property="mainContentOfPage" class="container">
-
- <h5>Your government</h5>
- <div class="wb-eqht row">
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/contact.html">Contact us</a></h3>
-   <p>Most requested government contacts, change your address, reach a department or agency</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/veterans.html">Departments and agencies</a></h3>
-   <p>Current departments, agencies, crown corporations and related organizations</p>
-  </section>
-  <section class="col-lg-4 col-md-6 hidden-xs hidden-sm hidden-md">
-
-  </section>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/youth.html">How government works</a></h3>
-   <p>Structure, finance priorities, policies and regulations, international, provincial and aboriginal relations</p>
-  </section>
-  <section class="col-lg-4 col-md-6" >
-   <h3 class="ch5" ><a href="https://www.canada.ca/en/services/youth.html">Open government</a></h3>
-   <p>Making government more accessible to everyone, open information and data, open dialogue</p>
-  </section>
- </div>
-
-</main>
-</div>
-
-<div class="edge-color your-gov visible-md">
-  <main role="main" property="mainContentOfPage" class="container">
-
- <h5>Your government</h5>
- <div class="wb-eqht row">
-
-  <section class="col-lg-4 col-md-5">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/contact.html">Contact us</a></h3>
-   <p>Most requested government contacts, change your address, reach a department or agency</p>
-  </section>
-  <div class="clearfix"></div>
-  <section class="col-lg-4 col-md-5">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/veterans.html">Departments and agencies</a></h3>
-   <p>Current departments, agencies, crown corporations and related organizations</p>
-  </section>
-    <div class="clearfix"></div>
-
-
-  <section class="col-lg-4 col-md-5">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/youth.html">How government works</a></h3>
-   <p>Structure, finance priorities, policies and regulations, international, provincial and aboriginal relations</p>
-  </section>
-    <div class="clearfix"></div>
-
-      <section class="col-lg-4 col-md-5">
-   <h3 class="ch5" ><a href="https://www.canada.ca/en/services/youth.html">Open government</a></h3>
-   <p>Making government more accessible to everyone, open information and data, open dialogue</p>
-  </section>
-
- </div>
-
-</main>
-</div>
-
-<div class="edge-color visible-xs visible-sm">
-  <main role="main" property="mainContentOfPage" class="container">
-
- <h5>Your government</h5>
- <div class="wb-eqht row">
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/contact.html">Contact us</a></h3>
-   <p>Most requested government contacts, change your address, reach a department or agency</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/veterans.html">Departments and agencies</a></h3>
-   <p>Current departments, agencies, crown corporations and related organizations</p>
-  </section>
-  <section class="col-lg-4 col-md-6 hidden-xs hidden-sm">
-
-  </section>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/youth.html">How government works</a></h3>
-   <p>Structure, finance priorities, policies and regulations, international, provincial and aboriginal relations</p>
-  </section>
-  <section class="col-lg-4 col-md-6" >
-   <h3 class="ch5" ><a href="https://www.canada.ca/en/services/youth.html">Open government</a></h3>
-   <p>Making government more accessible to everyone, open information and data, open dialogue</p>
-  </section>
- </div>
-
-</main>
-</div>
-<main role="main" property="mainContentOfPage" class="container">
-
-<section>
- <h5 style="margin-top: 50px;">By audience</h5>
- <div class="wb-eqht row">
-  <section class="col-lg-3">
-   <h3 class="ch5"><a href="http://www.aadnc-aandc.gc.ca/eng/1461766373625/1461766394598">Indigenous peoples</a></h3>
-   <p>Benefits, education, training, health and more for First Nations, Inuit and Métis</p>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/veterans.html">Veterans</a></h3>
-   <p>Health, benefits, jobs and more for current and former military, <abbr title="Royal Canadian Mounted Police">RCMP</abbr> and their families</p>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/youth.html">Youth</a></h3>
-   <p>Youth Council, policy, education, jobs, money and more for teens and young adults </p>
-  </section>
-    <section class="col-lg-3" style="margin-bottom: 30px;">
-  <h3 class="ch5"><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></h3>
-  <p>Pay, pension, benefits, career development and more for government employees</p>
- </section>
-
- </div>
-</section>
-
- <h5>Initiatives</h5>
- <br>
-
- <div class="mwsfeatures mwstemplate-html section">
-
-
-     <section class="gc-prtts">
-
- 			<style>
- 		 .cust-thumbnail {
- 		   border-color: #335075 !important;
- 		   border-width: 1px !important;
- 		   padding: 0px !important;
- 		 }
- 		 </style>
-
-     <div class="mwsfeatures mwstemplate-html section">
-
-
-         <section class="gc-prtts">
-             <div class="row">
-
-
-
-
-                         <div class="mwsfeatureimage textimage parbase mrgn-bttm-md col-md-6 col-lg-6">
-
-         <a href="https://www.ic.gc.ca/eic/site/107.nsf/eng/home?open&amp;WT.mc_id=WomenEntrepreneurshipStrategy_canada.ca-home_activities-initiatives_en">
-             <figure>
-
-                 <img class="img-responsive cust-thumbnail thumbnail mrgn-bttm-sm" src="./images/cfwes.jpg" data-emptytext="Image"/>
-                 <h3  class="ch5">Canada’s First Women Entrepreneurship Strategy</h3>         </a>
-                 <p>Encouraging and supporting women at every stage of entrepreneurship.</p>
-
-
-             </figure>
-
+         </div></div>
+         </aside>
      </div>
 
-  <div class="visible-xs visible-sm">   <br> </div>
+ <main role="main" property="mainContentOfPage" class="container">
+<section>
+<style>
 
-     <div class="mwsfeatureimage textimage parbase mrgn-bttm-md col-md-6 col-lg-6">
+.hp {
 
-<a href="https://www.ic.gc.ca/eic/site/107.nsf/eng/home?open&amp;WT.mc_id=WomenEntrepreneurshipStrategy_canada.ca-home_activities-initiatives_en">
-<figure>
+text-align: left;
+color: white;
+background-color: #335075;
 
-<img class="img-responsive cust-thumbnail thumbnail mrgn-bttm-sm" src="./images/actionplan.jpg" data-emptytext="Image"/>
-<h3  class="ch5">Safe Workspaces</h3></a>
-<p>An action plan to address harassement in the Public Service.</p>
+}
 
+ a.hp:visited {
 
-</figure>
+color: white !important;
+background-color: #335075;
+
+}
+
+ a.hp:hover {
+
+color: white !important;
+background-color: #284162;
+
+}
+
+</style>
+
+<div class="row visible-xs visible-sm" style="" >
+
+<div class="col-xs-6 col-sm-6" style="padding-right: 2px;">
+
+<ul class="list-unstyled wxo-btn">
+
+<li style="margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="/en/services/jobs/opportunities.html"  class="">Jobs</a>
+</li>
+<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="./travel.html" class="" >Travel</a>
+</li>
+
+<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="/en/services/jobs/opportunities.html" class="">Benefits</a>
+</li>
+
+<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="/en/services/jobs/opportunities.html" class="" >Taxes</a>
+</li>
+
+</ul>
 
 </div>
 
-</section>
+<div class="col-xs-6 col-sm-6" style="padding-left: 2px;">
+
+<ul class="list-unstyled visible-xs visible-sm wxo-btn">
+
+<li style="margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="/en/services/jobs/opportunities.html" class="" >Immigration</a>
+
+</li>
+<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="/en/services/jobs/opportunities.html" class="">Business</a>
+
+</li>
+<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="./services/health.html" class="">Health</a>
+</li>
+<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
+<a href="./services-en.html" class="">All services</a>
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="mwspromotion section visible-xs visible-sm row" style="background: #eee; border-bottom: 1px solid #ddd;">
+<!-- in theory this would change among the different ones on each load, in practice it doesn't matter -->
+   <aside class="prm-flpr">
+        <div class="container chooseone"><div class="row">
+            <h3 class="wb-inv">Promotions</h3>
+			<div class="col-xs-12">
+				<a href="">
+					<img class="img-responsive" src="priorities-img/20180213-1-1170x347.jpg" alt="">
+				</a>
+			</div>
+            <div class="col-sm-8 col-xs-12">
+				<a href="sdf" class="learnmore">
+					<ch5>2018 ENERGY STAR Canada awards</ch5>
+				</a>
+			</div>
+
+		</div></div>
+    </aside>
+</div>
+
+  <div class="row" style="">
+  <div class="col-md-12">
 
 
-
-
-
-</section>
-
+   <!--
+   <div class="alert alert-info">
+    <p>Please help improve our website. <a href="http://fluidsurveys.com/surveys/neo2/esdc-feb-2016/langeng/">See if you qualify</a>.</p>
+   </div>
+   -->
+  </div>
 
  </div>
+ <div class="wb-eqht row">
+
+   <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://weather.gc.ca/?&wb48617274=F4EE897A">Weather</a></h3>
 
 
-<!--
-<div class="mwspromotion section row hidden-sm hidden-xs">
-in theory this would change among the different ones on each load, in practice it doesn't matter
-   <aside class="prm-flpr">
-        <div class="container chooseone">
-          <div class="row">
-            <h3 class="wb-inv">Promotions</h3>
-      <div class="col-xs-12">
-        <a href="">
-          <img class="img-responsive" src="priorities-img/20180719-1-1170x347.jpg" alt="">
-        </a>
-      </div>
-
-            <div class="col-md-12">
-              <div class="well" style="padding-top: 0px !important; padding-bottom: 15px !important;">
-        <a href="sdf" class="learnmore">
-          <h5 >Canada’s First Women Entrepreneurship Strategy</h5>
-        </a>
-      </div>
-      </div>
-
-    </aside>
-
-</div>
-</div>
-</div>
-
+   <p>Latest weather, 24hr detailed forecast, and seven day forecast for locations across Canada. View local radar and satellite imagery.</p>
 
 
     </section>
 
 
-</div> -->
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/services/benefits/ei.html">Employment Insurance</a></h3>
+   <p>Employment Insurance (<abbr>EI</abbr>) for workers, sickness, fishing and family-related benefits. Apply and submit reports.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/employment-social-development/services/my-account.html">My Service Canada Account</a></h3>
+   <p>Secure access for Employment Insurance (<abbr>EI</abbr>), Canada Pension Plan (<abbr>CPP</abbr>), and Old Age Security (<abbr>OAS</abbr>).</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="./services/e-services/e-services-individuals/account-individuals.html">My Account for individuals – Canada Revenue Agency</a></h3>
+   <p>Track your tax refund, view or change returns, check benefits and credit payments, view RRSP limit, set up direct deposit, and more.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp.html">Canada Pension Plan</a></h3>
+   <p>Eligibility criteria, benefit types, deciding when to take your pension, how to apply online and amounts.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html">Old Age Security pension</a></h3>
+   <p>Pension for 65 years of age or older, eligibility criteria, Guaranteed Income Supplement, allowance, deferments and program details.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/services/benefits/disability.html">Disability benefits</a></h3>
+   <p>Living with a disability, child disability benefit, Veteran's disability award, savings plans and gasoline tax refund program.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="http://www.cic.gc.ca/english/residents/passport.asp">Get a passport</a></h3>
+   <p>Renew your passport, passport applications, passport offices and processing times for renewals and new applications.</p>
+  </section>
+
+    <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/services/jobs/opportunities.html">Find a job</a></h3>
+   <p>Jobs, hiring programs, work permits, Social Insurance Number, criminal record check and security clearance.</p>
+  </section>
+ </div>
+
+ <ul class="list-unstyled wxo-btn col-xs-6 col-lg-3 col-md-3" style="padding-left: 0px; margin-bottom: -10px; text-align: center !important; margin-top: 10px;">
+
+<li>
+<a href="./services-en.html" class="btn btn-default btn-block hp" style="text-align: center !important;">All services</a>
+</li>
+
+</ul>
+
+</section>
+
+<div class="clearfix"></div>
+<section>
+ <h2>Focus on</h2>
+ <div class="wb-eqht row">
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="http://www.aadnc-aandc.gc.ca/eng/1461766373625/1461766394598">Indigenous peoples</a></h3>
+   <p>Funding, benefits and rights, education, training, jobs, health services, housing, justice and more for First Nations, Inuit and Métis. </p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/services/veterans.html">Veterans</a></h3>
+   <p>Benefits, healthcare, disability and other services for veterans, members of the Canadian Armed Forces or the <abbr title="Royal Canadian Mounted Police">RCMP</abbr> and their families.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="ch5"><a href="https://www.canada.ca/en/services/youth.html">Youth</a></h3>
+   <p>Youth and student employment, education, Prime Minster's Youth Council, money management, and other programs for teenagers and young adults.</p>
+  </section>
+ </div>
+</section>
+
+
+
 
 
 <div class="row pagedetails">
 <div class="col-sm-6 col-lg-4 mrgn-tp-sm">
-<a href="https://www.canada.ca/en/report-problem.html" class="">Report a problem or mistake on this page</a>
+<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem or mistake on this page</a>
 </div>
 <div class="col-sm-3 mrgn-tp-sm pull-right">
-<div style="text-decoration: underline;" class="wb-share pull-right" data-wb-share='{"lnkClass": ""}'></div>
+<div class="wb-share" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
 </div>
 <div class="datemod col-xs-12 mrgn-tp-lg">
 <dl id="wb-dtmd">
@@ -528,47 +369,47 @@ in theory this would change among the different ones on each load, in practice i
            <ul class="list-unstyled colcount-sm-2 colcount-md-3">
 
 
-                        <li ><a href="./contact.html" class="footer-text">Contact us</a></li>
+                        <li><a href="./contact.html">Contact us</a></li>
 
 
 
 
-                       <li><a href="./government/dept.html" class="footer-text">Departments and agencies</a></li>
+                       <li><a href="./government/dept.html">Departments and agencies</a></li>
 
 
 
 
-                       <li><a href="https://www.canada.ca/en/government/publicservice.html" class="footer-text">Public service and military</a></li>
+                       <li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
 
 
 
 
-                       <li><a href="https://www.canada.ca/en/news.html" class="footer-text">News</a></li>
+                       <li><a href="https://www.canada.ca/en/news.html">News</a></li>
 
 
 
 
-                       <li><a href="https://www.canada.ca/en/government/system/laws.html" class="footer-text">Treaties, laws and regulations</a></li>
+                       <li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
 
 
 
 
-                       <li><a href="https://www.canada.ca/en/transparency/reporting.html" class="footer-text">Government-wide reporting</a></li>
+                       <li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
 
 
 
 
-                       <li><a href="http://pm.gc.ca/eng" class="footer-text">Prime Minister</a></li>
+                       <li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
 
 
 
 
-                       <li><a href="https://www.canada.ca/en/government/system.html" class="footer-text">How government works</a></li>
+                       <li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
 
 
 
 
-                       <li><a href="http://open.canada.ca/en/" class="footer-text">Open government</a></li>
+                       <li><a href="http://open.canada.ca/en/">Open government</a></li>
 
 
            </ul>
@@ -613,7 +454,7 @@ in theory this would change among the different ones on each load, in practice i
                    <div class="col-xs-6 visible-sm visible-xs tofpg">
                                           <a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
                                       </div>
-                                      <div class="col-xs-6 col-md-1 col-lg-1 text-right">
+                                      <div class="col-xs-6 col-md-2 text-right">
                                           <object type="image/svg+xml" tabindex="-1" role="img" data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
                                       </div>
                                   </div>
