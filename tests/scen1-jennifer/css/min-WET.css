@@ -7448,9 +7448,10 @@ a:visited {
     }
 }
 
-.dropdown-menu>li>a:visited {
+/*.dropdown-menu>li>a:visited {
     color: #333
 }
+*/
 
 .nav>li>a:visited {
     color: #295376

@@ -69,7 +69,7 @@ html {
 
 img,
 embed,
-object,
+/*object, breaks wordmark*/
 audio,
 video {
   max-width: 100%; }
@@ -224,13 +224,16 @@ table th {
   font-size: 2.5rem !important; }
 
 .is-size-3 {
-  font-size: 2rem !important; }
+  font-size: 36px !important;
+  padding-bottom: 5px !important;
+  padding-top: 0px !important;
+}
 
 .is-size-4 {
   font-size: 1.5rem !important; }
 
 .is-size-5 {
-  font-size: 1.25rem !important; }
+  font-size: 18px !important; }
 
 .is-size-6 {
   font-size: 1rem !important; }
