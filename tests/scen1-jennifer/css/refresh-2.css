@@ -6,7 +6,7 @@
 h1 {
 
 	font-size: 38px !important;
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	border-bottom: 1px solid #af3c43
 
@@ -15,6 +15,9 @@ h1 {
 
 .homeborder {
 
+	font-weight: 500 !important;
+	font-family: 'Lato', sans-serif;
+	border-bottom: 3px solid #af3c43
 
 }
 
