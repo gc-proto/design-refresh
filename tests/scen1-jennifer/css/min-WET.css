@@ -1471,7 +1471,7 @@ a.bg-danger:hover {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 11.5px
+
 }
 
 ol ol,
@@ -6725,6 +6725,7 @@ button.close {
     border-bottom-color: #000
 }
 
+/* messes with pop over menu
 .popover {
     position: absolute;
     top: 0;
@@ -6748,6 +6749,8 @@ button.close {
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     white-space: normal
 }
+
+*/
 
 .popover.top {
     margin-top: -10px
@@ -6864,6 +6867,7 @@ button.close {
     border-left-color: #fff;
     bottom: -10px
 }
+
 
 .carousel {
     position: relative

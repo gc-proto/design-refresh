@@ -238,6 +238,8 @@ table th {
 .is-size-7 {
   font-size: 0.75rem !important; }
 
+
+
 @media screen and (max-width: 768px) {
   .is-size-1-mobile {
     font-size: 3rem !important; }
@@ -1663,6 +1665,7 @@ a.box:active {
   .buttons.is-right {
     justify-content: flex-end; }
 
+
 .container {
   margin: 0 auto;
   position: relative; }
@@ -2672,6 +2675,7 @@ a.box:active {
     .field.is-grouped.is-grouped-multiline:not(:last-child) {
       margin-bottom: 0; }
 
+/*
 @media screen and (min-width: 769px), print {
   .field.is-horizontal {
     display: flex; } }
@@ -2719,7 +2723,7 @@ a.box:active {
         flex-grow: 1; }
       .field-body > .field:not(:last-child) {
         margin-right: 0.75rem; } }
-
+*/
 .control {
   font-size: 1rem;
   position: relative;
