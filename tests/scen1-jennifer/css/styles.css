@@ -6539,6 +6539,7 @@ label.panel-block {
   flex-shrink: 0;
   padding: 3rem 1.5rem; }
 
+/*
 .section {
   padding: 3rem 1.5rem; }
   @media screen and (min-width: 1024px) {
@@ -6553,6 +6554,8 @@ label.panel-block {
 
 .header {
   margin-top: 3em; }
+
+  */
 
 .topmenu {
   background: #5C5C5C;
