@@ -6579,7 +6579,7 @@ label.panel-block {
 .topmenu .link-list a {
   color: #124B81 !important;
   text-decoration: underline;
-  line-height: 1.3;
+/*  line-height: 1.3; */
   padding: 0.3em 0; }
 
 .page {
