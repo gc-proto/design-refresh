@@ -365,6 +365,13 @@ background-color: #F8F8F8;
     padding-bottom: 25px;
 }
 
+.canadamenu {
+	background-color: #525152;
+	display: inline-block;
+	width: 100%;
+
+}
+
 .img-banner {
 
 background-image: url("../images/canada-bkg.jpg");
