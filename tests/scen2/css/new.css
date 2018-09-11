@@ -36,6 +36,10 @@ div.global-header {
 		margin: 10px 10px 10px 10px;
 	}
 
+  .submainmenu li {
+    text-indent: 1.5em;
+  }
+
 	h2 {
 		font-size: 20px;
 	}
@@ -111,7 +115,7 @@ div.global-header {
 
 			div#mainmenu nav ul ul a {
 				background-color: #f6f6f6;
-				padding: 7px 10px 7px 20px;
+				padding: 7px 10px 7px 50px;
 			}
 
 	/* Visible banner area */
