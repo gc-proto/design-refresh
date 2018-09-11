@@ -209,6 +209,8 @@ abbr {
 		list-style-type: disc !important;
 		padding-left: 20px;
 		list-style-position: inside;
+		text-indent: 0px !important;
+		display: inline-block !important;
 
 }
 
