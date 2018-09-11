@@ -151,10 +151,14 @@ border-bottom: 2px solid RGB(255, 255, 255); }
 .mr-home {
 
 	font-size: 18px !important;
-
+	line-height: 22px !important;
 
 }
+.mr-grey
 
+{
+		background-color: #f0efef;
+}
 
 ul.menu li {
 
@@ -201,7 +205,7 @@ abbr {
 
 .col-md-6 {
 
-padding-right: 40px !important;
+padding-right: 25px !important;
 }
 /* controls bullet spacing */
 
