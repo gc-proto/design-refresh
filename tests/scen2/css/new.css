@@ -114,8 +114,11 @@ div.global-header {
 			}
 
 			div#mainmenu nav ul ul a {
-				background-color: #f6f6f6;
-				padding: 7px 10px 7px 50px;
+				display: inline-block;
+				background-color: #f6f6f6 !important;
+				text-indent:0!important;
+				padding: 7px 10px 7px 10px;
+
 			}
 
 	/* Visible banner area */
