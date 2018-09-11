@@ -207,10 +207,8 @@ abbr {
 	font-size: 19px !important;
 		line-height: 32px !important;
 		list-style-type: disc !important;
-		padding-left: 20px;
-		list-style-position: inside;
-		text-indent: 0px !important;
-		display: inline-block !important;
+
+	margin-left: 50px;
 
 }
 
