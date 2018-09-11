@@ -27,6 +27,8 @@
                               <link rel="stylesheet" href="../css/refresh-2.css">
                               <link rel="stylesheet" href="../css/min-WET.css">
 
+                                    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
 
 <body vocab="http://schema.org/" typeof="WebPage">
 <!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
@@ -822,6 +824,12 @@ Ensuring the safe movement of people and goods by air, rail, road and water. Fun
 
 <script src="../js/jquery.menu-aim.js" type="text/javascript"></script>
 <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+</script>
 <script>
 
     var $menu = $(".dropdown-menu");
@@ -885,7 +893,20 @@ Ensuring the safe movement of people and goods by air, rail, road and water. Fun
 </script>
 <script src="../js/scripts.js"></script>
 
+<style>
 
+.dataTables_filter {
+  float: left !important;
+
+}
+
+.dataTables_length
+{
+display: none !important;
+
+}
+
+</style>
     <nav role="navigation" id="wb-bc" property="breadcrumb"><h2 class="wb-inv">You are here:</h2><div class="container"><div class="row"><ol class="breadcrumb">
 <li class="cust-breadcrumb"><a href='../home-en.html'>Home</a></li>
 <li class="cust-breadcrumb"><a href='index-en.html'>Health</a></li>
@@ -964,7 +985,7 @@ Ensuring the safe movement of people and goods by air, rail, road and water. Fun
             }">
       <p><span data-json-replace="#[msgbox]/text"></span></p>
     </div>
-<table class="wb-tables table table-striped table-hover" data-wb-urlmapping="{
+<table id="myTable" class="wb-tables table table-striped table-hover display" data-wb-urlmapping="{
                   &quot;vaccine-preventable&quot;: { &quot;action&quot;: &quot;tblfilter&quot;, &quot;column&quot;: 1, &quot;value&quot;: &quot;vaccine-preventable&quot; }
             }">
 
