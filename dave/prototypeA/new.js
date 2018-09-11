@@ -18,6 +18,35 @@
 				}
 
 		/* ===================================================================== */
+		// Search panel
+
+			/* functions for showing and hiding the search panel */
+
+				function showSearchpanel() {
+					$("div#searchpanel").css( "width", "400px" );
+					$("button#showSearchpanel").unbind("click");
+					$("button#showSearchpanel").click(hideSearchpanel);
+					$("button#toggleSearch").unbind("click");
+					$("button#toggleSearch").click(hideSearchpanel);
+				}
+				function hideSearchpanel() {
+					$("div#searchpanel").css( "width", "0" );
+					$("button#showSearchpanel").unbind("click");
+					$("button#showSearchpanel").click(showSearchpanel);
+					$("button#toggleSearch").unbind("click");
+					$("button#toggleSearch").click(showSearchpanel);
+				}
+
+			/* bind showSearchpanel function to the search button */
+
+				$("button#showSearchpanel").click(showSearchpanel);
+				$("button#toggleSearch").click(showSearchpanel);
+
+			/* bind closeSearchpanel function to the close button inside the search panel */
+
+				$("button#hideSearchpanel").click(hideSearchpanel);
+
+		/* ===================================================================== */
 		// Main menu
 
 			/* functions for showing and hiding the main menu */
@@ -26,21 +55,16 @@
 					$("div#mainmenu").css( "width", "400px" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(hideMainmenu);
-					$("button#toggleSearch").unbind("click");
-					$("button#toggleSearch").click(hideMainmenu);
 				}
 				function hideMainmenu() {
 					$("div#mainmenu").css( "width", "0" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(showMainmenu);
-					$("button#toggleSearch").unbind("click");
-					$("button#toggleSearch").click(showMainmenu);
 				}
 
 			/* bind showMainmenu function to the main menu button */
 
 				$("button#showMainmenu").click(showMainmenu);
-				$("button#toggleSearch").click(showMainmenu);
 
 			/* bind closeMainmenu function to the close button inside the menu panel */
 

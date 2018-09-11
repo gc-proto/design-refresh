@@ -22,11 +22,37 @@ div.global-header {
 
 }
 
+	/* Search panel */
+
+	div#searchpanel {
+		width: 0;
+		position: absolute;
+		overflow: hidden;
+		z-index: 1000;
+		top: 0;
+		left: 0;
+		transition: 0.25s;
+		background-color: #eee;
+		background-color: #fff;
+		border-right: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		font-size: 16px;
+	}
+
+	div#searchpanel div.searchform {
+		padding: 20px;
+		width: 400px;
+	}
+
+	div#searchpanel p {
+		text-align: right;
+		margin: 10px 10px 10px 10px;
+	}
+
 	/* Main menu */
 
 	div#mainmenu {
 		width: 0;
-		xxheight: 100%;
 		position: absolute;
 		overflow: hidden;
 		z-index: 1000;
