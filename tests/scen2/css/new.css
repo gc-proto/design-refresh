@@ -1,4 +1,7 @@
-
+/* Fix topic page images */
+img.thumbnail {
+	margin-top:4em
+}
 
 /* Entire global header */
 
