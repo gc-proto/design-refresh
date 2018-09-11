@@ -5224,10 +5224,11 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     border-radius: 4px
 }
 
+/* mucks up alignment
 .breadcrumb>li {
     display: inline-block
 }
-
+*/
 .breadcrumb>li+li:before {
     content: "/ ";
     padding: 0 5px;
