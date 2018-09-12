@@ -13,6 +13,9 @@ div.global-header {
 	font-size: 16px;!important
 }
 
+body {
+	background-color: white !important;
+}
 
 /* Entire global header */
 
