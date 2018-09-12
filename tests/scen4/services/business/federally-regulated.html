@@ -47,64 +47,20 @@
 
 <div class="global-header">
 
-<ul id="wb-tphp">
-<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
-</ul>
+	<ul id="wb-tphp">
+	<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+	</ul>
 
-<div id="mainmenu">
+	<div id="mainmenu">
 
-<p>
-<button id="hideMainmenu" class="btn btn-default">Close</button>
-</p>
+		<nav>
 
-<nav>
+		<p class="pull-right">
+		<button id="hideMainmenu" class="btn btn-default">Close</button>
+		</p>
 
-<!-- <div class="searchform">
+			<h2>Canada.ca</h2>
 
-<h2>Search Canada.ca</h2>
-
-<form action="https://www.canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
-
-<input name="cdn" value="canada" type="hidden" />
-<input name="st" value="s" type="hidden" />
-<input name="num" value="10" type="hidden" />
-<input name="langs" value="en" type="hidden" />
-<input name="st1rt" value="1" type="hidden" />
-<input name="s5bm3ts21rch" value="x" type="hidden" />
-<input type="hidden" name="_charset_" value="UTF-8" />
-
-<div class="input-group">
-
-<input type="text" class="form-control" id="btngrp-search2" placeholder="Enter keywords" list="wb-srch-q-ac" size="45" maxlength="150" />
-
-<select class="form-control" type="number">
-<option>All of Canada.ca</option>
-<option>Jobs and the workplace</option>
-<option>Immigration and citizenship</option>
-<option>Travel and tourism</option>
-<option selected="selected">Business and industry</option>
-<option>Benefits</option>
-<option>Health</option>
-<option>Taxes</option>
-<option>Environment and natural resources</option>
-<option>National security and defence</option>
-<option>Culture, history and sport</option>
-<option>Policing, justice and emergencies</option>
-<option>Transport and infrastructure</option>
-<option>Canada and the world</option>
-<option>Money and finances</option>
-<option>Science and innovation</option>
-</select>
-
-<button class="btn btn-default" type="button">Search</button>
-
-</div>
-
-</form>
-
-</div>--><!-- searchform -->
-
-<h2 style="margin-top: 0px !important; padding-top: 0px !important;">Canada.ca main menu</h2>
 
 <ul>
 <li><a href="#">Jobs and the workplace</a>
@@ -308,72 +264,105 @@
 </ul>
 </li>
 </ul>
-</nav>
 
-</div><!-- #panel -->
+		</nav>
 
-<header role="banner">
+	</div><!-- #panel -->
 
-<div id="wb-bnr" class="container">
+	<header role="banner">
 
-<div class="row">
+		<div id="wb-bnr" class="container">
 
-<div class="brand col-md-5">
+			<div class="row">
 
-<a href="https://gc-proto.github.io/design-refresh/tests/scen4/home-en.html"><object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"></object>
-<span class="wb-inv">Government of Canada</span></a>
+				<div class="col-md-12 text-right">
 
-</div><!-- brand -->
+					<p class="langlink">
+					<a lang="fr" href="#">Fran&ccedil;ais</a>
+					<button class="btn btn-primary" id="showMainmenu">Canada.ca menu <span class="fa fa-caret-down"></span></button>
+					</p>
 
-<div class="col-md-7 text-right">
+				</div><!-- col -->
 
-<a class="langlink" lang="fr" href="#">Fran&ccedil;ais</a>
+			</div><!-- row -->
 
-<button class="btn btn-primary" id="toggleSearch">Search <span class="fa fa-search"></span></button>
+			<div class="row">
 
-<button class="btn btn-primary" id="showMainmenu">All Canada.ca <span class="fa fa-caret-down"></span></button>
+				<div class="brand col-md-5">
 
-</div><!--  -->
+					<a href="/en.html"><object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"></object>
+					<span class="wb-inv">Government of Canada</span></a>
 
-</div><!-- row -->
+				</div><!-- brand -->
 
-<div class="row">
+				<div class="searchform col-md-7 text-right">
 
-<div class="breadcrumb col-md-6">
+					<h2 class="wb-inv">Search Canada.ca</h2>
 
-<nav id="wb-bc">
+					<form action="https://www.canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
 
-<h2 class="wb-inv">You are here:</h2>
+						<input name="cdn" value="canada" type="hidden" />
+						<input name="st" value="s" type="hidden" />
+						<input name="num" value="10" type="hidden" />
+						<input name="langs" value="en" type="hidden" />
+						<input name="st1rt" value="1" type="hidden" />
+						<input name="s5bm3ts21rch" value="x" type="hidden" />
+						<input type="hidden" name="_charset_" value="UTF-8" />
 
-<ol class="breadcrumb">
-<li><a href='https://gc-proto.github.io/design-refresh/tests/scen4/home-en.html'>Home</a></li>
-<li><a href='https://gc-proto.github.io/design-refresh/tests/scen4/services/business.html'>Business and industry</a></li>
-</ol>
+						<div class="input-group">
+							<input type="text" class="form-control" id="btngrp-search2" placeholder="Search all government websites" list="wb-srch-q-ac" size="45" maxlength="150" />
+							<span class="input-group-btn"><button class="btn btn-primary" type="button">Search</button></span>
+						</div>
 
-</nav>
+					</form>
 
-</div><!-- breadcrumb -->
+				</div><!-- searchform col -->
 
-<div class="menus-search col-md-6 text-right">
+			</div><!-- row -->
 
-<button class="btn btn-default" id="showThememenu">Business and industry <span class="fa fa-caret-down"></span></button>
+		</div><!-- #wb-bnr .container -->
 
-</div><!-- menus-search -->
+		<div class="container-fluid mrgn-tp-md" style="background-color:#eee;">
+		<div class="container">
 
-</div><!-- row -->
+			<div class="row">
 
-<div class="thememenu row">
+				<div class="breadcrumbtrail col-md-6">
 
-<div class="col-md-12">
+					<nav id="wb-bc">
 
-<nav>
+						<h2 class="wb-inv">You are here:</h2>
 
-<h2>Business and industry menu</h2>
+						<ol class="breadcrumb">
+						<li><a href='https://gc-proto.github.io/design-refresh/tests/scen4/home-en.html'>Home</a></li>
+						<li><a href='https://gc-proto.github.io/design-refresh/tests/scen4/services/business.html'>Business and industry</a></li>
+						</ol>
 
-<p>
-<button id="hideThememenu" class="btn btn-default">Close menu</button>
-</p>
-<ul>
+					</nav>
+
+				</div><!-- breadcrumb -->
+
+				<div class="col-md-6 text-right">
+
+					<button class="btn btn-default" id="showThememenu">Business and industry menu <span class="fa fa-caret-down"></span></button>
+
+				</div><!-- col -->
+
+			</div><!-- row -->
+
+			<div class="thememenu row">
+
+				<div class="col-md-12">
+
+					<nav>
+
+						<h2>Business and industry menu</h2>
+
+						<p>
+						<button id="hideThememenu" class="btn btn-default">Close menu</button>
+						</p>
+
+						<ul>
 <li><a href="https://gc-proto.github.io/design-refresh/tests/scen4/services/business/start.html">Starting a business</a></li>
 <li><a href="https://www.canada.ca/en/services/business/grants.html">Business grants and financing</a></li>
 <li><a href="https://gc-proto.github.io/design-refresh/tests/scen4/services/business/taxes.html">Business taxes</a></li>
@@ -387,13 +376,28 @@
 <li><a href="https://gc-proto.github.io/design-refresh/tests/scen4/services/business/maintaingrowimprove.html">Maintain your business</a></li>
 <li><a href="https://www.canada.ca/en/services/business/protecting.html">Protect your business</a></li>
 <li><a href="https://www.canada.ca/en/services/business/bankruptcy.html">Bankruptcy for business</a></li>
-</ul>
-</nav>
-</div><!-- col -->
-</div><!-- thememenu row -->
-</div><!-- #wb-bnr .container -->
-</header>
+<li class="slflnk"><a href="https://gc-proto.github.io/design-refresh/tests/scen4/services/business.html">Business – More</a></li>
+						</ul>
+
+					</nav>
+
+				</div><!-- col -->
+
+			</div><!-- thememenu row -->
+
+		</div><!-- container -->
+		</div><!-- container-fluid -->
+
+	</header>
+
 </div><!-- global-header -->
+
+
+
+
+
+
+
 <!-- END to copy for menu -->
 <main role="main" property="mainContentOfPage" class="container">
 	<div class="mwstext section">
