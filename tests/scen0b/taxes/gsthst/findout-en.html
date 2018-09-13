@@ -90,8 +90,8 @@
   }
 
   </style>
-  
-  
+
+
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
 <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
@@ -107,19 +107,13 @@
 </section>
 </div>
 </div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="../../ajax/sitemenu2-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<nav role="navigation" id="wb-sm" data-ajax-replace="https://gc-proto.github.io/design-refresh/tests/scen0b/ajax/sitemenu-taxes.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
 <div class="container nvbar">
 <h2>Topics menu</h2>
 <div class="row">
 <ul class="list-inline menu">
-<li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
-<li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
-<li><a href="https://travel.gc.ca/">Travel</a></li>
-<li><a href="http://gc-proto.github.io/tax-filing/en/mvp/business/index-en.html">Business</a></li>
-<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-<li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
-<li><a href="http://gc-proto.github.io/tax-filing/en/mvp/taxes/index-en.html">Taxes</a></li>
-<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
+<li class="pull-left"><a href="https://gc-proto.github.io/design-refresh/tests/scen0b/home-en.html">Canada.ca menu</a></li>
+<li class="pull-left"><a href="https://gc-proto.github.io/design-refresh/tests/scen0b/taxes/index-en.html">Taxes</a></li>
 </ul>
 </div>
 </div>
@@ -140,9 +134,9 @@
   <p class="pagetag">Answer a few questions to find out if you need to charge or collect the tax and register to get a GST/HST account number.</p>
 	 <p>Businesses with lower revenue and those that deal in certain goods and services might not need to charge the tax.</p>
 
-		<div class="wb-frmvld"> 
+		<div class="wb-frmvld">
 	 <form method="get">
-	 
+
 		<!--Question 1-->
 		<div id="question1" class="wb-fieldflow" data-wb-fieldflow='{
 			"renderas":"radio",
@@ -157,11 +151,11 @@
 				<li data-wb-fieldflow='{ "action": "append", "source":"#question2" }'>no</li>
 			</ul>
 		</div>
-		
+
 		<div id="question1button" class="hidden" >
 			<a href="findout-registrant-en.html" class="btn btn-primary">Continue</a>
 		</div>
-		
+
 		<!--Question 2-->
 		<div id="question2" class="wb-fieldflow-sub hidden" data-wb-fieldflow='{"renderas":"checkbox", "reset": { "action": "addClass", "source":".toggle1,.toggle2", "class": "hidden" },"noreqlabel": true, "isoptional": true }'>
 			<div class="wb-fieldflow-header">
@@ -210,7 +204,7 @@
 					{ "action": "addClass", "source":"#question2button", "class": "hidden" }
 				]'>other goods and services</li>
 			</ul>
-			
+
 		</div>
 		<div id="result1" class="hidden">
 			<section class="panel panel-default">
@@ -238,7 +232,7 @@
 			   </ul>
 			   <p>If the good or service you provide is not in this list, but you fit in this category, call 1-800-959-5525 to check if you might still be exempt from the GST/HST.</p>
 			  </div>
-			</section> 
+			</section>
 		</div>
 		<div id="result2" class="hidden">
 			<section class="panel panel-default">
@@ -272,13 +266,13 @@
 				  <li>physiotherapy services</li>
 				  <li>podiatric services</li>
 				  <li>purely cosmetic procedures (exempt only if it is necessary for medical or reconstructive purposes or where the procedure is covered under a provincial or territorial health insurance plan)</li>
-				  <li>social worker services</li> 
+				  <li>social worker services</li>
 				  <li>speech-language pathology services</li>
-				  <li>training services or services of designing a training plan that are specially designed to assist individuals with a disorder or disability if the training is not similar to training ordinarily given to individuals who do not have any disorder or disability</li>  
+				  <li>training services or services of designing a training plan that are specially designed to assist individuals with a disorder or disability if the training is not similar to training ordinarily given to individuals who do not have any disorder or disability</li>
 			    </ul>
 			    <p>If the good or service you provide is not in this list, but you fit in this category, call 1-800-959-5525 to check if you might still be exempt from the GST/HST.</p>
 			  </div>
-			</section> 
+			</section>
 		</div>
 		<div id="result3" class="hidden">
 			<section class="panel panel-default">
@@ -303,7 +297,7 @@
 			   </ul>
 			   <p>If the good or service you provide is not in this list, but you fit in this category, call 1-800-959-5525 to check if you might still be exempt from the GST/HST.</p>
 			  </div>
-			</section> 
+			</section>
 		</div>
 		<div id="result4" class="hidden">
 			<section class="panel panel-default">
@@ -318,7 +312,7 @@
 			   </ul>
 				  <p>If the good or service you provide is not in this list, but you fit in this category, call 1-800-959-5525 to check if you might still be exempt from the GST/HST.</p>
 			  </div>
-			</section> 
+			</section>
 		</div>
 		<div id="result5" class="hidden">
 			<section class="panel panel-default">
@@ -331,7 +325,7 @@
 			   </ul>
 				  <p>If you are not providing legal aid services under a provincial legal aid plan, but you fit in this category, call 1-800-959-5525 to check if you might still be exempt from the GST/HST.</p>
 			  </div>
-			</section> 
+			</section>
 		</div>
 		<div id="result6" class="hidden">
 			<section class="panel panel-default">
@@ -345,14 +339,14 @@
 			   </ul>
 				  <p>If the good or service you provide is not in this list, but you fit in this category, call 1-800-959-5525 to check if you might still be exempt from the GST/HST.</p>
 			  </div>
-			</section> 
+			</section>
 		</div>
 
 		<div id="question2button" class="hidden" >
 			<a href="findout-exempt-en.html" class="btn btn-primary">Continue</a>
 		</div>
-		
-		 
+
+
 		<div id="question2a" class="wb-fieldflow-sub hidden" data-wb-fieldflow='{"renderas":"radio", "noreqlabel": true}'>
 			<div class="wb-fieldflow-header">
 				<p class="wb-fieldflow-label">Does your business or organization reside in Canada?</p>
@@ -363,11 +357,11 @@
 				<li data-wb-fieldflow='{ "action": "removeClass", "source":"#question2abutton", "class": "hidden"}'>no</li>
 			</ul>
 		</div>
-		
+
 		<div id="question2abutton" class="hidden" >
 			<a href="non-resident-en.html" class="btn btn-primary">Continue</a>
 		</div>
-			
+
 		<div id="question3" class="wb-fieldflow-sub hidden" data-wb-fieldflow='{"renderas":"radio", "noreqlabel": true}'>
 			<p>Which of the following is your business or organization?</p>
 			<ul>
@@ -379,22 +373,22 @@
 				<li data-wb-fieldflow='[
 					{"action": "removeClass", "source":"#question3buttonb", "class": "hidden"},
 					{ "action": "addClass", "source":"#question3buttona", "class": "hidden" },
-					{ "action": "addClass", "source":"#question3buttonc", "class": "hidden" }				
+					{ "action": "addClass", "source":"#question3buttonc", "class": "hidden" }
 				]'>public service body (school authorities, public colleges, universities, hospital authorities or municipalities)</li>
 				<li data-wb-fieldflow='[
 					{"action": "removeClass", "source":"#question3buttonc", "class": "hidden"},
 					{ "action": "addClass", "source":"#question3buttona", "class": "hidden" },
-					{ "action": "addClass", "source":"#question3buttonb", "class": "hidden" }						
+					{ "action": "addClass", "source":"#question3buttonb", "class": "hidden" }
 				]'>taxi, limousine or commercial ride-sharing driver</li>
 				<li data-wb-fieldflow='[
 					{ "action": "append", "source":"#question4" },
 					{ "action": "addClass", "source":"#question3buttona", "class": "hidden" },
 					{ "action": "addClass", "source":"#question3buttonb", "class": "hidden" },
-					{ "action": "addClass", "source":"#question3buttonc", "class": "hidden" }	
+					{ "action": "addClass", "source":"#question3buttonc", "class": "hidden" }
 				]'>all other businesses</li>
 			</ul>
 		</div>
-		
+
 		<!--buttons-->
 		<div id="question3buttona" class="hidden" >
 			<a href="charities-en.html" class="btn btn-primary">Continue</a>
@@ -429,15 +423,15 @@
 					{ "action": "removeClass", "source":"#question4buttonb", "class": "hidden" },
 					{ "action": "addClass", "source":"#question4buttona", "class": "hidden" },
 					{ "action": "addClass", "source":"#question4buttonc", "class": "hidden" }
-				]'>no</li> 
+				]'>no</li>
 				<li data-wb-fieldflow='[
 					{ "action": "removeClass", "source":"#question4buttonc", "class": "hidden" },
 					{ "action": "addClass", "source":"#question4buttonb", "class": "hidden" },
 					{ "action": "addClass", "source":"#question4buttona", "class": "hidden" }
-				]'>I have already passed $30,000CAD in a 12 month period</li> 
+				]'>I have already passed $30,000CAD in a 12 month period</li>
 			</ul>
 		</div>
-		
+
 		<!--buttons-->
 		<div id="question4buttona" class="hidden" >
 			<a href="findout-businessover-en.html" class="btn btn-primary">Continue</a>
@@ -448,9 +442,9 @@
 		<div id="question4buttonc" class="hidden" >
 			<a href="businesspast-en.html" class="btn btn-primary">Continue</a>
 		</div>
-								
+
   </form>
-		
+
 </div>
 
 
