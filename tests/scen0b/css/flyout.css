@@ -1,14 +1,3 @@
-/* Base CSS */
-#cssmenu,
-#cssmenu ul,
-#cssmenu ul li,
-#cssmenu ul ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
 #cssmenu ul {
   position: relative;
   z-index: 397;
@@ -36,14 +25,19 @@
   width: 100%;
 }
 
+#cssmenu ul ul ul {
+  top: 0px;
+  left: 99%;
+}
+
 #cssmenu ul li:hover > ul {
   visibility: visible;
   /* show sub menu */
 }
 
-.to-the-left {
+#cssmenu ul ul {
   top: 0px;
-  left: 100%;
+  left: 99%;
 }
 
 /* Custom CSS Styles */
