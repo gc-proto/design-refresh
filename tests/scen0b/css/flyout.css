@@ -1,13 +1,50 @@
 /* Base CSS */
-#cssmenu{padding:0;margin:0;border:0;}
-#cssmenu ul,#cssmenu ul li,#cssmenu ul ul{list-style:none;margin:0;padding:0;border:0;}
-#cssmenu ul{position:relative;z-index:397;}
-#cssmenu ul li{min-height:1px;line-height:1em;vertical-align:middle;}
-#cssmenu ul li:hover{position:relative;z-index:399;cursor:default;}
-#cssmenu ul ul{visibility:hidden;position:absolute;top:100%;left:0;z-index:398;width:100%;}
-#cssmenu ul ul ul{top:0px;left:99%;}
-#cssmenu ul li:hover > ul{visibility:visible;}
-#cssmenu ul ul{top:0px;left:99%;}
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#cssmenu ul {
+  position: relative;
+  z-index: 397;
+}
+
+#cssmenu ul li {
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 399;
+  cursor: default;
+}
+
+#cssmenu ul ul {
+  visibility: hidden;
+  /* hide sub menus by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 398;
+  width: 100%;
+}
+
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+  /* show sub menu */
+}
+
+.to-the-left {
+  top: 0px;
+  left: 100%;
+}
 
 /* Custom CSS Styles */
 #cssmenu ul{width:200px;background:#efefef;}
