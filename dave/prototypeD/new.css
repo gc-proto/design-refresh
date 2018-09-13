@@ -29,7 +29,7 @@ div.global-header {
 
 	div#mainmenu {
 		width: 0;
-		width: 900px;
+		xxxwidth: 900px;
 		height: 100%;
 		position: absolute;
 		overflow: hidden;
@@ -108,19 +108,15 @@ div.global-header {
 					color: #fff;
 				}
 				div#mainmenu div.topmenu a:hover {
-					xxxcolor: #000;
+					color: #ddd;
 					xxxbackground-color: #dce3e7;
-					opacity: 0.6;
 				}
 			
 				div#mainmenu div.topmenu li.currentsection a {
-					xxxcolor: #000;
-					xxxbackground-color: #dce3e7;
+					color: #000;
+					background-color: #dce3e7;
 					xxxfont-weight: bold;
-					xxxpadding-left: 30px;
-				}
-				div#mainmenu div.topmenu li.currentsection a:before {
-					content: "--> ";
+					padding-left: 20px;
 				}
 				
 				/* Nested submenus of the top level menu */
@@ -160,9 +156,6 @@ div.global-header {
 				div#mainmenu div.thememenu li.currentsection a {
 					xxxcolor: #000;
 					xxxbackground-color: #fff;
-				}
-				div#mainmenu div.thememenu li.currentsection a:before {
-					content: "--> ";
 				}
 
 	/* Visible banner area */
