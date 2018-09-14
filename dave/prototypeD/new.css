@@ -29,7 +29,7 @@ div.global-header {
 
 	div#mainmenu {
 		width: 0;
-		xxxwidth: 900px;
+			xxxwidth: 900px;
 		height: 100%;
 		position: absolute;
 		overflow: hidden;
@@ -129,7 +129,7 @@ div.global-header {
 			/* submenus */
 
 				div#mainmenu li ul {
-					display: none !important;
+					xxxdisplay: none !important;
 				}
 
 			/* submenus - currently selected */
@@ -137,7 +137,6 @@ div.global-header {
 				div#mainmenu li.currentsection ul {
 					width: 50%;
 					height: 100%;
-					float: left;
 					padding: 40px 0px 40px 40px;
 					position: absolute;
 					top: 0;

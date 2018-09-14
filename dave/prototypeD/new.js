@@ -25,6 +25,11 @@
 
 				$("button#hideMainmenu").click(hideMainmenu);
 
+			/* store a reference to the anchor element of the current menu item */
+
+				var currentlink = $("div#mainmenu ul li.currentmenu a");
+				//alert(currentlink);
+
 			/* functions for styling menu items */
 
 				function styleAsCurrent(targetAnchor) {
@@ -33,9 +38,12 @@
 				}
 
 				function styleAsPlain(targetAnchor) {
+					//alert("style plain: " + targetAnchor);
 					$(targetAnchor).css( "color", "#fff" );
 					$(targetAnchor).css( "background-color", "transparent" );
 				}
+
+				styleAsPlain(currentlink);
 
 			/* functions for showing and hiding submenus */
 
@@ -57,10 +65,10 @@
 					$(this).unbind("click");
 					$(this).click(deactivateMenuitem);
 
-					//and declare the old currentmenu item to no longer be the current
-					$("div#mainmenu ul li.currentmenu").removeClass("currentmenu");
+					//declare the old currentmenu item to no longer be the current
+					//$("div#mainmenu ul li.currentmenu").removeClass("currentmenu");
 					//and then make it look plain
-					styleAsPlain("div#mainmenu ul li.currentmenu a");
+					styleAsPlain(currentlink);
 
 					//declare this one just clicked to be the current menu item
 					$(this).parent().addClass("currentmenu");
