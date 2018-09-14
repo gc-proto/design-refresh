@@ -25,10 +25,6 @@
   width: 100%;
 }
 
-#cssmenu ul ul ul {
-  top: 0px;
-  left: 99%;
-}
 
 #cssmenu ul li:hover > ul {
   visibility: visible;
