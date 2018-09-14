@@ -40,29 +40,30 @@ div.global-header {
 	}
 
 		div#mainmenu div#mainmenucolours {
-			position: absolute; 
+			position: absolute;
 			height: 100%;
 			width: 100%;
 			width: 900px;
+			z-index: -1;
 		}
 			div#mainmenu div#mainmenucolours div#topmenucolour {
-				position: absolute; 
+				position: absolute;
 				height: 100%;
-				width: 50%;	
-				background-color: #26374a;	
+				width: 50%;
+				background-color: #26374a;
 			}
 			div#mainmenu div#mainmenucolours div#thememenucolour {
-				position: absolute; 		
+				position: absolute;
 				right: 0;
 				height: 100%;
-				width: 50%;	
-				background-color: #dce3e7;		
+				width: 50%;
+				background-color: #dce3e7;
 			}
 
 		div#mainmenu nav {
 			width: 900px;
 		}
-	
+
 			div#mainmenu p.closebutton {
 				position: absolute;
 				z-index: 900;
@@ -70,7 +71,7 @@ div.global-header {
 				right: 15px;
 				margin: 0;
 			}
-			
+
 			/* styles shared by both menus */
 
 			div#mainmenu ul {
@@ -78,32 +79,32 @@ div.global-header {
 				margin: 0 0 0 -20px;
 				padding: 0;
 			}
-				
+
 			div#mainmenu a {
 				display: block;
 				padding: 10px 10px 10px 20px;
 				text-decoration: none !important;
 			}
-		
+
 			/* top-level menu */
-		
-			div#mainmenu div.topmenu {
+
+				div#mainmenu div.topmenu {
 					width: 50%;
 					height: 100%;
 					float: left;
 					padding: 40px 0px 40px 40px;
-					position: relative;
-					z-index: 100;
+					xxxposition: relative;
+					xxxz-index: 100;
 					color: #fff;
 					background-color: #26374a;
 				}
-			
+
 				div#mainmenu div.topmenu h2 {
 					margin: 0 0 1em 0;
 					font-size: 20px;
 				}
-			
-				div#mainmenu div.topmenu a, 
+
+				div#mainmenu div.topmenu a,
 				div#mainmenu div.topmenu a:visited {
 					color: #fff;
 				}
@@ -111,49 +112,58 @@ div.global-header {
 					color: #ddd;
 					xxxbackground-color: #dce3e7;
 				}
-			
+
 				div#mainmenu div.topmenu li.currentsection a {
 					color: #000;
 					background-color: #dce3e7;
 					xxxfont-weight: bold;
 					padding-left: 20px;
 				}
-				
+
 				/* Nested submenus of the top level menu */
-		
+
 				div#mainmenu div.topmenu ul ul {
 					display: none;
 				}
-			
-			/* theme menu */
-		
-			div#mainmenu div.thememenu {
+
+			/* submenus */
+
+				div#mainmenu li ul {
+					display: none !important;
+				}
+
+			/* submenus - currently selected */
+
+				div#mainmenu li.currentsection ul {
 					width: 50%;
 					height: 100%;
 					float: left;
 					padding: 40px 0px 40px 40px;
-					position: relative;
+					position: absolute;
+					top: 0;
+					right: 0;
 					z-index: 100;
 					color: #000;
 					background-color: #dce3e7;
+					display: block !important;
 				}
-			
-				div#mainmenu div.thememenu h2 {
+
+				div#mainmenu li.currentsection ul h2 {
 					margin: 2.5em 0 1em 0;
 					font-size: 20px;
 				}
-			
-				div#mainmenu div.thememenu a, 
-				div#mainmenu div.thememenu a:visited {
+
+				div#mainmenu li.currentsection ul a,
+				div#mainmenu li.currentsection ul a:visited {
 					color: #000;
 				}
-				div#mainmenu div.thememenu a:hover {
+				div#mainmenu li.currentsection ul a:hover {
 					xxxcolor: #000;
 					xxxbackground-color: #fff;
 					opacity: 0.6;
 				}
-			
-				div#mainmenu div.thememenu li.currentsection a {
+
+				div#mainmenu li.currentsection ul li.currentsection a {
 					xxxcolor: #000;
 					xxxbackground-color: #fff;
 				}
@@ -217,7 +227,7 @@ div.global-header {
 		}
 
 			/* Menu button */
-	
+
 			button#showMainmenu {
 				margin-top: 10px;
 				margin-right: 30px;
