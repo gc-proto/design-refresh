@@ -7,12 +7,12 @@
 			/* functions for showing and hiding the main menu */
 
 				function showMainmenu() {
-					$("div#mainmenu").css( "width", "900px" );
+					$("div#mainmenu").css( "display", "block" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(hideMainmenu);
 				}
 				function hideMainmenu() {
-					$("div#mainmenu").css( "width", "0" );
+					$("div#mainmenu").css( "display", "none" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(showMainmenu);
 				}

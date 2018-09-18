@@ -28,40 +28,19 @@ div.global-header {
 	/* Main menu */
 
 	div#mainmenu {
-		width: 0;
-			width: 900px;
-		height: 100%;
+		display: none;
 		position: absolute;
-		overflow: hidden;
+		min-height: 100%;
 		z-index: 1000;
 		top: 0;
 		left: 0;
 		transition: 0.25s;
+		color: #fff;
+		background-color: #26374a;
 	}
 
-		div#mainmenu div#mainmenucolours {
-			position: absolute;
-			height: 100%;
-			width: 100%;
-			width: 900px;
-			z-index: -1;
-		}
-			div#mainmenu div#mainmenucolours div#topmenucolour {
-				position: absolute;
-				height: 100%;
-				width: 50%;
-				background-color: #26374a;
-			}
-			div#mainmenu div#mainmenucolours div#thememenucolour {
-				position: absolute;
-				right: 0;
-				height: 100%;
-				width: 50%;
-				background-color: #dce3e7;
-			}
-
 		div#mainmenu nav {
-			width: 900px;
+			padding: 40px 0px 40px 40px;
 		}
 
 			div#mainmenu p.closebutton {
@@ -74,13 +53,22 @@ div.global-header {
 
 			/* styles shared by both menus */
 
+			div#mainmenu h2 {
+				margin: 0 0 1em 0;
+				font-size: 20px;
+			}
+
 			div#mainmenu ul {
+				width: 350px;
 				list-style-type: none;
 				margin: 0 0 0 -20px;
 				padding: 0;
+				float: left;
+				font-size: 16px;
 			}
 
-			div#mainmenu a {
+			div#mainmenu a,
+			div#mainmenu a:visited {
 				display: block;
 				padding: 10px 10px 10px 20px;
 				text-decoration: none !important;
@@ -88,63 +76,43 @@ div.global-header {
 
 			/* top-level menu */
 
-				div#mainmenu div.topmenu {
-					width: 50%;
-					height: 100%;
-					float: left;
-					padding: 40px 0px 40px 40px;
-					xxxposition: relative;
-					xxxz-index: 100;
-					color: #fff;
-					background-color: #26374a;
-				}
+			div#mainmenu a,
+			div#mainmenu a:visited {
+				xxxbackground-color: #36475a;
+				color: #fff;
+			}
+			div#mainmenu a:hover {
+				color: #000;
+				background-color: #dce3e7;
+				opacity: 0.5;
+			}
 
-				div#mainmenu div.topmenu h2 {
-					margin: 0 0 1em 0;
-					font-size: 20px;
-				}
-
-				div#mainmenu div.topmenu a,
-				div#mainmenu div.topmenu a:visited {
-					color: #fff;
-				}
-				div#mainmenu div.topmenu a:hover {
-					color: #ddd;
-					xxxbackground-color: #dce3e7;
-				}
-
-				div#mainmenu div.topmenu li.currentsection a {
-					color: #000;
-					background-color: #dce3e7;
-					xxxfont-weight: bold;
-					padding-left: 20px;
-				}
-
-				/* Nested submenus of the top level menu */
-
-				div#mainmenu div.topmenu ul ul {
-					display: none;
-				}
+			div#mainmenu li.currentsection a {
+				color: #000;
+				background-color: #dce3e7;
+			}
+			div#mainmenu li.currentsection a:hover {
+				opacity: 1.0;
+			}
 
 			/* submenus */
 
-				div#mainmenu li ul {
-					xxxdisplay: none !important;
+				div#mainmenu ul ul {
+					display: none;
 				}
 
-			/* submenus - currently selected */
-
-				div#mainmenu li.currentsection ul {
-					width: 50%;
-					height: 100%;
-					padding: 40px 0px 40px 40px;
+				div#mainmenu ul li.currentsection ul {
 					position: absolute;
-					top: 0;
-					right: 0;
-					z-index: 100;
+					top: 00px;
+					left: 390px;
+					padding-top: 100px;
+					padding-left: 20px;
+					min-height: 100%;
 					color: #000;
 					background-color: #dce3e7;
-					display: block !important;
+					display: block;
+				}
+				div#mainmenu ul li.currentsection ul li {
 				}
 
 				div#mainmenu li.currentsection ul h2 {
@@ -157,14 +125,11 @@ div.global-header {
 					color: #000;
 				}
 				div#mainmenu li.currentsection ul a:hover {
-					xxxcolor: #000;
-					xxxbackground-color: #fff;
-					opacity: 0.6;
+					background-color: #fff;
+					padding-right: 20px;
 				}
 
 				div#mainmenu li.currentsection ul li.currentsection a {
-					xxxcolor: #000;
-					xxxbackground-color: #fff;
 				}
 
 	/* Visible banner area */
