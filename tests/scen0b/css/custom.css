@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+h1 {
+
+	font-size: 34px !important;
+	font-weight: 700 !important;
+	font-family: 'Open Sans', sans-serif; !important;
+
+}
+
+
+h2 {
+
+	font-size: 29px !important;
+	font-weight: 700 !important;
+	font-family: 'Open Sans', sans-serif; !important;
+	 padding-bottom: 10px; /* Note we can't do this globally because it doesn't work on topic pages */
+}
+
+h2.services-info {
+	padding-bottom: 0;
+}
+
+
+h3 {
+
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+h4 {
+
+	font-size: 19px !important;
+	font-weight: 700 !important;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+h5 {
+
+	font-size: 17px !important;
+	font-weight: 700 !important;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+body, header, nav#wb-bc {
+
+
+	background-color: white !important;
+	font-family: 'Open Sans', sans-serif;
+
+	}
+
+
+
+
+@media screen and (max-width: 991px) {
+
+h1 {
+		font-size: 30px !important;
+
+	}
+
+}
+
+
+/* On this page, reducing size as an h2*/
+.smh3 {
+
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	margin-bottom: 0px !important;
+
+}
+
+ul.menu li {
+
+	font-size: 16px !important;
+	line-height: 22px !important;
+}
+
+p, ul, li {
+
+
+	font-size: 19px !important;
+	font-family: 'Open Sans', sans-serif; !important;
+      font-weight: 400 !important;
+      -webkit-font-smoothing:antialiased;
+
+	 line-height: 27px !important;
+
+
+}
+
+td {
+
+	font-size: 19px !important;
+	font-family: 'Open Sans', sans-serif; !important;
+
+}
+
+caption, th {
+
+	font-size: 17px !important;
+	font-family: 'Open Sans', sans-serif; !important;
+
+}
+
+.btn-primary /* big buttons */ {
+
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 22px !important;
+}
+
+.btn-small /* resize the search button back to small */
+
+{
+
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	font-size: 16px !important;
+
+}
+
+/* controls bullet spacing */
+
+.bullet {
+
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+
+}
+
+/* font size in li of breadcrumb */
+
+.cust-breadcrumb {
+
+	font-size: 15px !important;
+
+}
+
+
+/* removing padding that pushes content down a lot */
+.breadcrumb {
+
+	margin-bottom: -10px !important;
+	padding-top: 2px !important;
+}
+
+
+
+
+.list-group-item {
+
+
+background-color: #F8F8F8;
+
+	}
+
+/* menu items */
+
+.cust-small   {
+
+	margin-top: -3px !important;
+	font-size: 16px !important;
+
+
+
+}
+
+/* for the active menu item color */
+
+.cust-active   {
+
+	background-color: #4d4d4d !important;
+	border-color: #8f8f8f  !important;
+
+}
+
+.ch5 {
+
+	font-size: 18px !important;
+
+}
+
+abbr {
+	border-bottom: none !important;
+	border-bottom-style: none !important;
+	text-decoration: none;
+}
+<<<<<<< HEAD:business-tax/mvp/css/custom.css
+
+header {
+	position: relative
+}
+header .brand {
+	margin-bottom: 0px;
+	padding-top:0px;
+	padding-bottom:0px; 
+}
+
+#topbar { border-bottom:solid #335075 1px;}
+
+button#wb-srch-sub a:visited {
+
+  color: white !important;
+
+
+  }
+
+
+  button#wb-srch-sub a {
+
+  color: white !important;
+
+
+  }
+
+.form-inline .form-group {
+    /* display: flex; */
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 0;
+}
+
+#wb-srch .submit {
+    /* float: right; */
+    right: 0;
+}
+
+/*header .brand object {
+
+    max-width: 70%;
+}*/
+
+header .brand object {
+    height: auto;
+    max-height: 37px;
+}
+
+#wb-glb-mn ul.chvrn:before {
+    /*border-bottom: 1.375em solid transparent;
+    border-left: .6875em solid #f8f8f8;
+    border-top: 1.375em solid transparent;*/
+	border-bottom: 1.0em solid transparent;
+    border-left: .6875em solid #fff;
+    border-top: 1.0em solid transparent;
+    content: " ";
+    display: block;
+    float: left;
+    height: 0;
+    position: relative;
+    width: 0;
+}
+
+#wb-glb-mn {
+    margin-top: 5px;
+	padding-right: 0px;
+}
+
+#wb-glb-mn .glyphicon {
+    top: auto;
+    vertical-align: middle;
+	font-size: 0.8em;
+}
+
+#wb-glb-mn ul {
+    /*min-width: 150px;*/
+	min-width: 80px;
+}
+
+#wb-glb-mn ul.chvrn {
+   
+    height: 2.0em;
+}
+
+#wb-glb-mn ul.chvrn li a {
+    
+    font-size: 1.9em;
+    padding: 3px 15px;
+}
+
+#language li a {font-size:16px;}
+
+
+.modal-body .srch-pnl, .modal-body .lng-ofr {display: none;}
+
+#mb-pnl .sm-pnl {
+    background: #666;
+    padding-left: 0px;
+}
+
+#mb-pnl .modal-body {
+    background: #666;
+=======
+>>>>>>> 7b0075c42fcd8c4e708f811e41efdf5b25ce79e5:tests/scen0b/css/custom.css

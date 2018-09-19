@@ -1,0 +1,267 @@
+
+/* Basic page rules */
+
+body {
+	margin-top: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h3 a {
+	font-size: 19px;
+	font-weight: normal;
+}
+
+/* Entire global header */
+
+div.global-header {
+
+}
+
+	/* Search panel */
+
+	div#searchpanel {
+		width: 0;
+		position: absolute;
+		overflow: hidden;
+		z-index: 1000;
+		top: 0;
+		left: 0;
+		transition: 0.25s;
+		background-color: #eee;
+		background-color: #fff;
+		border-right: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		font-size: 16px;
+	}
+
+	div#searchpanel div.searchform {
+		padding: 20px;
+		width: 400px;
+	}
+
+	div#searchpanel p {
+		text-align: right;
+		margin: 10px 10px 10px 10px;
+	}
+
+	/* Main menu */
+
+	div#mainmenu {
+		width: 0;
+		position: absolute;
+		overflow: hidden;
+		z-index: 1000;
+		top: 0;
+		right: 0;
+		transition: 0.25s;
+		background-color: #eee;
+		background-color: #fff;
+		border-left: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		font-size: 16px;
+	}
+
+	div#mainmenu p {
+		text-align: right;
+		margin: 10px 10px 10px 10px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	div.searchform {
+		xx	display: none;
+	}
+
+		div.searchform h2 {
+			font-size: 20px;
+			margin-top: 0em;
+		}
+
+		div.searchform input {
+			padding-left: 8px;
+			}
+
+		div.searchform .form-control {
+			font-size: 14px !important;
+			margin-bottom: 5px;
+			}
+
+		div.searchform select {
+
+			}
+
+	div#mainmenu nav {
+		width: 400px;
+		padding: 20px;
+	}
+
+	div#mainmenu nav ul {
+		list-style-type: none;
+		margin: 0 0 0 0;
+		padding: 0;
+		clear: both;
+	}
+
+	div#mainmenu nav ul li {
+		border-bottom: 1px solid #fff;
+	}
+
+	div#mainmenu nav ul li a {
+		color: #000;
+		display: block;
+		padding: 10px 10px 10px 15px;
+		background-color: #eee;
+		text-decoration: none !important;
+	}
+	div#mainmenu nav ul li a:hover {
+		color: #000;
+		background-color: #ddd;
+		text-decoration: none !important;
+	}
+	div#mainmenu nav ul li a:visited {
+		color: #000;
+		text-decoration: none !important;
+	}
+
+		/* Nested submenus */
+
+		div#mainmenu nav ul ul {
+			border-top: 1px solid #fff;
+			border-top: 0;
+			display: none;
+			overflow: hidden;
+			font-size: 14px;
+		}
+
+			div#mainmenu nav ul ul li:last-child {
+				border-bottom: 0;
+			}
+
+			div#mainmenu nav ul ul a {
+				background-color: #f6f6f6;
+				padding: 7px 10px 7px 20px;
+			}
+
+	/* Visible banner area */
+
+	div#wb-bnr {
+		position: relative;
+	}
+
+		/* FIP column */
+
+		div.brand {
+
+		}
+
+		/* Crumb trail */
+
+		div.breadcrumb {
+			border-radius: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+			nav#wb-bc {
+				font-size: 16px;
+				background-color: transparent;
+			}
+
+			nav#wb-bc ol.breadcrumb {
+				padding-left: 0;
+			}
+
+		/* UI controls */
+
+		div.menus-search {
+			font-size: 16px;
+		}
+
+			div.menus-search button {
+				margin-left: 7px;
+				color: #000;
+			}
+
+			a.langlink {
+				margin-right: 17px;
+				color: #000;
+				font-size: 16px;
+			}
+			a.langlink:visited {
+				color: #000;
+			}
+
+		/* theme menu */
+
+		div.thememenu {
+			display: none;
+			zzposition: absolute;
+			margin-bottom: 30px;
+			width: 100%;
+			padding: 20px 0 30px 4px;
+			z-index: 100;
+			background-color: #f9f9f9;
+			xborder-top: 1px solid #ccc;
+			border: 1px solid #ccc;
+			font-size: 15px;
+		}
+
+			div.thememenu h2 {
+				margin: 10px 1em 1em 15px;
+			}
+
+			div.thememenu p {
+				position: absolute;
+				top: 0;
+				right: 25px;
+			}
+
+			div.thememenu ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			div.thememenu ul li {
+				width: 33.2%;
+				zzzborder-bottom: 1px solid #fff;
+				float: left;
+				margin-right: 1px;
+			}
+
+			div.thememenu ul li a {
+				color: #000;
+				display: block;
+				padding: 7px 17px 7px 17px;
+				zzzbackground-color: #eee;
+				text-decoration: none !important;
+			}
+			div.thememenu ul li a:hover {
+				color: #000;
+				background-color: #ddd;
+				text-decoration: none !important;
+			}
+			div.thememenu ul li a:visited {
+				color: #000;
+				text-decoration: none !important;
+			}
+
+/* main content area */
+
+main.container {
+	margin-top: -20px;
+	padding-top: 0;
+}
+
+/* footer */
+
+#wb-info a {
+	font-size: 18px;
+	}
