@@ -1,0 +1,238 @@
+
+/* Basic page rules */
+
+body {
+	margin-top: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Merriweather', serif;
+}
+
+h3 a {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+/* Entire global header */
+
+div.global-header {
+
+}
+
+	/* Main menu */
+
+	div#mainmenu {
+		display: none;
+		position: absolute;
+		min-height: 100%;
+		z-index: 1000;
+		top: 0;
+		left: 0;
+		transition: 0.25s;
+		color: #fff;
+		background-color: #26374a;
+	}
+
+		div#mainmenu nav {
+			padding: 40px 0px 40px 40px;
+		}
+
+			div#mainmenu p.closebutton {
+				position: absolute;
+				z-index: 900;
+				top: 15px;
+				right: 15px;
+				margin: 0;
+			}
+
+			/* styles shared by both menus */
+
+			div#mainmenu h2 {
+				margin: 0 0 1em 0;
+				font-size: 20px;
+			}
+
+			div#mainmenu ul {
+				width: 350px;
+				list-style-type: none;
+				margin: 0 0 0 -20px;
+				padding: 0;
+				float: left;
+				font-size: 16px;
+			}
+
+			div#mainmenu a,
+			div#mainmenu a:visited {
+				display: block;
+				padding: 10px 10px 10px 20px;
+				text-decoration: none !important;
+			}
+
+			/* top-level menu */
+
+			div#mainmenu a,
+			div#mainmenu a:visited {
+				xxxbackground-color: #36475a;
+				color: #fff;
+			}
+			div#mainmenu a:hover {
+				color: #000;
+				background-color: #dce3e7;
+				opacity: 0.5;
+			}
+
+			div#mainmenu li.currentsection a {
+				color: #000;
+				background-color: #dce3e7;
+			}
+			div#mainmenu li.currentsection a:hover {
+				opacity: 1.0;
+			}
+
+			/* submenus */
+
+				div#mainmenu ul ul {
+					display: none;
+				}
+
+				div#mainmenu ul li.currentsection ul {
+					position: absolute;
+					top: 00px;
+					left: 390px;
+					padding-top: 100px;
+					padding-left: 20px;
+					min-height: 100%;
+					color: #000;
+					background-color: #dce3e7;
+					display: block;
+				}
+				div#mainmenu ul li.currentsection ul li {
+				}
+
+				div#mainmenu li.currentsection ul h2 {
+					margin: 2.5em 0 1em 0;
+					font-size: 20px;
+				}
+
+				div#mainmenu li.currentsection ul a,
+				div#mainmenu li.currentsection ul a:visited {
+					color: #000;
+				}
+				div#mainmenu li.currentsection ul a:hover {
+					background-color: #fff;
+					padding-right: 20px;
+				}
+
+				div#mainmenu li.currentsection ul li.currentsection a {
+				}
+
+	/* Visible banner area */
+
+	div#wb-bnr {
+		position: relative;
+	}
+
+		/* FIP column */
+
+		div.brand {
+
+		}
+
+		/* Language link */
+
+		p.langlink {
+			font-size: 16px;
+			margin: 0;
+		}
+
+		p.langlink a {
+			color: #000;
+		}
+		p.langlink a:visited {
+			color: #000;
+		}
+
+		/* Site search */
+
+		div.searchform {
+			position: relative !important;
+			}
+
+			div.searchform h2 {
+				}
+
+			div.searchform form {
+				margin-top: 17px;
+				}
+
+			div.searchform input {
+				}
+
+			div.searchform .form-control {
+				font-size: 14px !important;
+				}
+
+			div.searchform select {
+				display: none !important;
+				}
+
+		/* Crumb trail */
+
+		div.breadcrumbtrail {
+			border-radius: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+			/* Menu button */
+
+			button#showMainmenu {
+				margin-top: 10px;
+				margin-right: 30px;
+				float: left;
+			}
+
+			/* Rest of crumb trail */
+
+			div.breadcrumbtrail {
+				border-radius: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				float: left;
+			}
+
+			nav#wb-bc {
+				xxfont-size: 16px;
+				background-color: transparent;
+			}
+
+			nav#wb-bc ol.breadcrumb {
+				padding-left: 0;
+				padding: 0;
+				margin-top: 15px;
+				margin-bottom: 10px;
+			}
+
+/* main content area */
+
+div#main {
+	position: relative;
+}
+
+/* main content area - actual content */
+
+main.container {
+	padding-top: 0;
+}
+
+/* footer */
+
+#wb-info a {
+	font-size: 18px;
+	}

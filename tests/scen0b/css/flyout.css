@@ -1,0 +1,73 @@
+#cssmenu ul {
+  position: relative;
+  z-index: 397;
+}
+
+#cssmenu ul li {
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 399;
+  cursor: default;
+}
+
+#cssmenu ul ul {
+  visibility: hidden;
+  /* hide sub menus by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 398;
+  width: 100%;
+}
+
+
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+  /* show sub menu */
+}
+
+#cssmenu ul ul {
+  top: 0px;
+  left: 99%;
+}
+
+/* Custom CSS Styles */
+#cssmenu ul {
+  width: 200px;
+  /* main menu width */
+  background: #efefef;
+}
+
+#cssmenu ul ul {
+  width: 150px;
+  /* sub menu width */
+}
+
+#cssmenu ul li {
+  padding: 7px 10px;
+  color: #000;
+}
+
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+  background: #ccc;
+}
+
+#cssmenu ul a:link,
+#cssmenu ul a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#cssmenu ul a:hover {
+  color: #000;
+}
+
+#cssmenu ul a:active {
+  color: #ffa500;
+}

@@ -6,7 +6,7 @@ img.thumbnail {
 /* Entire global header */
 
 div.global-header {
- padding-top:1em;
+ padding-top:2em;
 }
 
 .btn-primary {
@@ -35,6 +35,10 @@ div.global-header {
 		text-align: right;
 		margin: 10px 10px 10px 10px;
 	}
+
+  .submainmenu li {
+    text-indent: 1.5em;
+  }
 
 	h2 {
 		font-size: 20px;
@@ -110,8 +114,11 @@ div.global-header {
 			}
 
 			div#mainmenu nav ul ul a {
-				background-color: #f6f6f6;
-				padding: 7px 10px 7px 20px;
+				display: inline-block;
+				background-color: #f6f6f6 !important;
+				text-indent:0!important;
+				padding: 7px 10px 7px 10px;
+
 			}
 
 	/* Visible banner area */
@@ -221,7 +228,6 @@ div.global-header {
 /* main content area */
 
 main.container {
-	margin-top: -20px;
 	padding-top: 0;
 }
 
