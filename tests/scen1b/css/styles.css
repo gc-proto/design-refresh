@@ -6561,14 +6561,15 @@ label.panel-block {
   */
 
 .topmenu {
-  background: #5C5C5C;
+
   padding: 0; }
   .topmenu ul.nav > li > a {
     background: #5C5C5C;
     display: inline-block;
-    font-size: 22px;
-    padding: 0.7em 2em;
+    font-size: 16px;
+    padding: 0.5em 1em;
     margin-left: -15px;
+    margin-bottom: -25px;
     color: rgba(255, 255, 255, 0.8);
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 1px solid rgba(255, 255, 255, 0.1); }

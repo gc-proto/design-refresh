@@ -13800,8 +13800,8 @@ a.shr-opn:hover {
     background-position: left bottom;
     background-repeat: no-repeat;
     display: inline-block;
-    min-height: 32px;
-    min-width: 32px
+/*    min-height: 32px;
+    min-width: 32px */
 }
 
 .icon.youtube {
