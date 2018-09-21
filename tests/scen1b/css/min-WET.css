@@ -13286,7 +13286,8 @@ main .gc-rms-lngth img {
 
 #wb-srch,
 .srchbox {
-    padding-top: 1em
+    padding-top: 1em;
+    padding-bottom: .6em;
 }
 
 #wb-srch button,
@@ -13321,7 +13322,7 @@ main .gc-rms-lngth img {
 
 #wb-srch input,
 .srchbox input {
-    background-color: #e0e0e0;
+    background-color: white;
     border-color: #e0e0e0;
     border-right: 0;
     border-style: solid;
