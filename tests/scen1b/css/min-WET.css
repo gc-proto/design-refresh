@@ -5217,6 +5217,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 /*safe below */
 .breadcrumb {
+    padding-top: 15px !important;
     padding: 8px 15px;
     margin-bottom: 23px;
     list-style: none;
