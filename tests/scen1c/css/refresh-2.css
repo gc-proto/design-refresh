@@ -386,10 +386,10 @@ background-color: #F8F8F8;
 
 
 .canadamenu {
-	background-color: #38414d;
+	background-color: #ddd;
 	display: inline-block;
 	width: 100%;
-	max-height: 6px;
+	max-height: 1px;
 
 }
 
