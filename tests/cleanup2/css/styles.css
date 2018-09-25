@@ -6569,10 +6569,13 @@ label.panel-block {
     font-size: 18px;
     padding: 0.5em 1em;
     margin-left: -15px;
+    /* border-bottom: 1px #444 solid !important; */
  }
   .topmenu ul.nav > li > a:hover {
     background: #444;
-    color: white; }
+    color: white;
+
+  }
 
 .topmenu .link-list a {
   color: #124B81 !important;
@@ -6823,7 +6826,8 @@ a.title-link h2 {
   margin-bottom: 0.2em; }
 
 .dropdown-toggle {
-  background: #white !important; }
+  background: #white !important;
+}
 
 .dropdown-toggle:hover {
   background: #444 !important; }

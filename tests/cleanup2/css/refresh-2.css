@@ -206,8 +206,8 @@ abbr {
 
 	font-size: 19px !important;
 		line-height: 28px !important;
-		list-style-type: square !important;
-		color: #bbb;
+		list-style-type: disc !important;
+		color: black;
 
 	margin-left: 50px;
 
@@ -391,7 +391,7 @@ background-color: #F8F8F8;
 	width: 100%;
 	max-height: 100px;
 	/* border-bottom: 1px solid #38414d; */
-	border-top: 4px solid #38414d;
+	border-top: 3px solid #38414d;
 }
 
 .homemenu {
