@@ -142,7 +142,7 @@ h1 {
 .mr-home {
 
 	font-size: 17px !important;
-	margin-top: -12px !important;
+
 
 
 }
@@ -386,11 +386,20 @@ background-color: #F8F8F8;
 
 
 .canadamenu {
-	
+
 	display: inline-block;
 	width: 100%;
 	max-height: 100px;
-	border-bottom: 1px solid #ddd;
+	/* border-bottom: 1px solid #38414d; */
+	border-top: 4px solid #38414d;
+}
+
+.homemenu {
+
+	display: inline-block;
+	width: 100%;
+	max-height: 100px;
+	/* border-bottom: 1px solid #38414d; */
 	border-top: 1px solid #ddd;
 }
 
