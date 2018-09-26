@@ -5217,7 +5217,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 /*safe below */
 .breadcrumb {
-    padding-top: 15px !important;
+
     padding: 8px 15px;
     margin-bottom: 23px;
     list-style: none;
@@ -13223,11 +13223,13 @@ header .brand a {
 }
 
 #wb-lng {
-    padding-top: 10px
+    padding-top: 5px;
+
 }
 
 #wb-lng li {
-    padding-right: 0
+    padding-right: 0;
+    font-size: 15px !important;
 }
 
 [dir=rtl] #wb-lng {
