@@ -7456,7 +7456,7 @@ a:visited {
 */
 
 .nav>li>a:visited {
-    color: #295376
+    color: red
 }
 
 .nav-pills>li.active>a:visited {
