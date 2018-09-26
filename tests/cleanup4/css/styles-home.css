@@ -6577,6 +6577,11 @@ label.panel-block {
 
   }
 
+  .topmenu   a:focus {
+
+      color: white;
+    }
+
 
 
 .topmenu .link-list a {
