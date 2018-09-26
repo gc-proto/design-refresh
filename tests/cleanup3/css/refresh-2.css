@@ -156,12 +156,16 @@ h1 {
 
 }
 
+.form-group, .form-inline {
+
+
+}
 
 .mr-home {
 
 	font-size: 18px !important;
 	font-weight: 600 !important;
-	padding-bottom: 5px ;
+	padding-bottom: 7px ;
 	font-family: 'Lato', sans-serif !important;
 
 }
