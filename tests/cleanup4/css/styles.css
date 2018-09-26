@@ -6583,6 +6583,11 @@ label.panel-block {
 /*  line-height: 1.3; */
   padding: 0.3em 0; }
 
+  .topmenu   a:focus {
+
+      color: white;
+    }
+
 .page {
   background: #fff;
   padding: 2.5em 4em;
