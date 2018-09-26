@@ -5378,9 +5378,9 @@ input[type="submit"].btn.btn-mini {
   left: 0;
   z-index: 1010;
   display: none;
-  min-width: 600px;
 
-  padding: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: left;
   white-space: normal;
   color: #333;
