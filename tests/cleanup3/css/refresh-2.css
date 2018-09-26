@@ -371,12 +371,14 @@ background-color: #F8F8F8;
 	color: white;
 	margin-top: 8px;
 
+
 }
 
 .text-background-1 {
 
 		background-color: #26374a;
 		padding-top: 15px;
+		opacity: .95;
 
 }
 
@@ -385,6 +387,7 @@ background-color: #F8F8F8;
 
 		background-color: #26374a;
 		padding-bottom: 15px;
+		opacity: .95;
 }
 
 .your-gov {
