@@ -6795,7 +6795,7 @@ a.maintainHover {
   box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1); }
 
 .popover-content {
-  min-width: 800px !important; }
+  min-width: 745px !important; }
 
 .column-one, .column-two {
   float: left; }
