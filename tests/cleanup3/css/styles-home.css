@@ -6564,18 +6564,20 @@ label.panel-block {
 
   padding: 0; }
   .topmenu ul.nav > li > a {
-    background: #5C5C5C;
+
     display: inline-block;
-    font-size: 19px;
+    font-size: 20px;
     padding: 0.5em 1em;
     margin-left: -15px;
-
-    color: white;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-    border-left: 1px solid rgba(255, 255, 255, 0.1); }
+    /* border-bottom: 1px #444 solid !important; */
+ }
   .topmenu ul.nav > li > a:hover {
     background: #444;
-    color: white; }
+    color: white;
+
+  }
+
+
 
 .topmenu .link-list a {
   color: #124B81 !important;
@@ -6826,7 +6828,8 @@ a.title-link h2 {
   margin-bottom: 0.2em; }
 
 .dropdown-toggle {
-  background: #38414d !important; }
+  background: #white !important;
+}
 
 .dropdown-toggle:hover {
   background: #444 !important; }
