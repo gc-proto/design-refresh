@@ -13111,7 +13111,7 @@ header .brand a {
 }
 
 #wb-info {
-    background: #e1e4e7;
+  /*  background: #e1e4e7; */
     position: relative;
     z-index: 5
 }
