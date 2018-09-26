@@ -12,11 +12,23 @@ h1 {
 
 }
 
+.mini-h2s {
+
+	padding-top: 0px !important;
+	margin-top: 25px !important;
+
+	font-size: 24px !important;
+	font-weight: 600 !important;
+	font-family: 'Lato', sans-serif;
+}
+
+
 .homeborder {
 
 	font-weight: 500 !important;
 	font-family: 'Lato', sans-serif;
-	border-bottom: 4px solid #af3c43
+	border-bottom: 4px solid #af3c43;
+
 
 }
 
@@ -26,7 +38,7 @@ h2 {
 	font-size: 34px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
-	padding-top: 20px !important;
+
 }
 
 
@@ -144,12 +156,17 @@ h1 {
 
 }
 
+.form-group, .form-inline {
+
+
+}
 
 .mr-home {
 
 	font-size: 18px !important;
-
-
+	font-weight: 600 !important;
+	padding-bottom: 7px ;
+	font-family: 'Lato', sans-serif !important;
 
 }
 
@@ -354,12 +371,14 @@ background-color: #F8F8F8;
 	color: white;
 	margin-top: 8px;
 
+
 }
 
 .text-background-1 {
 
 		background-color: #26374a;
 		padding-top: 15px;
+		/* opacity: .95; */
 
 }
 
@@ -368,6 +387,7 @@ background-color: #F8F8F8;
 
 		background-color: #26374a;
 		padding-bottom: 15px;
+		/* opacity: .95; */
 }
 
 .your-gov {
@@ -422,11 +442,7 @@ background-image: url("../images/canada-bkg.jpg");
 
 }
 
-#wb-info {
 
-
-	background: #26374a !important;
-}
 
 .footer-text {
 
@@ -434,8 +450,50 @@ background-image: url("../images/canada-bkg.jpg");
 
 }
 
+
+.parliament
+{
+
+	background-image: url("../images/parliament-vector.png");
+	background-color: #26374a;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+
+}
 .brand {
 
 	background: white !important;
 	border-top: none !important;
+}
+
+section.lnkbx ul {
+
+	padding-top: 15px;
+	padding-bottom: 18px;
+}
+
+.init-purple {
+
+	background-color: #2a1b54;
+	color: white;
+	padding: 15px;
+	min-height: 105px;
+
+}
+
+.init-yellow {
+
+	background-color: #feed01;
+	color: white;
+	padding: 15px;
+	min-height: 105px;
+
+}
+
+.init {
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 23px !important;
 }
