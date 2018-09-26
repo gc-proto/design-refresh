@@ -161,7 +161,8 @@ h1 {
 
 	font-size: 18px !important;
 	font-weight: 600 !important;
-	font-family: 'Lato', sans-serif;
+	padding-bottom: 5px ;
+	font-family: 'Lato', sans-serif !important;
 
 }
 
