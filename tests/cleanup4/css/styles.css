@@ -6914,7 +6914,7 @@ a.title-link h2 {
 
   /* responsive in tablet view */
 
-@media (max-width:1224px) {
+@media (max-width:1200px) {
     .popover {
       box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
     }
