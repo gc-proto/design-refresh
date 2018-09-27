@@ -19,16 +19,24 @@
 	.highlight-button {
 
 	  border: none !important;
-	  color: white;
+	
 	  margin-right: 20px;
 	  margin-left: 20px;
-	  background-color: #284162;
 	}
 
 
 #mr_jobs li, #mr_imm li {
 
 	text-indent: 3em;
+}
+
+#click_jobs_mr, #click_imm_mr {
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-indent: 2.2em;
+
+
 }
 
 	div#mainmenu {
@@ -39,8 +47,7 @@
 		padding-right: 20px;
 		padding-left: 20px;
 		transition: 0;
-		background-color: #eee;
-		background-color: #fff;
+		background-color: #444;
 		border-left: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
 
@@ -90,20 +97,21 @@
 		clear: both;
 	}
 
-	div#mainmenu nav ul li {
-		border-bottom: 1px solid #fff;
-	}
+
 
 	div#mainmenu nav ul li a {
-		color: #000;
+		color: #ccc !important;
 		display: block;
-		padding: 10px 10px 10px 15px;
-		background-color: #eee;
+		padding: 10px 30px 10px 15px;
+		background-color: #444;
 		text-decoration: none !important;
+	  line-height: 35px;
+	  font-size: 18px;
+		border-bottom: 1px solid #ccc;
 
 	}
 	div#mainmenu nav ul li a:hover {
-		color: #333;
+		color: #444 !important;
 		background-color: white;
 		text-decoration: none !important;
 
@@ -121,19 +129,24 @@
 			display: none;
 			overflow: hidden;
 			font-size: 14px;
+			background-color: #444 !important;
 		}
 
-			div#mainmenu nav ul ul li:last-child {
+			div#mainmenu nav ul ul li:first-child {
 				border-bottom: 0;
+				background-color: #ddd !important;
 			}
+
 
 			div#mainmenu nav ul ul a {
-				display: inline-block;
-				background-color: #f6f6f6 !important;
-				text-indent:0!important;
+
 				padding: 7px 10px 7px 10px;
+				background-color: white !important;
+				color: #333 !important;
 
 			}
+
+
 
 	/* Visible banner area */
 
@@ -197,9 +210,3 @@
 				color: #000;
 				text-decoration: none !important;
 			}
-
-.hide-me-menu
-
-{
-		z-index: 1000;
-}

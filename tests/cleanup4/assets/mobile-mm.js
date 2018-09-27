@@ -56,7 +56,7 @@
 
 				function openSubmenu() {
 					// turn on this line below if we want to auto-close all other submenus when opening a new one
-					// $("nav ul ul").css( "display", "none" );
+					$("nav ul ul").css( "display", "none" );
 					$(this).parent().find('ul').css( "border-top", "1px solid #fff" );
 					$(this).parent().find('ul').css( "display", "block" );
 					$(this).unbind("click");
