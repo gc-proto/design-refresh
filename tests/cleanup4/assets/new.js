@@ -26,6 +26,8 @@
 					$("div#mainmenu").removeClass( "wb-inv" );
 					$("li#nav-highlight").removeClass( "wb-inv" );
 					$("li#nav-normal").addClass( "wb-inv" );
+					$("li#nav-highlight").removeClass( "wb-inv" );
+					$("li#nav-normal").addClass( "wb-inv" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(hideMainmenu);
 					$("button#toggleSearch").unbind("click");
@@ -118,5 +120,7 @@
 
 			/* ===================================================================== */
 			//
+
+
 
 	});
