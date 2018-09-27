@@ -6945,3 +6945,8 @@ a.title-link h2 {
     .column-two {
       width: 100%; }
   }
+
+  .column-one {
+
+    padding-top: 18px;
+  }
