@@ -3,15 +3,10 @@
 
 	/* Main menu */
 
-#mobile-mm {
 
-margin-left: -15px;
-margin-right: -16px;
-}
+#mr_jobs li {
 
-div#mr-jobs li {
-
-	margin-left: 100px;
+	text-indent: 3em;
 }
 	div#mainmenu {
 
