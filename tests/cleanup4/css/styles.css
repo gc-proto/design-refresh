@@ -6947,8 +6947,10 @@ a.title-link h2 {
   }
 
     .column-one {
-      width: 100%; }
+      width: 100%;
+    }
 
     .column-two {
-      width: 100%; }
+      width: 100%;
+      }
   }
