@@ -175,12 +175,26 @@
 }
 
 
-.coll { background-image: url("images/icon-collapse.png"); }
 
 </style>
 
+<script>
 
 
+$('#click_advance').click(function() {
+      $('#display_advance').toggle('1000');
+      $("i", this).toggleClass("fa-chevron-down fa-chevron-up");
+  })
+
+
+
+</script>
+
+
+<button id="click_advance"><i class="fas fa-chevron-down"></i> Advanced search</button>
+<div id="display_advance">
+    <p>This is the advance search</p>
+</div>
 
 <div class="homemenu visiblen-sm visible-xs">
 <div class="container">

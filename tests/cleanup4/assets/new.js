@@ -1,6 +1,7 @@
 
 	$(document).ready(function() {
 
+
 		/* ===================================================================== */
 		// Search form
 
@@ -17,6 +18,7 @@
 					$(this).click(showSearchform);
 				}
 
+
 		/* ===================================================================== */
 		// Main menu
 
@@ -24,8 +26,6 @@
 
 				function showMainmenu() {
 					$("div#mainmenu").removeClass( "wb-inv" );
-					$("li#nav-highlight").removeClass( "wb-inv" );
-					$("li#nav-normal").addClass( "wb-inv" );
 					$("li#nav-highlight").removeClass( "wb-inv" );
 					$("li#nav-normal").addClass( "wb-inv" );
 					$("button#showMainmenu").unbind("click");
