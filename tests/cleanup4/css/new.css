@@ -72,11 +72,13 @@
 		padding: 10px 10px 10px 15px;
 		background-color: #eee;
 		text-decoration: none !important;
+		cursor: pointer;
 	}
 	div#mainmenu nav ul li a:hover {
-		color: #000;
-		background-color: #ddd;
+		color: #333;
+		background-color: white;
 		text-decoration: none !important;
+
 	}
 	div#mainmenu nav ul li a:visited {
 		color: #000;
@@ -171,5 +173,5 @@
 .hide-me-menu
 
 {
-
+		z-index: 1000;
 }
