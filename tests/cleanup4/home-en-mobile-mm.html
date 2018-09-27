@@ -178,23 +178,6 @@
 
 </style>
 
-<script>
-
-
-$('#click_advance').click(function() {
-      $('#display_advance').toggle('1000');
-      $("i", this).toggleClass("fa-chevron-down fa-chevron-up");
-  })
-
-
-
-</script>
-
-
-<button id="click_advance"><i class="fas fa-chevron-down"></i> Advanced search</button>
-<div id="display_advance">
-    <p>This is the advance search</p>
-</div>
 
 <div class="homemenu visiblen-sm visible-xs">
 <div class="container">
@@ -224,12 +207,12 @@ $('#click_advance').click(function() {
               <button id="hideMainmenu" class="pull-right">Close</button>
 
 
-              <nav>
+              <nav id="mobile-mm">
 
 
 
               <ul>
-              <li><a href="#"><i class="fas fa-chevron-down">&nbsp;&nbsp;Jobs and the workplace</i></a>
+              <li id="click_jobs"><a href="#"><span><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i></span></i>Jobs and the workplace</a>
 
                 <ul class="submainmenu">
 
@@ -254,10 +237,11 @@ $('#click_advance').click(function() {
               <li><a href="http://www.esdc.gc.ca/en/jobs/workplace/index.page">Workplace standards</a></li>
               <li><a href="https://www.canada.ca/en/services/finance/pensions.html">Pensions and retirement</a></li>
               <li><a href="http://www.esdc.gc.ca/en/ei/index.page">Employment insurance</a></li>
+                <li><a href="http://www.esdc.gc.ca/en/ei/index.page">Jobs - More</a></li>
               </ul>
 
               </li>
-              <li><a href="#"><i class="fas fa-chevron-down">Immigration and citizenship</a></i>
+              <li id="click_imm"><a href="#"><span><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i></span></i>Immigration and citizenship</a>
               <ul class="submainmenu">
               <li><a href="http://www.cic.gc.ca/english/e-services/index.asp">My application</a></li>
               <li><a href="http://www.cic.gc.ca/english/immigrate/index.asp">Immigrate</a></li>
@@ -272,7 +256,7 @@ $('#click_advance').click(function() {
               <li class="slflnk"><a href="https://gc-proto.github.io/design-refresh/tests/scen2/immigration/index-en.html">Immigration – More</a></li>
               </ul>
               </li>
-              <li><a href="#">Travel and tourism</a>
+              <li id="click_travel"><a href="#"><span><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i></span></i>Travel and tourism</a>
               <ul class="submainmenu">
               <li><a href="https://travel.gc.ca/travelling/advisories">Travel Advice and Advisories</a></li>
               <li><a href="https://travel.gc.ca/canadian-tourism">Canadian attractions, events and experiences</a></li>
@@ -285,8 +269,8 @@ $('#click_advance').click(function() {
               <li class="slflnk"><a href="https://gc-proto.github.io/design-refresh/tests/scen2/travel/index-en.html">Travel – More</a></li>
               </ul>
               </li>
-              <li><a href="#">Business</a>
-              <ul class="submainmenu">
+              <li id="click_business"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Business and industry</a>
+                <ul class="submainmenu">
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/services/business/start.html">Starting a business</a></li>
               <li><a href="https://www.canada.ca/en/services/business/grants.html">Business grants and financing</a></li>
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/services/business/taxes.html">Business taxes</a></li>
@@ -303,7 +287,7 @@ $('#click_advance').click(function() {
               <li class="slflnk"><a href="https://gc-proto.github.io/design-refresh/tests/scen2/services/business.html">Business – More</a></li>
               </ul>
               </li>
-              <li><a href="#">Benefits</a>
+              <li id="click_benefits"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Benefits</a>
               <ul class="submainmenu">
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/services/ei.html">Employment Insurance and leave</a></li>
               <li><a href="https://www.canada.ca/en/services/benefits/family.html">Family and caregiving benefits</a></li>
@@ -314,7 +298,7 @@ $('#click_advance').click(function() {
               <li class="slflnk"><a href="https://www.canada.ca/en/services/benefits.html">Benefits – More</a></li>
               </ul>
               </li>
-              <li><a href="#">Health</a>
+              <li id="click_health"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Health</a>
               <ul class="submainmenu">
               <li><a href="http://healthycanadians.gc.ca/eating-nutrition/index-eng.php">Food and nutrition</a></li>
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/health/diseases.html">Diseases and conditions</a></li>
@@ -329,7 +313,7 @@ $('#click_advance').click(function() {
               <li class="slflnk"><a href="https://gc-proto.github.io/design-refresh/tests/scen2/health/index-en.html">Health – More</a></li>
               </ul>
               </li>
-              <li><a href="#">Taxes</a>
+              <li id="click_taxes"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Taxes</a>
               <ul class="submainmenu">
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/services/taxes/income-tax.html">Income Tax</a></li>
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/taxes/gsthst/index-en.html">GST/HST</a></li>
@@ -342,7 +326,7 @@ $('#click_advance').click(function() {
               <li class="slflnk"><a href="https://gc-proto.github.io/design-refresh/tests/scen2/taxes/index-en.html">Taxes – More</a></li>
               </ul>
               </li>
-              <li><a href="#">Environment and natural resources</a>
+              <li id="click_enviro"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Environment and natural resources</a>
               <ul class="submainmenu">
               <li class="is-size-5"><a href="https://weather.gc.ca/canada_e.html">Weather, climate and hazards</a></li>
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/environment/energy.html">Energy</a></li>
@@ -356,7 +340,7 @@ $('#click_advance').click(function() {
 
               </ul>
               </li>
-              <li><a href="#">National security and defence</a>
+              <li id="click_defence"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>National security and defence</a>
               <ul class="submainmenu">
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/defence/nationalsecurity.html">National security</a></li>
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/defence/caf.html">Canadian Armed Forces</a></li>
@@ -369,7 +353,7 @@ $('#click_advance').click(function() {
               <li class="is-size-5"><a href="https://gc-proto.github.io/design-refresh/tests/scen2/services/defence.html">Defence - more</a></li>
               </ul>
               </li>
-              <li><a href="#">Culture, history and sport</a>
+              <li id="click_culture"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Culture, history and sport</a>
               <ul class="submainmenu">
               <li class="is-size-5"><a href="https://www.canada.ca/en/canadian-heritage/services/funding.html">Funding - Culture, history and sport</a></li>
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/culture/events-celebrations-commemorations.html">Events, celebrations and commemorations</a></li>
@@ -383,7 +367,7 @@ $('#click_advance').click(function() {
               <li class="is-size-5">  <a href="https://www.canada.ca/en/services/culture.html">Culture - more</a></li>
               </ul>
               </li>
-              <li><a href="#">Policing, justice and emergencies</a>
+              <li id="click_police"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Policing, justice and emergencies</a>
               <ul class="submainmenu">
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/policing/police/index.html">Policing</a></li>
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/policing/justice.html">Justice</a></li>
@@ -394,7 +378,7 @@ $('#click_advance').click(function() {
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/policing.html">Policing - more</a></li>
               </ul>
               </li>
-              <li><a href="#">Transport and infrastructure</a>
+              <li id="click_transport"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Transport and infrastructure</a>
               <ul class="submainmenu">
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/transport/aviation.html">Aviation</a></li>
               <li><a href="http://www.tc.gc.ca/en/services/marine.html">Marine transportation</a></li>
@@ -405,7 +389,7 @@ $('#click_advance').click(function() {
               <li><a href="https://gc-proto.github.io/design-refresh/tests/scen2/transport/index-en.html">Transport - more</a></li>
               </ul>
               </li>
-              <li><a href="#">Canada and the world</a>
+              <li id="click_world"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Canada and the world</a>
               <ul class="submainmenu">
               <li class="is-size-5"><a href="http://international.gc.ca/world-monde/offices-bureaux/index.aspx?lang=eng">International offices and emergency contacts</a></li>
               <li class="is-size-5"><a href="http://international.gc.ca/world-monde/study_work_travel-etude_travail_voyage/index.aspx?lang=eng">Study, work and travel worldwide</a></li>
@@ -418,7 +402,7 @@ $('#click_advance').click(function() {
               <li class="is-size-5">    <a href="http://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world - more</a></li>
               </ul>
               </li>
-              <li><a href="#">Money and finances</a>
+              <li id="click_money"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Money and finances</a>
               <ul class="submainmenu">
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/finance/manage.html">Managing your money</a></li>
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/finance/debt.html">Debt and borrowing</a></li>
@@ -431,7 +415,7 @@ $('#click_advance').click(function() {
               <li class="is-size-5"><a href="https://gc-proto.github.io/design-refresh/tests/scen1/services/finance.html">Finance - more</a></li>
               </ul>
               </li>
-              <li><a href="#">Science and innovation</a>
+              <li id="click_science"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Science and innovation</a>
               <ul class="submainmenu">
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/science/researchfunding.html">Research funding and awards</a></li>
               <li class="is-size-5" ><a href="https://www.canada.ca/en/services/science/sciencesubjects.html">Science subjects</a></li>
@@ -1022,6 +1006,15 @@ $('#click_advance').click(function() {
 <![endif]-->
 
 
+<script>
+
+
+$('#click_jobs, #click_imm, #click_travel, #click_business, #click_benefits, #click_health, #click_taxes, #click_enviro, #click_defence, #click_defence, #click_culture, #click_police, #click_transport, #click_transport, #click_world, #click_money, #click_science').click(function() {
+
+      $("i", this).toggleClass("fa-caret-right fa-caret-down");
+  })
+
+</script>
 
 </body>
 </html>

@@ -3,6 +3,12 @@
 
 	/* Main menu */
 
+#mobile-mm {
+
+margin-left: -15px;
+margin-right: -16px;
+}
+
 	div#mainmenu {
 
 		position: absolute;
@@ -72,7 +78,7 @@
 		padding: 10px 10px 10px 15px;
 		background-color: #eee;
 		text-decoration: none !important;
-		
+
 	}
 	div#mainmenu nav ul li a:hover {
 		color: #333;
