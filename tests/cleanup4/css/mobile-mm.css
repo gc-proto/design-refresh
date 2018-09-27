@@ -19,7 +19,7 @@
 	.highlight-button {
 
 	  border: none !important;
-	
+
 	  margin-right: 20px;
 	  margin-left: 20px;
 	}
@@ -27,14 +27,15 @@
 
 #mr_jobs li, #mr_imm li {
 
-	text-indent: 3em;
+	padding-left: 80px;
+
 }
 
 #click_jobs_mr, #click_imm_mr {
 
 	padding-top: 15px;
 	padding-bottom: 15px;
-	text-indent: 2.2em;
+
 
 
 }
@@ -59,7 +60,8 @@
 	}
 
   .submainmenu li {
-    text-indent: 1.5em;
+  padding-left: 35px;
+
   }
 
 
@@ -129,13 +131,13 @@
 			display: none;
 			overflow: hidden;
 			font-size: 14px;
-			background-color: #444 !important;
+			background-color: white !important;
 		}
 
-			div#mainmenu nav ul ul li:first-child {
+/* not helpful for what I'm trying			div#mainmenu nav ul ul li:first-child {
 				border-bottom: 0;
 				background-color: #ddd !important;
-			}
+			} */
 
 
 			div#mainmenu nav ul ul a {
