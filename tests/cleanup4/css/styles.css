@@ -6893,6 +6893,11 @@ a.title-link h2 {
 
 /* jennifers add ons */
 
+.column-one {
+
+  padding-top: 10px;
+}
+
 .column-two .link-list {
 
 		list-style-type: disc !important;
@@ -6900,9 +6905,16 @@ a.title-link h2 {
 		margin-left: 30px;
 }
 
+.mr-menu {
+
+	margin-top: 10px !important;
+	font-size: 22px !important;
+
+}
+
   /* responsive in tablet view */
 
-  @media (max-width:1224px) {
+@media (max-width:1224px) {
     .popover {
       box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
     }
@@ -6917,36 +6929,26 @@ a.title-link h2 {
 
   }
 
-  #submenu-jobs, #submenu-world, #submenu-science {
 
-      min-height: 775px;
-  }
 
-  #submenu-immigration, #submenu-benefits {
+  #submenu-immigration, #submenu-benefits, #submenu-science {
 
-    min-height: 800px;
+    min-height: 775px;
   }
 
   #submenu-business {
 
-    min-height: 900px;
+    min-height: 850px;
   }
 
   #submenu-money {
 
-    min-height: 1100px;
+    min-height: 1050px;
   }
-    .column-one, .column-two {
-      float: left; }
 
     .column-one {
       width: 100%; }
 
     .column-two {
       width: 100%; }
-  }
-
-  .column-one {
-
-    padding-top: 18px;
   }
