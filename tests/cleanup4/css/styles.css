@@ -15,6 +15,8 @@
             transform: rotate(359deg); } }
 
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+
+
 html,
 body,
 p,
@@ -67,6 +69,7 @@ html {
   *:before, *:after {
     box-sizing: inherit; }
 
+
 img,
 embed,
 /*object, breaks wordmark*/
@@ -86,9 +89,9 @@ th {
   padding: 0;
   text-align: left; }
 
+
+
 html {
-  background-color: #ededed;
-  font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -140,6 +143,8 @@ a {
   a:hover {
     color: #363636; }
 */
+
+/*
 code {
   background-color: whitesmoke;
   color: #ff3860;
@@ -2727,6 +2732,8 @@ a.box:active {
       .field-body > .field:not(:last-child) {
         margin-right: 0.75rem; } }
 */
+
+/*
 .control {
   font-size: 1rem;
   position: relative;
@@ -3449,6 +3456,7 @@ a.tag:hover {
   text-align: center;
   vertical-align: top; }
 
+*/
 .breadcrumb {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -3512,6 +3520,8 @@ a.tag:hover {
   .breadcrumb.has-succeeds-separator li + li::before {
     content: "\227B"; }
 
+/*
+
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
@@ -3566,6 +3576,8 @@ a.tag:hover {
 
 .card .media:not(:last-child) {
   margin-bottom: 0.75rem; }
+
+  */
 
 .dropdown {
   display: inline-flex;
@@ -3623,6 +3635,9 @@ a.dropdown-item {
   height: 1px;
   margin: 0.5rem 0; }
 
+
+
+/*
 .level {
   align-items: center;
   justify-content: space-between; }
@@ -3748,6 +3763,7 @@ a.dropdown-item {
     font-size: 1.25rem; }
   .menu.is-large {
     font-size: 1.5rem; }
+
 
 .menu-list {
   line-height: 1.25; }
@@ -4059,6 +4075,8 @@ a.dropdown-item {
   overflow: auto;
   padding: 20px; }
 
+
+/*
 .navbar {
   background-color: white;
   min-height: 3.25rem;
@@ -4582,6 +4600,8 @@ a.navbar-link.is-active {
   display: none;
   height: 1px;
   margin: 0.5rem 0; }
+
+
 
 @media screen and (max-width: 1023px) {
   .navbar > .container {
@@ -6767,16 +6787,18 @@ body {
     font-size: 1.3em;
     font-weight: 600; }
 
+/*
 .link-list {
-/*  list-style-type: disc; */
+ list-style-type: disc;
   margin-top: 0.75em;
-/*color: #ccc; */}
+color: #ccc; }
+*/
 
 .column-two .link-list {
   list-style-type: none; }
 
 .link-list a {
-  display: inline-block;
+  display: block;
   padding: 0.4em 0;
   text-decoration: underline;
   -webkit-text-decoration-color: rgba(18, 75, 129, 0.3) !important;
@@ -6869,8 +6891,16 @@ a.title-link h2 {
           text-decoration-color: #124b81 !important;
   color: #124B81; }
 
+/* jennifers add ons */
 
-  /* trying to make this responsive */
+.column-two .link-list {
+
+		list-style-type: disc !important;
+		color: black;
+		margin-left: 30px;
+}
+
+  /* responsive in tablet view */
 
   @media (max-width:1224px) {
     .popover {
