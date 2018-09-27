@@ -4,12 +4,12 @@
 	/* Main menu */
 
 	div#mainmenu {
-		width: 0;
-		xxheight: 100%;
+
 		position: absolute;
 		overflow: hidden;
 		z-index: 1000;
-		margin-left: -15px;
+		padding-right: 20px;
+		padding-left: 20px;
 		transition: 0;
 		background-color: #eee;
 		background-color: #fff;
@@ -51,9 +51,8 @@
 
 			}
 
-	div#mainmenu nav {
-		width: 400px;
-
+	div#mainmenu {
+			margin-right: 100px;
 	}
 
 	div#mainmenu nav ul {
@@ -119,7 +118,8 @@
 			display: none;
 			zzposition: absolute;
 			margin-bottom: 30px;
-			width: 100%;
+
+
 			padding: 40px 40px 30px 40px;
 			z-index: 100;
 			background-color: #f9f9f9;
@@ -145,7 +145,7 @@
 			}
 
 			div.thememenu ul li {
-				width: 33.2%;
+
 				zzzborder-bottom: 1px solid #fff;
 				float: left;
 				margin-right: 1px;
@@ -167,3 +167,9 @@
 				color: #000;
 				text-decoration: none !important;
 			}
+
+.hide-me-menu
+
+{
+
+}

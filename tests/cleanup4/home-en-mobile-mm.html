@@ -134,6 +134,13 @@
 
 }
 
+.topmenu
+
+{
+  margin-left: -20px;
+  margin-right: -20px;
+
+}
 .topmenu ul.nav > li > a:hover
 
 {
@@ -153,8 +160,18 @@
 
   border: none !important;
   color: #284162;
-
+  margin-right: 20px;
+  margin-left: 20px;
   background-color: white;
+}
+
+.highlight-button {
+
+  border: none !important;
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #284162;
 }
 
 </style>
@@ -168,12 +185,20 @@
 
       <div class="nav-collapse collapse">
         <ul class="nav">
-          <li class="active">
+          <li id="nav-highlight" class="hide-me-menu wb-inv">
 
-            <a>  <button id="showMainmenu" class="allbutton">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-down"></i></span>
+            <a>  <button id="showMainmenu" class="highlight-button">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-down"></i></span>
               </button></a>
 
-              <div id="mainmenu" class="wb-inv">
+            </li>
+            <li id="nav-normal">
+
+              <a>  <button id="showMainmenu" class="allbutton">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-down"></i></span>
+                </button></a>
+
+              </li>
+
+              <div id="mainmenu" class="wb-inv col-xs-12 col-sm-12">
 
 
               <button id="hideMainmenu" class="pull-right">Close</button>

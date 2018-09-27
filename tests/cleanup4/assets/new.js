@@ -23,16 +23,18 @@
 			/* functions for showing and hiding the main menu */
 
 				function showMainmenu() {
-					$("div#mainmenu").css( "width", "400px" );
 					$("div#mainmenu").removeClass( "wb-inv" );
+					$("li#nav-highlight").removeClass( "wb-inv" );
+					$("li#nav-normal").addClass( "wb-inv" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(hideMainmenu);
 					$("button#toggleSearch").unbind("click");
 					$("button#toggleSearch").click(hideMainmenu);
 				}
 				function hideMainmenu() {
-					$("div#mainmenu").css( "width", "0" );
 					$("div#mainmenu").addClass( "wb-inv" );
+					$("li#nav-normal").removeClass( "wb-inv" );
+					$("li#nav-highlight").addClass( "wb-inv" );
 					$("button#showMainmenu").unbind("click");
 					$("button#showMainmenu").click(showMainmenu);
 					$("button#toggleSearch").unbind("click");
