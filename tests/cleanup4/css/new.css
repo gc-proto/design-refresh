@@ -9,6 +9,10 @@ margin-left: -15px;
 margin-right: -16px;
 }
 
+div#mr-jobs li {
+
+	margin-left: 100px;
+}
 	div#mainmenu {
 
 		position: absolute;
