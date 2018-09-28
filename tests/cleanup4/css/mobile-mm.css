@@ -25,7 +25,7 @@
 	}
 
 
-#mr_jobs li, #mr_imm li, #mr_travel li, #mr_business li, #mr_benefits li, #mr_health li, #mr_taxes li {
+#mr_jobs li, #mr_imm li, #mr_travel li, #mr_business li, #mr_benefits li, #mr_health li, #mr_taxes li, #mr_enviro li, #mr_defence li, #mr_culture li, #mr_police li, #mr_transport li, #mr_science li {
 
 	padding-left: 85px;
 	background-color: #f1f1f1;
@@ -33,15 +33,21 @@
 
 }
 
-div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a, div#mr_travel li.is-size-5 a, div#mr_business li.is-size-5 a, div#mr_benefits li.is-size-5 a, div#mr_health li.is-size-5 a, div#mr_taxes li.is-size-5 a {
+div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a, div#mr_travel li.is-size-5 a, div#mr_business li.is-size-5 a, div#mr_benefits li.is-size-5 a, div#mr_health li.is-size-5 a, div#mr_taxes li.is-size-5 a, div#mr_enviro li.is-size-5 a, div#mr_defence li.is-size-5 a
+{
 
+	background-color: #f1f1f1 !important;
+
+}
+
+div#mr_culture li.is-size-5 a, div#mr_police li.is-size-5 a, div#mr_transport li.is-size-5 a, div#mr_science li.is-size-5 a {
 
 	background-color: #f1f1f1 !important;
 
 }
 
 
-#click_jobs_mr, #click_imm_mr, #click_travel_mr, #click_business_mr, #click_benefits_mr, #click_health_mr, #click_taxes_mr   {
+#click_jobs_mr, #click_imm_mr, #click_travel_mr, #click_business_mr, #click_benefits_mr, #click_health_mr, #click_taxes_mr, #click_enviro_mr, #click_defence_mr, #click_culture_mr, #click_police_mr, #click_transport_mr, #click_science_mr         {
 
 	padding-top: 15px;
 	padding-bottom: 15px;
