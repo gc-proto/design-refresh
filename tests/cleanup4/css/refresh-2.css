@@ -188,6 +188,21 @@ p, ul, li {
 
 }
 
+/* larger on mobile fonts */
+
+@media screen and (max-width: 1200px) {
+
+	p, ul, li {
+
+
+		font-size: 19px !important;
+		line-height: 26px !important;
+
+
+
+	}
+}
+
 strong {
 
 	  font-weight: 600 !important;
