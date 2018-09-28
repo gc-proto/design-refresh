@@ -27,30 +27,56 @@
 
 #mr_jobs li, #mr_imm li {
 
-	padding-left: 80px;
+	padding-left: 85px;
+	background-color: #f1f1f1;
+
 
 }
+
+div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a {
+
+
+	background-color: #f1f1f1 !important;
+
+}
+
 
 #click_jobs_mr, #click_imm_mr {
 
 	padding-top: 15px;
 	padding-bottom: 15px;
-
-
+	margin-left: -11px;
+	background-color: #f1f1f1;
 
 }
 
+
+
+	div#mainmenu nav ul li span {
+
+		margin-left: 4px;
+
+	}
+
+	div#mainmenu nav ul li span i {
+
+		margin-right: 4px;
+
+	}
+/* main adjustments like position, etc */
 	div#mainmenu {
 
 		position: absolute;
 		overflow: hidden;
 		z-index: 1000;
+		top: -15px;
 		padding-right: 20px;
 		padding-left: 20px;
 		transition: 0;
-		background-color: #444;
+		background-color: #f1f1f1; /* entire background */
 		border-left: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
+		border-top: 4px solid #26374a;
 
 	}
 
@@ -60,10 +86,9 @@
 	}
 
   .submainmenu li {
-  padding-left: 35px;
+  padding-left: 55px;
 
   }
-
 
 
 	div.searchform {
@@ -112,6 +137,7 @@
 		border-bottom: 1px solid #ccc;
 
 	}
+
 	div#mainmenu nav ul li a:hover {
 		color: #444 !important;
 		background-color: white;
