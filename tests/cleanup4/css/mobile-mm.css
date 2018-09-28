@@ -69,7 +69,7 @@ div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a {
 		position: absolute;
 		overflow: hidden;
 		z-index: 1000;
-		top: -15px;
+		top: 0px;
 		padding-right: 20px;
 		padding-left: 20px;
 		transition: 0;
