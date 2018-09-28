@@ -2,6 +2,96 @@
 	$(document).ready(function() {
 
 
+		$('#click_jobs, #click_imm, #click_travel, #click_business, #click_benefits, #click_health, #click_taxes, #click_enviro, #click_defence, #click_defence, #click_culture, #click_police, #click_transport, #click_transport, #click_world, #click_money, #click_science').click(function() {
+
+		      $("i", this).toggleClass("fa-caret-right fa-caret-down");
+		  });
+
+		$('#click_jobs_mr').click(function() {
+		    $('#mr_jobs').toggleClass("hidden visible");
+		    $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_imm_mr').click(function() {
+		  $('#mr_imm').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_travel_mr').click(function() {
+		  $('#mr_travel').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_business_mr').click(function() {
+		  $('#mr_business').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_benefits_mr').click(function() {
+		  $('#mr_benefits').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_health_mr').click(function() {
+		  $('#mr_health').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_taxes_mr').click(function() {
+		  $('#mr_taxes').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_enviro_mr').click(function() {
+		  $('#mr_taxes').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_defence_mr').click(function() {
+		  $('#mr_defence').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_culture_mr').click(function() {
+		  $('#mr_culture').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_police_mr').click(function() {
+		  $('#mr_police').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_transport_mr').click(function() {
+		  $('#mr_transport').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_world_mr').click(function() {
+		  $('#mr_world').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+		$('#click_science_mr').click(function() {
+		  $('#mr_science').toggleClass("hidden visible");
+		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
+
 		/* ===================================================================== */
 		// Search form
 

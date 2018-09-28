@@ -449,7 +449,7 @@
 
 
 
-              <li id="click_defence"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>National security and defence</a>
+              <li><a href="#"><span id="click_defence"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>National security and defence</span></a>
 
 
                 <ul class="submainmenu">
@@ -481,7 +481,7 @@
               </li>
 
 
-              <li id="click_culture"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Culture, history and sport</a>
+              <li><a href="#"><span id="click_culture"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Culture, history and sport</span></a>
 
 
 
@@ -516,7 +516,7 @@
               </li>
 
 
-              <li id="click_police"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Policing, justice and emergencies</a>
+              <li><a href="#"><span id="click_police"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Policing, justice and emergencies</span></a>
 
 
                 <ul class="submainmenu">
@@ -550,7 +550,7 @@
               </li>
 
 
-              <li id="click_transport"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Transport and infrastructure</a>
+              <li><a href="#"><span id="click_transport"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Transport and infrastructure</span></a>
 
                 <ul class="submainmenu">
 
@@ -582,7 +582,7 @@
               </li>
 
 
-              <li id="click_world"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Canada and the world</a>
+              <li><a href="#"><span id="click_world"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Canada and the world</span></a>
 
 
                 <ul class="submainmenu">
@@ -657,7 +657,27 @@
               </li>
 
 
-              <li id="click_science"><a href="#"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Science and innovation</a>
+              <li><a href="#"><span id="click_science"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Science and innovation</span></a>
+
+                <ul class="submainmenu">
+
+                  <li id="click_science_mr" style="border-bottom: 1px solid #ccc;"><span><i class="fas fa-caret-right"></i></span>&nbsp;&nbsp;Most requested</li>
+                  <div id="mr_science" class="hidden">
+                    <ul class="link-list">
+                      <li class="is-size-5"><a href="https://www.canada.ca/en/innovation-science-economic-development/programs/science-technology-partnerships/investment-fund.html">Post-Secondary Institutions Strategic Investment Fund</a></li>
+                 <li class="is-size-5"><a href="http://science-libraries.canada.ca/eng/home/">Federal Science Library</a></li>
+                 <li class="is-size-5"><a href="https://www.ic.gc.ca/eic/site/063.nsf/eng/h_A0A2F2CB.html">Federal research funding collaboration</a></li>
+                 <li class="is-size-5"><a href="http://www.nrc-cnrc.gc.ca/eng/irap/index.html">Industrial Research Assistance Program</a></li>
+                 <li class="is-size-5"><a href="http://atlas.gc.ca/site/english/index.html">Atlas of Canada</a></li>
+                 <li class="is-size-5"><a href="http://www.charts.gc.ca/index-eng.asp">Nautical charts and services</a></li>
+                 <li class="is-size-5"><a href="http://www.waterlevels.gc.ca/eng">Tides, currents and water levels</a></li>
+                 <li class="is-size-5"><a href="http://webapp.geod.nrcan.gc.ca/geod/">Geodetic reference systems</a></li>
+                 <li class="is-size-5"><a href="http://www.nrc-cnrc.gc.ca/eng/services/time/web_clock.html">Web clock (Official time across Canada)</a></li>
+                                </ul>
+                </div>
+              </ul>
+
+
               <ul class="submainmenu">
               <li class="is-size-5"><a href="https://www.canada.ca/en/services/science/researchfunding.html">Research funding and awards</a></li>
               <li class="is-size-5" ><a href="https://www.canada.ca/en/services/science/sciencesubjects.html">Science subjects</a></li>
@@ -2234,57 +2254,6 @@
 <![endif]-->
 
 
-<script>
-
-
-$('#click_jobs, #click_imm, #click_travel, #click_business, #click_benefits, #click_health, #click_taxes, #click_enviro, #click_defence, #click_defence, #click_culture, #click_police, #click_transport, #click_transport, #click_world, #click_money, #click_science').click(function() {
-
-      $("i", this).toggleClass("fa-caret-right fa-caret-down");
-  });
-
-$('#click_jobs_mr').click(function() {
-    $('#mr_jobs').toggleClass("hidden visible");
-    $("i", this).toggleClass("fa-caret-right fa-caret-down");
-
-});
-
-$('#click_imm_mr').click(function() {
-  $('#mr_imm').toggleClass("hidden visible");
-  $("i", this).toggleClass("fa-caret-right fa-caret-down");
-
-});
-
-$('#click_travel_mr').click(function() {
-  $('#mr_travel').toggleClass("hidden visible");
-  $("i", this).toggleClass("fa-caret-right fa-caret-down");
-
-});
-
-$('#click_business_mr').click(function() {
-  $('#mr_business').toggleClass("hidden visible");
-  $("i", this).toggleClass("fa-caret-right fa-caret-down");
-
-});
-
-$('#click_benefits_mr').click(function() {
-  $('#mr_benefits').toggleClass("hidden visible");
-  $("i", this).toggleClass("fa-caret-right fa-caret-down");
-
-});
-
-$('#click_health_mr').click(function() {
-  $('#mr_health').toggleClass("hidden visible");
-  $("i", this).toggleClass("fa-caret-right fa-caret-down");
-
-});
-
-$('#click_taxes_mr').click(function() {
-  $('#mr_taxes').toggleClass("hidden visible");
-  $("i", this).toggleClass("fa-caret-right fa-caret-down");
-
-});
-
-</script>
 
 </body>
 </html>
