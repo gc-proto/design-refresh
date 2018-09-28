@@ -25,7 +25,7 @@
 	}
 
 
-#mr_jobs li, #mr_imm li, #mr_travel li, #mr_business li, #mr_benefits li, #mr_health li {
+#mr_jobs li, #mr_imm li, #mr_travel li, #mr_business li, #mr_benefits li, #mr_health li, #mr_taxes li {
 
 	padding-left: 85px;
 	background-color: #f1f1f1;
@@ -33,7 +33,7 @@
 
 }
 
-div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a, div#mr_travel li.is-size-5 a, div#mr_business li.is-size-5 a, div#mr_benefits li.is-size-5 a, div#mr_health li.is-size-5 a {
+div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a, div#mr_travel li.is-size-5 a, div#mr_business li.is-size-5 a, div#mr_benefits li.is-size-5 a, div#mr_health li.is-size-5 a, div#mr_taxes li.is-size-5 a {
 
 
 	background-color: #f1f1f1 !important;
@@ -41,7 +41,7 @@ div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a, div#mr_travel li.is-size-
 }
 
 
-#click_jobs_mr, #click_imm_mr, #click_travel_mr, #click_business_mr, #click_benefits_mr, #click_health_mr  {
+#click_jobs_mr, #click_imm_mr, #click_travel_mr, #click_business_mr, #click_benefits_mr, #click_health_mr, #click_taxes_mr   {
 
 	padding-top: 15px;
 	padding-bottom: 15px;
