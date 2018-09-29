@@ -6586,10 +6586,9 @@ label.panel-block {
   .topmenu ul.nav > li > a {
     background: #5C5C5C;
     display: inline-block;
-    font-size: 19px;
-    padding: 0.5em 1em;
+    font-size: 20px;
+    padding: 0.3em 1em;
     margin-left: -15px;
-
     color: white;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 1px solid rgba(255, 255, 255, 0.1); }
