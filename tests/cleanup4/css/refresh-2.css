@@ -123,6 +123,7 @@ h1 {
 	background: #f3f3f3;
 }
 
+/* not needed in this version
 @media screen and (max-width: 737px) {
 #wb-bc li:before {
 		color: #333;
@@ -136,7 +137,7 @@ h1 {
 	display: inline-block!important;
 }
 }
-
+ */
 
 
 /* On this page, reducing size as an h2*/
