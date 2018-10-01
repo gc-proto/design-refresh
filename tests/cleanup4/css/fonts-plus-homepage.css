@@ -103,14 +103,6 @@ h5 {
 
 
 
-
-
-
-a {
-
-	color: #3671a9;
-}
-
 body, header, nav#wb-bc {
 
 
@@ -128,23 +120,34 @@ body, header, nav#wb-bc {
 		background-color: #f0f0f0 !important;
 		font-family: 'Noto Sans', sans-serif;
 
+
+		a {
+
+			color: #3671a9;
+		}
+
+
+
+
+		.prm-flpr {
+
+			background-color: white !important;
+		}
+
 		} */
 
 
 
 
 
-.prm-flpr {
-
-	background-color: white !important;
-}
 /* MM stuff */
+/* not needed in this version
 
 .mobile-breadcrumb {
 	background: #f3f3f3;
 }
 
-/* not needed in this version
+
 @media screen and (max-width: 737px) {
 #wb-bc li:before {
 		color: #333;
@@ -301,77 +304,6 @@ background-color: #F8F8F8;
 }
 
 
-
-.btn-clear {
-	background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #3f4a64;
-  font-size: 12px;
-  background: #f2f3f5;
-  padding: 2px 2px 2px 2px;
-  border: solid #dedde2 1px;
-  text-decoration: none;
-}
-
-.btn-clear:hover {
-  text-decoration: none;
-}
-
-.flex-container {
-  margin: 0px;
-  list-style: none;
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.nowrap  {
-  -webkit-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.wrap    {
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.wrap li {
-  color: white;
-}
-
-.wrap-reverse         {
-  -webkit-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-}
-.wrap-reverse li {
-  background: deepskyblue;
-}
-
-.flex-item {
-  background: tomato;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-
-  line-height: 100px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-
-
-  text-align: center;
-}
 
 .text-banner {
 
