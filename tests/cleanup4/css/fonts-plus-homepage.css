@@ -112,7 +112,11 @@ body, header, nav#wb-bc {
 	}
 
 
+#wb-dtmd {
 
+	font-size: 16px !important;
+
+}
 
 /*
 ul.menu li {
