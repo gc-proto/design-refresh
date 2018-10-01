@@ -111,7 +111,6 @@ body, header, nav#wb-bc {
 
 	}
 
-
 #wb-dtmd {
 
 	font-size: 16px !important;
@@ -355,7 +354,7 @@ background-image: url("../images/canada-bkg.jpg");
 
 	display: inline-block !important;
 	position: relative;
-	max-width: 45em;
+	max-width: 70em;
 
 }
 
