@@ -90,7 +90,7 @@ th {
   text-align: left; }
 
 
-
+/* font smoothing */
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
