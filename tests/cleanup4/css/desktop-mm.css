@@ -231,7 +231,7 @@ a.maintainHover {
   box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1); }
 
 .popover-content {
-  min-width: 750px !important;
+  min-width: 755px !important;
   }
 
 .column-one, .column-two {
@@ -341,7 +341,7 @@ background: #444 !important;
     }
 
     .popover-content {
-      min-width: 550px !important;
+      min-width: 555px !important;
 
   }
 
