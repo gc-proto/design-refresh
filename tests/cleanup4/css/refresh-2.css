@@ -125,7 +125,7 @@ body, header, nav#wb-bc {
 	nav#wb-bc {
 
 
-		background-color: #f0efef !important;
+		background-color: #f0f0f0 !important;
 		font-family: 'Noto Sans', sans-serif;
 
 		} */
@@ -400,7 +400,7 @@ background-color: #F8F8F8;
 
 .your-gov {
 	 background-image: url("../images/your-gov.jpg");
-    background-color: #f0efef;
+    background-color: #f0f0f0;
     display: inline-block;
     padding-top: 30px !important;
     padding-bottom: 40px !important;
@@ -410,7 +410,7 @@ background-color: #F8F8F8;
 }
 
 .edge-color {
-    background-color: #f0efef;
+    background-color: #f0f0f0;
     display: inline-block;
     width: 100%;
     padding-top: 0px;
