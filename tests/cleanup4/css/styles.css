@@ -118,6 +118,8 @@ pre {
   -webkit-font-smoothing: auto;
   font-family: monospace; }
 
+  /*
+
 .breadcrumb {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -181,7 +183,7 @@ pre {
   .breadcrumb.has-succeeds-separator li + li::before {
     content: "\227B"; }
 
-
+*/
 .dropdown {
   display: inline-flex;
   position: relative;
@@ -267,6 +269,7 @@ a.dropdown-item {
       color: white;
     }
 
+/*
 .page {
   background: #fff;
   padding: 2.5em 4em;
@@ -396,6 +399,8 @@ a.dropdown-item {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     transition: all 0.2s ease-in-out; }
+
+    */
 
 @-webkit-keyframes fadeIn {
   from {
