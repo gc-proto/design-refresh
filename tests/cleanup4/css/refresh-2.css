@@ -217,12 +217,26 @@ abbr {
 .bullet {
 
 
+		font-size: 19px !important;
+			line-height: 28px !important;
+			list-style-type: disc !important;
+			color: black;
+
+		margin-left: 50px;
+
+}
+
+.content-bullet {
+
+
 	font-size: 20px !important;
 		line-height: 35px !important;
 		list-style-type: disc !important;
 		color: black;
 
 	margin-left: 50px;
+
+
 
 }
 
