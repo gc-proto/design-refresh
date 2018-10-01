@@ -113,65 +113,15 @@ body, header, nav#wb-bc {
 
 
 
+
 /*
-	nav#wb-bc {
-
-
-		background-color: #f0f0f0 !important;
-		font-family: 'Noto Sans', sans-serif;
-
-
-		a {
-
-			color: #3671a9;
-		}
-
-
-
-
-		.prm-flpr {
-
-			background-color: white !important;
-		}
-
-		} */
-
-
-
-
-
-/* MM stuff */
-/* not needed in this version
-
-.mobile-breadcrumb {
-	background: #f3f3f3;
-}
-
-
-@media screen and (max-width: 737px) {
-#wb-bc li:before {
-		color: #333;
-		content: "<"!important;
-		font-family: "Glyphicons Halflings";
-		font-size: 1.5em;
-}
-}
-@media screen and (min-width: 737px) {
-.no-break-breadcrumb {
-	display: inline-block!important;
-}
-}
- */
-
-
-
-
-
 ul.menu li {
 
 	font-size: 16px !important;
 	line-height: 22px !important;
 }
+
+*/
 
 p, ul, li {
 

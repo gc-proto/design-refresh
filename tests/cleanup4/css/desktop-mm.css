@@ -347,14 +347,19 @@ background: #444 !important;
 
 
 
-  #submenu-immigration, #submenu-benefits, #submenu-science, #submenu-world {
+  #submenu-immigration, #submenu-benefits, #submenu-science {
 
-    min-height: 775px;
+    min-height: 800px;
+  }
+
+  #submenu-world {
+
+    min-height: 770px;
   }
 
   #submenu-business {
 
-    min-height: 850px;
+    min-height: 870px;
   }
 
   #submenu-money {
