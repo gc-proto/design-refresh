@@ -7,7 +7,7 @@
 
 	  margin-left: -20px;
 	}
-	
+
 	.highlight-button {
 
 	  border: none !important;
@@ -128,7 +128,8 @@ div#mr_culture li.is-size-5 a, div#mr_police li.is-size-5 a, div#mr_transport li
 		color: #ccc !important;
 		display: block;
 		padding: 10px 30px 10px 15px;
-		background-color: #444;
+/*  background: #444 !important */
+		background-color: #26374a;
 		text-decoration: none !important;
 	  line-height: 35px;
 	  font-size: 18px;
