@@ -245,7 +245,7 @@ abbr {
 .breadcrumb {
 
 	margin-bottom: -10px !important;
-	padding-top: 2px !important;
+	padding-top: 5px !important;
 }
 
 
@@ -420,8 +420,8 @@ section.lnkbx ul {
 
 .init {
 	margin-top: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
 	font-size: 20px !important;
 
 }
@@ -475,4 +475,9 @@ section.lnkbx ul {
 
 							}
 
+			.breadcrumb {
+
+				margin-bottom: 10px !important;
+				margin-top: 20px !important;
+			}
 }
