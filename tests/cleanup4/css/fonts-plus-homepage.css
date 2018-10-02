@@ -244,7 +244,7 @@ abbr {
 /* removing padding that pushes content down a lot */
 .breadcrumb {
 
-	margin-bottom: -10px !important;
+	margin-bottom: -20px !important;
 	padding-top: 2px !important;
 }
 
@@ -477,7 +477,8 @@ section.lnkbx ul {
 
 			.breadcrumb {
 
-				margin-bottom: 10px !important;
-				margin-top: 20px !important;
+				margin-top: 15px !important;
+				margin-bottom: 12px !important;
 			}
+
 }
