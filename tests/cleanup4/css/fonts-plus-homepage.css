@@ -126,6 +126,24 @@ ul.menu li {
 
 */
 
+
+
+.green-2 {
+/* AAA pass on lrg text */
+	margin-top: 15px !important;
+	margin-bottom: 25px !important;
+	font-size: 22px !important;
+	color: white !important;
+	background-color: #318000 !important;
+	border: 1px solid #455E82 !important;
+	font-weight: 600 !important;
+	font-family: "Lato";
+	padding: 10px 20px 10px 20px !important;
+
+}
+
+
+
 .is-size-5 {
 
 		font-size: 19px !important;

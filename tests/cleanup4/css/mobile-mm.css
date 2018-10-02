@@ -125,7 +125,7 @@ div#mr_culture li.is-size-5 a, div#mr_police li.is-size-5 a, div#mr_transport li
 
 
 	div#mainmenu nav ul li a {
-		color: #ccc !important;
+		  color: #e6e6e6 !important;
 		display: block;
 		padding: 10px 30px 10px 15px;
 		background-color: #444;
