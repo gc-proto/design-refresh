@@ -406,21 +406,15 @@ section.lnkbx ul {
 	padding-bottom: 18px;
 }
 
-.init-purple {
 
-	background-color: #2a1b54;
-	color: white;
+
+
+.init-box {
+
 	padding: 15px;
 	min-height: 105px;
-
-}
-
-.init-yellow {
-
-	background-color: #feed01;
-	color: white;
-	padding: 15px;
-	min-height: 105px;
+	background-color: #f9f9f9 !important;
+	border: 1px #ddd solid;
 
 }
 
@@ -428,7 +422,8 @@ section.lnkbx ul {
 	margin-top: 0px;
 	margin-left: 20px;
 	margin-right: 20px;
-	font-size: 23px !important;
+	font-size: 20px !important;
+
 }
 
 
