@@ -151,12 +151,14 @@
 					$(this).parent().find('ul').css( "display", "block" );
 					$(this).unbind("click");
 					$(this).click(closeSubmenu);
+					return false;
 				}
 				function closeSubmenu() {
 					$(this).parent().find('ul').css( "border-top", "0" );
 					$(this).parent().find('ul').css( "display", "none" );
 					$(this).unbind("click");
 					$(this).click(openSubmenu);
+					return false;
 				}
 
 				$("div#mainmenu ul a").click(openSubmenu);
