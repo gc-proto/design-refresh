@@ -85,6 +85,12 @@
 
 		});
 
+		$('#click_money_mr').click(function() {
+			$('#mr_money').toggleClass("hidden visible");
+			$("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
 		$('#click_science_mr').click(function() {
 		  $('#mr_science').toggleClass("hidden visible");
 		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
@@ -151,12 +157,14 @@
 					$(this).parent().find('ul').css( "display", "block" );
 					$(this).unbind("click");
 					$(this).click(closeSubmenu);
+					return false;
 				}
 				function closeSubmenu() {
 					$(this).parent().find('ul').css( "border-top", "0" );
 					$(this).parent().find('ul').css( "display", "none" );
 					$(this).unbind("click");
 					$(this).click(openSubmenu);
+					return false;
 				}
 
 				$("div#mainmenu ul a").click(openSubmenu);
