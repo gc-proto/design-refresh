@@ -85,6 +85,12 @@
 
 		});
 
+		$('#click_money_mr').click(function() {
+			$('#mr_money').toggleClass("hidden visible");
+			$("i", this).toggleClass("fa-caret-right fa-caret-down");
+
+		});
+
 		$('#click_science_mr').click(function() {
 		  $('#mr_science').toggleClass("hidden visible");
 		  $("i", this).toggleClass("fa-caret-right fa-caret-down");
