@@ -143,7 +143,6 @@ ul.menu li {
 }
 
 
-
 .is-size-5 {
 
 		font-size: 19px !important;
@@ -170,6 +169,14 @@ td {
 
 	font-size: 19px !important;
 	font-family: 'Noto sans', sans-serif; !important;
+
+}
+
+
+.ui-link
+
+{
+ font-size: 17px !important;
 
 }
 
