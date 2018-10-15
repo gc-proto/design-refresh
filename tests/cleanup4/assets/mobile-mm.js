@@ -168,6 +168,7 @@
 				}
 
 				$("div#mainmenu ul a").click(openSubmenu);
+				$("div#mainmenu ul ul a").unbind("click");
 
 		/* ===================================================================== */
 		// Theme menu
