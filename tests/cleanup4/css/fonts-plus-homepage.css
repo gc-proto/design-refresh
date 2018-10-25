@@ -5,7 +5,7 @@
 
 h1 {
 
-	font-size: 39px !important;
+	font-size: 38px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	border-bottom: 1px solid #af3c43
@@ -25,7 +25,7 @@ h1 {
 
 h2 {
 
-	font-size: 32px !important;
+	font-size: 37px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 15px !important;
@@ -46,7 +46,7 @@ h3 {
 
 h4 {
 
-	font-size: 24px !important;
+	font-size: 25px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 }
@@ -55,7 +55,7 @@ h4 {
 
 h5 {
 
-	font-size: 23px !important;
+	font-size: 20px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 }
@@ -493,12 +493,12 @@ section.lnkbx ul {
 	}
 
 	h1 {
-			font-size: 32px !important;
+			font-size: 33px !important;
 
 		}
 
 	h2 {
-				font-size: 32px !important;
+				font-size: 33px !important;
 
 			}
 
@@ -508,13 +508,10 @@ section.lnkbx ul {
 					}
 
 	h4 {
-						font-size: 24px !important;
+						font-size: 23px !important;
 									}
 
-	h5 {
-				font-size: 21px !important;
 
-							}
 
 	.ch5 {
 
