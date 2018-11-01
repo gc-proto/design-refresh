@@ -40,8 +40,10 @@ h3 {
 	font-size: 26px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
+	margin-bottom: 5px !important;
 
-	margin-bottom: 2px !important;
+
+
 
 }
 
@@ -51,8 +53,8 @@ h4 {
 	font-size: 21px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
+				margin-bottom: 3px !important;
 
-		margin-bottom: 1px !important;
 }
 
 
