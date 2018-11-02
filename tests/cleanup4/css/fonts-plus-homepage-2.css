@@ -360,16 +360,6 @@ background-color: #F8F8F8;
 		background-position: right center;
 }
 
-.by-aud {
-	 background-image: url("../images/audience.jpg");
-    background-color: #f0f0f0;
-    display: inline-block;
-    padding-top: 30px !important;
-    padding-bottom: 40px !important;
-		background-repeat: no-repeat;
-
-		background-position: right center;
-}
 
 .edge-color {
     background-color: #f0f0f0;
