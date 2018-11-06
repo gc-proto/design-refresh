@@ -84,7 +84,7 @@ h6 {
 
 	font-size: 20px !important;
 	font-family: 'Noto sans', sans-serif !important;
-	line-height: 1.7 !important;
+	line-height: 34px !important;
 	padding-top: 8px !important;
 	padding-bottom: 8px !important;
 
@@ -511,12 +511,12 @@ section.lnkbx ul {
 			}
 
 	h3 {
-				font-size: 25px !important;
+				font-size: 24px !important;
 
 					}
 
 	h4 {
-						font-size: 22px !important;
+						font-size: 20px !important;
 									}
 
 
