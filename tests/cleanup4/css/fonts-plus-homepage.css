@@ -25,10 +25,11 @@ h1 {
 
 h2 {
 
-	font-size: 37px !important;
+	font-size: 38px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 15px !important;
+		margin-bottom: 5px !important;
 
 
 }
@@ -36,30 +37,45 @@ h2 {
 
 h3 {
 
-	font-size: 28px !important;
+	font-size: 27px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
-	padding-top: 5px !important;
+	margin-bottom: 5px !important;
+
+
+
 
 }
 
 
 h4 {
 
-	font-size: 23px !important;
+	font-size: 21px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
+				margin-bottom: 3px !important;
+
 }
 
 
 
 h5 {
 
-	font-size: 20px !important;
+	font-size: 19px !important;
 	font-weight: 600 !important;
+
 	font-family: 'Lato', sans-serif;
+			margin-bottom: 0px !important;
 }
 
+h6 {
+
+	font-size: 19px !important;
+	font-weight: 100 !important;
+
+	font-family: 'Lato', sans-serif;
+			margin-bottom: 0px !important;
+}
 
 /* larger font size for text-heavy content */
 .p-content
@@ -222,7 +238,6 @@ abbr {
 	font-size: 20px !important;
 		line-height: 35px !important;
 		list-style-type: disc !important;
-		color: black;
 
 	margin-left: 50px;
 
@@ -352,16 +367,6 @@ background-color: #F8F8F8;
 		background-position: right center;
 }
 
-.by-aud {
-	 background-image: url("../images/audience.jpg");
-    background-color: #f0f0f0;
-    display: inline-block;
-    padding-top: 30px !important;
-    padding-bottom: 40px !important;
-		background-repeat: no-repeat;
-
-		background-position: right center;
-}
 
 .edge-color {
     background-color: #f0f0f0;
