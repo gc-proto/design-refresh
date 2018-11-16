@@ -1,0 +1,244 @@
+
+
+
+	/* Main menu */
+
+	ul.submainmenu li:first-child:hover {
+
+		cursor: pointer;
+	}
+
+	.topmenu-mobile {
+
+	  margin-left: -20px;
+	}
+
+	.highlight-button {
+
+	  border: none !important;
+
+	  margin-right: 20px;
+	  margin-left: 20px;
+	}
+
+
+#mr_jobs li, #mr_imm li, #mr_travel li, #mr_business li, #mr_benefits li, #mr_health li, #mr_taxes li, #mr_enviro li, #mr_defence li, #mr_culture li, #mr_police li, #mr_transport li, #mr_world li, #mr_money li, #mr_science li {
+
+	padding-left: 85px;
+	background-color: #f1f1f1;
+
+
+}
+
+div#mr_jobs li.is-size-5 a, div#mr_imm li.is-size-5 a, div#mr_travel li.is-size-5 a, div#mr_business li.is-size-5 a, div#mr_benefits li.is-size-5 a, div#mr_health li.is-size-5 a, div#mr_taxes li.is-size-5 a, div#mr_enviro li.is-size-5 a, div#mr_defence li.is-size-5 a
+{
+
+	background-color: #f1f1f1 !important;
+
+}
+
+div#mr_culture li.is-size-5 a, div#mr_police li.is-size-5 a, div#mr_transport li.is-size-5 a, div#mr_science li.is-size-5 a, div#mr_world li.is-size-5 a, div#mr_money li.is-size-5 a   {
+
+	background-color: #f1f1f1 !important;
+
+}
+
+
+#click_jobs_mr, #click_imm_mr, #click_travel_mr, #click_business_mr, #click_benefits_mr, #click_health_mr, #click_taxes_mr, #click_enviro_mr, #click_defence_mr, #click_culture_mr, #click_police_mr, #click_transport_mr, #click_world_mr, #click_money_mr, #click_science_mr         {
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: -11px;
+	background-color: #f1f1f1;
+
+}
+
+
+
+	div#mainmenu nav ul li span {
+
+		margin-left: 4px;
+
+	}
+
+	div#mainmenu nav ul li span i {
+
+		margin-right: 4px;
+
+	}
+/* main adjustments like position, etc */
+	div#mainmenu {
+
+		position: absolute;
+		overflow: hidden;
+		z-index: 1000;
+		top: 0px;
+		padding-right: 20px;
+		padding-left: 20px;
+		transition: 0;
+		background-color: #f1f1f1; /* entire background */
+		border-left: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		border-top: 4px solid #26374a;
+
+	}
+
+	div#mainmenu p {
+		text-align: right;
+
+	}
+
+  .submainmenu li {
+  padding-left: 55px;
+
+  }
+
+
+	div.searchform {
+		xx	display: none;
+	}
+
+		div.searchform h2 {
+			font-size: 20px;
+			margin-top: 0em;
+		}
+
+		div.searchform input {
+			padding-left: 8px;
+			}
+
+		div.searchform .form-control {
+			font-size: 14px !important;
+			margin-bottom: 5px;
+			}
+
+		div.searchform select {
+
+			}
+
+	div#mainmenu {
+			margin-right: 100px;
+	}
+
+	div#mainmenu nav ul {
+		list-style-type: none;
+		margin: 0 0 0 0;
+		padding: 0;
+		clear: both;
+	}
+
+
+
+	div#mainmenu nav ul li a {
+		  color: #e6e6e6 !important;
+		display: block;
+		padding: 10px 30px 10px 15px;
+		background-color: #444;
+	/*	background-color: #26374a; */
+		text-decoration: none !important;
+	  line-height: 35px;
+	  font-size: 18px;
+		border-bottom: 1px solid #ccc;
+
+	}
+
+	div#mainmenu nav ul li a:hover {
+		color: #444 !important;
+		background-color: white;
+		text-decoration: none !important;
+
+	}
+	div#mainmenu nav ul li a:visited {
+		color: #000;
+		text-decoration: none !important;
+	}
+
+		/* Nested submenus */
+
+		div#mainmenu nav ul ul {
+			border-top: 1px solid #fff;
+			border-top: 0;
+			display: none;
+			overflow: hidden;
+			font-size: 14px;
+			background-color: white !important;
+		}
+
+/* not helpful for what I'm trying			div#mainmenu nav ul ul li:first-child {
+				border-bottom: 0;
+				background-color: #ddd !important;
+			} */
+
+
+			div#mainmenu nav ul ul a {
+
+				padding: 7px 10px 7px 10px;
+				background-color: white !important;
+				color: #333 !important;
+
+			}
+
+
+
+	/* Visible banner area */
+
+	div#wb-bnr {
+		position: relative;
+	}
+
+
+		/* theme menu */
+
+		div.thememenu {
+			display: none;
+			zzposition: absolute;
+			margin-bottom: 30px;
+
+
+			padding: 40px 40px 30px 40px;
+			z-index: 100;
+			background-color: #f9f9f9;
+			xborder-top: 1px solid #ccc;
+			border: 1px solid #ccc;
+			font-size: 15px;
+		}
+
+			div.thememenu h2 {
+				margin: 10px 1em 1em 15px;
+			}
+
+			div.thememenu p {
+				position: absolute;
+				top: 0;
+				right: 25px;
+			}
+
+			div.thememenu ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			div.thememenu ul li {
+
+				zzzborder-bottom: 1px solid #fff;
+				float: left;
+				margin-right: 1px;
+			}
+
+			div.thememenu ul li a {
+				color: #000;
+				display: block;
+				padding: 7px 17px 7px 17px;
+				zzzbackground-color: #eee;
+				text-decoration: none !important;
+			}
+			div.thememenu ul li a:hover {
+				color: #000;
+				background-color: #ddd;
+				text-decoration: none !important;
+			}
+			div.thememenu ul li a:visited {
+				color: #000;
+				text-decoration: none !important;
+			}
