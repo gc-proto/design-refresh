@@ -1,6 +1,6 @@
 
 	//load in the megamenu
-	$( "#include-menu" ).load( "https://gc-proto.github.io/ei-mat-parental/scenarioA/ajax/include-menu-en.html", function() {
+	$( "#include-menu" ).load( "https://gc-proto.github.io/design-refresh/tests/cleanup3/ajax/include-menu-en.html", function() {
 
 		var $menu = $(".dropdown-menu");
 
