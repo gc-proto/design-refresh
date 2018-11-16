@@ -434,6 +434,30 @@ background-color: #F8F8F8;
 }
 
 
+body.content div.bullet li {
+
+
+		font-size: 20px !important;
+		line-height: 35px !important;
+		list-style-type: disc !important;
+		margin-left: 50px;
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+
+}
+
+
+body.content p {
+
+	font-size: 20px !important;
+	font-family: 'Noto sans', sans-serif !important;
+	line-height: 1.7 !important;
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
+
+}
+
+
 .footer-text {
 
 	color: white !important;
