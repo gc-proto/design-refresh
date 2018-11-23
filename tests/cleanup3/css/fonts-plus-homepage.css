@@ -126,7 +126,12 @@ h6 {
 
 }
 
+.bg-primary {
 
+	background-color: #f0f0f0 !important;
+	color: #333 !important;
+	font-weight: 100 !important;
+}
 
 body, header, nav#wb-bc {
 
