@@ -90,7 +90,7 @@ th {
   text-align: left; }
 
 
-/*
+
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -118,7 +118,7 @@ pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
   font-family: monospace; }
-*/
+
   .breadcrumb {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
