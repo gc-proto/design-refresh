@@ -414,20 +414,20 @@ background-color: #F8F8F8;
 
 @media only screen and (min-width : 300px) and (max-width : 700px) {
 		.img-banner {
-			background-image: url("../images/snowy-trees-450x380.jpg") !important;
+			background-image: url("../images/snowy-trees-450x600.jpg") !important;
 			background-color: #26374a;
 		  background-repeat: no-repeat;
 		  background-size:100% auto;
 		  width: 100%;
-			padding-top: 1em;
-			padding-bottom: 1em;
+			padding-top: 25px;
+			padding-bottom: 25px;
 		}
 }
 
 @media only screen and (min-width : 700px) and (max-width : 1200px){
 .img-banner {
 
-	background-image: url("../images/snowy-trees-1200.jpg") !important;
+	background-image: url("../images/snowy-trees-1200x600.jpg") !important;
 	background-color: #26374a;
   background-repeat: no-repeat;
   background-size:100% auto;
