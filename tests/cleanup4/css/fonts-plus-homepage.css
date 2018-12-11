@@ -414,19 +414,20 @@ background-color: #F8F8F8;
 
 @media only screen and (min-width : 300px) and (max-width : 700px) {
 		.img-banner {
-
+			background-image: url("../images/snowy-trees-450x380.jpg") !important;
 			background-color: #26374a;
 		  background-repeat: no-repeat;
 		  background-size:100% auto;
 		  width: 100%;
-
+			padding-top: 45px;
+			padding-bottom: 45px;
 		}
 }
 
 @media only screen and (min-width : 700px) and (max-width : 1200px){
 .img-banner {
 
-	background-image: url("../images/snowy-trees-1200.jpg");
+	background-image: url("../images/snowy-trees-1200.jpg") !important;
 	background-color: #26374a;
   background-repeat: no-repeat;
   background-size:100% auto;
@@ -437,7 +438,24 @@ background-color: #F8F8F8;
 }
 }
 
+/* Feature banner */
 
+.featured {
+	margin-top:0;
+	padding:1.5em;
+	color:#fff;
+	/* on hover #fff */
+	/* background: #395f93; */
+	background: #3F5E8D;
+	opacity:.9;
+
+}
+
+.featured a {
+	color:#fff;
+}
+
+.home .home-banner {padding-bottom:0;}
 .content-restrict {
 
 	display: inline-block !important;
