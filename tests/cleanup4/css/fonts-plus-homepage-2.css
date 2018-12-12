@@ -90,7 +90,7 @@ h6 {
 
 	font-size: 20px !important;
 	font-family: 'Noto sans', sans-serif !important;
-	line-height: 34px !important;
+	line-height: 1.7 !important;
 	padding-top: 8px !important;
 	padding-bottom: 8px !important;
 
@@ -412,10 +412,22 @@ background-color: #F8F8F8;
 	margin-top: 10px;
 }
 
+@media only screen and (min-width : 300px) and (max-width : 700px) {
+		.img-banner {
+			background-image: url("../images/snowy-trees-450x600.jpg") !important;
+			background-color: #26374a;
+		  background-repeat: no-repeat;
+		  background-size:100% auto;
+		  width: 100%;
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+}
 
+@media only screen and (min-width : 700px) and (max-width : 1200px){
 .img-banner {
 
-	background-image: url("../../../assets/snowy-trees.jpg");
+	background-image: url("../images/snowy-trees-1200x600.jpg") !important;
 	background-color: #26374a;
   background-repeat: no-repeat;
   background-size:100% auto;
@@ -424,7 +436,26 @@ background-color: #F8F8F8;
   padding-bottom: 45px;
 
 }
+}
 
+/* Feature banner */
+
+.featured {
+	margin-top:0;
+	padding:1.5em;
+	color:#fff;
+	/* on hover #fff */
+	/* background: #395f93; */
+	background: #3F5E8D;
+	opacity:.9;
+
+}
+
+.featured a {
+	color:#fff;
+}
+
+.home .home-banner {padding-bottom:0;}
 .content-restrict {
 
 	display: inline-block !important;
@@ -517,12 +548,12 @@ section.lnkbx ul {
 			}
 
 	h3 {
-				font-size: 24px !important;
+				font-size: 25px !important;
 
 					}
 
 	h4 {
-						font-size: 20px !important;
+						font-size: 22px !important;
 									}
 
 
