@@ -43,7 +43,7 @@ h2 {
 
 h3 {
 
-	font-size: 27px !important;
+	font-size: 24px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 5px !important;
@@ -56,7 +56,7 @@ h3 {
 
 h4 {
 
-	font-size: 21px !important;
+	font-size: 22px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 				margin-bottom: 3px !important;
@@ -67,7 +67,7 @@ h4 {
 
 h5 {
 
-	font-size: 19px !important;
+	font-size: 20px !important;
 	font-weight: 600 !important;
 
 	font-family: 'Lato', sans-serif;
@@ -512,18 +512,9 @@ section.lnkbx ul {
 		}
 
 	h2 {
-				font-size: 34px !important;
+				font-size: 32px !important;
 
 			}
-
-	h3 {
-				font-size: 24px !important;
-
-					}
-
-	h4 {
-						font-size: 20px !important;
-									}
 
 
 
