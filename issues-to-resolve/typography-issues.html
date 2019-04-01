@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<title>Typography issues - Canada.ca</title>
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<!-- Meta data -->
+		<!-- Meta data-->
+		<!-- Load closure template scripts -->
+		<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/soyutils.js"></script>
+		<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/wet-en.js"></script>
+
+		<!-- Write closure template -->
+		<script type="text/javascript">
+			document.write(wet.builder.refTop({
+			}));
+		</script>
+		<style>
+			p {
+				/* line-height: 1.75em; */
+				margin-bottom: 1.1em;
+			}
+			h2, h3, h4 {
+				margin-bottom: .7em;
+			}
+		</style>
+	</head>
+	<body vocab="http://schema.org/" typeof="WebPage">
+		<div id="def-top">
+		</div>
+		<!-- Write closure template -->
+		<script type="text/javascript">
+			var defTop = document.getElementById("def-top");
+			defTop.outerHTML = wet.builder.top({
+				lngLinks: [{
+					lang: "fr",
+					href: "#",
+					text: "Français"
+				}],
+				breadcrumbs: [{
+					title: "Home",
+					href: "https://www.canada.ca/en.html"
+				}],
+				search: true,
+				siteMenu: true,
+				showPreContent: true
+			});
+</script>
+
+<main role="main" property="mainContentOfPage" class="container">
+
+<h1 property="name" id="wb-cont">Typography issues</h1>
+<section>
+	<p>Reported issues include:</p>
+	<ul>
+		<li>Too much space between lines, not enough between paragraphs</li>
+		<li>List spacing is unpredictable</li>
+		<li>Default button text is smaller than body</li>
+		<li>Special pages like topics have particular sizing that is hard to get applied consistently</li>
+		<li>Sidebar H2 might be too large</li>
+	</ul>
+
+	<h2>Standard paragraphs</h2>
+	<p>The line spacing is slightly larger than typical, but there is evidence to support that it's easier to read this way.</p>
+	<p>The problem comes from the spacing between paragraphs not being sufficiently differentiated. If you can't tell is something is a new paragraph or not then it's likely to actually hurt readability. Now I'm just adding more text to so it stretches to an extra line in the paragraph. It's more realistic to have some longer paragraphs here and there, isn't it?</p>
+	<p>To that end, we need to increase the space between typical paragraphs. </p>
+	<h3>Current spacing</h3>
+	<p>Right now, in Mac Chrome at standard sizes, we have:</p>
+	<ul>
+		<li>Line height: 22 pixels between the median of one line and the baseline of the line above. This is specified as 1.75em, which should equate to 175% of the font size</li>
+		<li>Paragraph spacing: 28 pixels between the median of one line and the baseline of the paragraph above. </li>
+		<li>That makes paragraph spacing 127% of line spacing.</li>
+	</ul>
+	<h3>Spacing on similarly large line-spacing sites</h3>
+	<p><a href="https://medium.com/@jmspool/becoming-a-ux-unicorn-in-5-easy-steps-b1d1f6903520">Medium</a> has 22 px between lines, and 52 px between paragraphs - 236%</p>
+	<p><a href="https://alistapart.com/article/designing-for-interaction-modes">A List Apart</a> has 21 px between lines, and 45 pixels between paragraphs -  214%</p>
+	<p>Smashing magazine has 26 px between lines, 57 between paragraphs - 219%</p>
+<p>Safari reading mode gives you 20 px between lines, and 55 px between paragaphs - 275%</p>
+<h3>Adjustment needed</h3>
+<p>If we wanted say, 220% of the line height betwen paragraphs, we'd need it to be: 48 px instead of the current 33 px.</p>
+<p>With 1em of margin-bottom on the p, we get 42 pixels.</p>
+</section>
+<section>
+<h2>Where are these defined?</h2>
+<h3>src/_defaults.scss</h3>
+<code>.gc-srvinfo, .gc-drmt {
+	p {
+		font-size: 17px;
+		line-height: 1.5em;
+	}
+</code>
+
+
+</section>
+
+
+
+
+<div id="def-preFooter">
+</div>
+<!-- Write closure template -->
+<script type="text/javascript">
+	var defPreFooter = document.getElementById("def-preFooter");
+	defPreFooter.outerHTML = wet.builder.preFooter({
+		dateModified: "April 1, 2019",
+		showPostContent: true,
+		showFeedback: true,
+		showShare: true
+	});
+</script>
+		</main>
+		<div id="def-footer">
+
+		</div>
+		<!-- Write closure template -->
+		<script type="text/javascript">
+			var defFooter = document.getElementById("def-footer");
+			defFooter.outerHTML = wet.builder.footer({
+				showFooter: true,
+				showFeatures: true
+			});
+		</script>
+		<!-- Write closure template -->
+		<script type="text/javascript">
+			document.write(wet.builder.refFooter({
+			}));
+		</script>
+	</body>
+</html>
