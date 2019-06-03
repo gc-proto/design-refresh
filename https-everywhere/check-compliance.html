@@ -12,6 +12,181 @@
 	<!-- Meta data -->
 	<!-- Meta data-->
 
+
+<style>
+
+
+/* bigger label */
+label {
+  font-size: 20px !important; /*will not use important tags on PR, will correct source */
+}
+/* increase field flow sizing */
+
+legend.h5 {
+  margin-top: 0px !important; /*will not use important tags on PR, will correct source */
+  font-size: 22px !important; /*will not use important tags on PR, will correct source */
+  margin-bottom: 15px !important; /*will not use important tags on PR, will correct source */
+}
+
+.btn {
+  font-size: 20px !important; /*will not use important tags on PR, will correct source */
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.pagedetails .btn  {
+  font-size: 16px !important; /*will not use important tags on PR, will correct source */
+  font-variant-ligatures: no-common-ligatures;
+}
+
+input[type="reset"], input[type="button"], input[type="submit"]
+
+{
+  height: 50px;
+}
+
+/* better focus on buttons */
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 5pt 4pt rgb(59, 153, 252);
+  outline: 2px solid white;
+}
+/* custom checkboxes */
+
+.cst-inputs input {
+  position: absolute;
+  opacity: 0;
+}
+
+.cst-inputs {
+    margin-top: 15px;
+}
+
+.cst-inputs .checkbox,
+.cst-inputs .radio,
+.cst-inputs .form-checkbox,
+.cst-inputs .form-radio {
+  /* display: block; */
+  position: relative;
+  cursor: pointer;
+  font-weight: normal;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cst-inputs .checkbox,
+.cst-inputs .radio {
+
+  padding-left: 30px;
+  margin-bottom: 35px;
+
+}
+
+.cst-inputs .form-checkbox,
+.cst-inputs .form-radio {
+
+  margin-right: 30px;
+  margin-bottom: 25px;
+  min-width: 26%; /* prevents weird overlapping */
+
+}
+
+.cst-inputs .form-checkbox label,
+.cst-inputs .form-radio label {
+  padding-left: 50px;
+
+}
+
+.cst-inputs .checkbox label::before,
+.cst-inputs .radio label::before,
+.cst-inputs .form-checkbox label::before,
+.cst-inputs .form-radio label::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #333;
+  margin-top: -4px;
+ }
+
+
+.cst-inputs .radio label::before,
+.cst-inputs .form-radio label::before {
+  content: "";
+  border-radius: 50%;
+}
+
+
+.cst-inputs .checkbox label::after,
+.cst-inputs .form-checkbox label::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 0px;
+  width: 13px;
+  height: 22px;
+  border: solid #333;
+  border-width: 0 5px 5px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+}
+
+.cst-inputs .radio label::after,
+.cst-inputs .form-radio label::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #333;
+}
+
+/* hide the check */
+.cst-inputs .form-checkbox input[type="checkbox"] + label::after,
+.cst-inputs .form-radio input[type="radio"] + label::after,
+.cst-inputs .checkbox input[type="checkbox"] + label::after,
+.cst-inputs .radio input[type="radio"] + label::after {
+    content: none;
+}
+
+/* unhide check when checked */
+.cst-inputs .form-checkbox input[type="checkbox"]:checked + label::after,
+.cst-inputs .form-radio input[type="radio"]:checked + label::after,
+.cst-inputs .checkbox input[type="checkbox"]:checked + label::after,
+.cst-inputs .radio input[type="radio"]:checked + label::after {
+    content: "";
+}
+
+/* add focus */
+.cst-inputs .checkbox input[type="checkbox"]:focus + label::before,
+.cst-inputs .form-checkbox input[type="checkbox"]:focus + label::before,
+.cst-inputs .form-radio input[type="radio"]:focus + label::before,
+.cst-inputs .radio input[type="radio"]:focus + label::before  {
+    box-shadow: 0 0 3pt 2pt rgb(59, 153, 252);
+}
+
+
+
+ @media only screen and (max-width: 1200px) {
+
+.cst-inputs .form-checkbox,
+.cst-inputs .form-radio {
+    min-width: 50%;
+  }
+
+}
+</style>
 	<script src="./support_files/en.min.js.download"></script>
 	<script src="./support_files/jquery.magnific-popup.min.js.download"></script>
 	<script type="text/javascript" async="" src="./support_files/analytics.js.download"></script>
@@ -33,7 +208,6 @@
 	<link rel="stylesheet" href="./support_files/main.css">
 	<link rel="stylesheet" type="text/css" href="./support_files/jquery.dataTables.min.css">
 	<link rel="stylesheet" type="text/css" href="./support_files/responsive.dataTables.min.css">
-
 	<meta name="description" content="This dashboard reports how federal government websites and web services are meeting good web security practices, as outlined in Information Technology Policy Implementation Notice (ITPIN): Implementing HTTPS for Secure Web Connections.">
 
 	<style>
@@ -256,7 +430,7 @@
 									<p>
 										<b>Last updated May 21, 2019</b><br />
 
-									<p>This dashboard reports how federal government websites and web services are meeting good web security practices.
+									<p>This dashboard reports how federal government websites and web services are meeting good web security practices.  <a id="modal-btn" class="text-https-blue hover:text-black" href="https://dev-https-everywhere.canada.ca/en/organizations/#">Explanation of table headers</a>
 										<!-- , as outlined in <a href="https://www.canada.ca/en/treasury-board-secretariat/services/information-technology/policy-implementation-notices/implementing-https-secure-web-connections-itpin.html">Information Technology Policy Implementation Notice (ITPIN): Implementing HTTPS for Secure Web Connections</a>. -->
 									</p>
 
@@ -269,25 +443,51 @@
 							<div class="clearfix"></div>
 							<br />
 
-							<div class="row">
-								<div class="col-md-2">
-									<p><b>By organization</b></p>
-								</div>
-								<div class="col-md-4"><a href="asdf"><b>View by domain</b></a></div>
-								<div class="col-md-4"><p><a id="modal-btn" class="text-https-blue hover:text-black" href="https://dev-https-everywhere.canada.ca/en/organizations/#">Explanation of table headers</a></p></div>
-							</div>
+
+
+
 
 <div class="row">
 
+
 							<div id="tab-panel" class="container mx-auto" role="tabpanel" aria-hidden="false">
+
+
+<style>
+
+.well {
+	background-color: #f5f5f5 !important;
+	padding-left: 200px;
+
+}
+</style>
+<div class="well">
+
+	<div class="cst-inputs" style="padding-left: 115px; margin-bottom: -50px; padding-top: 15px;">
+		<span class="form-radio">
+					<input type="radio" id="radio1" checked="true">
+					<label class="form-radio form-radio-inline" for="radio1">By organization</label>
+		</span>
+
+		<span class="form-radio">
+					<input type="radio" id="radio2">
+					<label class="form-radio form-radio-inline" for="radio2">By domain</label>
+		</span>
+
+	</div>
 
 								<div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer" style="margin-top:-2em">
 
-									<label for="datatables-search" class="text-2xl w-full md:w-2/3" style="font-size:17px; padding-left:40px">Filter:
+									<label for="datatables-search" class="text-2xl w-full md:w-2/3" style="font-size:17px;">Filter:
 				<input type="search" class="border border-solid border-https-dark-gray bg-https-light-gray focus:border-https-blue block md:inline-block h-12 md:ml-6 mb-4 md:mb-8 w-full lg:w-3/4" style="width:30em" placeholder="" aria-controls="DataTables_Table_0" id="datatables-search"></label>
 
 
-			<br / >	<br /><a href="https://dev-https-everywhere.canada.ca/data/hosts/en/compliance.csv">Download data as CSV</a>
+</div>
+
+</div>
+
+<br />
+<a href="https://dev-https-everywhere.canada.ca/data/hosts/en/compliance.csv" style="padding-right: 50px;">Download data as CSV</a>
 	<table language="en" class="organization responsive https dataTable no-footer dtr-inline" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info" style="width: 100%;">
 										<caption>HTTPS by organization. Table is sortable via first row table headers. Each row contains an organization and related attributes.</caption>
 										<thead>
